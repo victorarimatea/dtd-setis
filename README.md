@@ -36,6 +36,9 @@ M01 ecossistema-      S01 skill-criador-      D01 governanca-
                                               (em construção)
 M02 saude-digital-    S02 skill-iac-
     taxonomia             pdtic
+
+                      S03 skill-poc-
+                          saude-digital
 ```
 
 ### Como funciona
@@ -64,6 +67,17 @@ O IAC foi aplicado ao PDTIC 2024-2027 da SES-DF, produzindo:
 
 ---
 
+### Prova de Conceito em Saúde Digital — PoC
+
+Padrão institucional de avaliação de soluções tecnológicas em saúde criado pela DTD.
+Baseado na PoC MedNear, caso zero do Marco Regulatório Interno de PoCs da SES-DF.
+
+Documentos gerados seguem estrutura com 11 seções obrigatórias: contexto, objetivos,
+escopo, fluxo operacional, governança, cronograma, métricas, gestão de riscos,
+aspectos regulatórios, deliberações pendentes e resultado esperado.
+
+---
+
 ## Repositórios do ecossistema
 
 | Repositório | Tipo | Visibilidade | Descrição |
@@ -72,6 +86,7 @@ O IAC foi aplicado ao PDTIC 2024-2027 da SES-DF, produzindo:
 | [saude-digital-taxonomia](https://github.com/victorarimatea/saude-digital-taxonomia) | Matriz | Público | Taxonomia estruturada de saúde digital |
 | [skill-criador-de-skills](https://github.com/victorarimatea/skill-criador-de-skills) | Skill | Público | Cria novos repositórios de skill via API GitHub |
 | [skill-iac-pdtic](https://github.com/victorarimatea/skill-iac-pdtic) | Skill | Privado | Gera IAC-V e IAC-H do PDTIC da SES-DF |
+| [skill-poc-saude-digital](https://github.com/victorarimatea/skill-poc-saude-digital) | Skill | Público | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
 
 ---
 
@@ -101,3 +116,4 @@ O IAC foi aplicado ao PDTIC 2024-2027 da SES-DF, produzindo:
 em paralelo com projetos institucionais de alta complexidade,
 com o objetivo de demonstrar que é possível fazer mais com menos
 quando tecnologia, método e propósito se encontram.*
+
