@@ -5,6 +5,16 @@ Entrada mais recente no topo.
 
 ---
 
+## [0.8] — 2026-05-28
+
+### Adicionado
+- `protocolo-atualizacoes.md` criado no ecossistema-sumario: documento de referência
+  com protocolo obrigatório de encerramento para qualquer operação no ecossistema.
+  Define 6 tipos de operação (OP-A a OP-F) com checklists específicas e modelo de
+  relatório de encerramento. Candidato a skill autônoma quando a lógica estiver madura.
+
+---
+
 ## [0.7] — 2026-05-28
 
 ### Adicionado
