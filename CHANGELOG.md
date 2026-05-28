@@ -5,6 +5,17 @@ Entrada mais recente no topo.
 
 ---
 
+## [0.7] — 2026-05-28
+
+### Adicionado
+- Repositório público `skill-poc-saude-digital` (S03) incorporado ao ecossistema
+- Padrão de PoC em Saúde Digital formalizado como skill: 11 seções obrigatórias,
+  protocolo de governança, análise normativa e instrumentos jurídicos
+- Baseado na PoC MedNear, caso zero do Marco Regulatório Interno de PoCs da SES-DF
+- `sumario.md` do ecossistema-sumario estruturado pela primeira vez (v0.2)
+
+---
+
 ## [0.6] — 2026-05-27
 
 ### Adicionado
@@ -37,66 +48,4 @@ Entrada mais recente no topo.
 - **IAC-H v0.1** — Instrumento de Análise Comparativa Horizontal
   "Análise de Conformidade: PDTIC v1.8 × PTD-SES 2024-2027"
   Índice de alinhamento global: 69% — Parecer: CONFORME COM RESSALVAS
-  8 convergências identificadas, 5 lacunas, 0 conflitos
-
-### Corrigido
-- IAC-V v0.1 → v0.2: Seção 6 reescrita com linguagem regimental correta
-  (termo "deliberação" substituído — competência do Fórum, não do SGTD)
-- Acentuação completa em português aplicada a todos os documentos gerados
-  (método de duas rodadas de substituição + verificação automática)
-
-### Decisão
-- Estabelecido padrão de dois modos IAC (V e H) como instrumento permanente
-  de governança documental da DTD/SETIS
-
----
-
-## [0.4] — 2026-05-27
-
-### Adicionado
-- Primeiro teste bem-sucedido do fluxo automatizado: S01 criou S02 via API
-- `skill-iac-pdtic` (S02) v1.0 criada automaticamente pela `skill-criador-de-skills`
-- Repositórios públicos: `ecossistema-sumario` e `skill-criador-de-skills`
-- API do GitHub integrada ao fluxo de criação de skills
-- Personal Access Token como mecanismo de autenticação para escrita
-
----
-
-## [0.3] — 2026-05-26
-
-### Adicionado
-- `skill-criador-de-skills` (S01) v1.0 — skill fundacional do ecossistema
-  Protocolo de 7 etapas para criação automatizada de repositórios de skill
-- `ecossistema-sumario` como repositório âncora público
-- `sumario.md` — índice vivo de todos os repositórios
-- `nomenclatura.md` v0.1 — convenções de nomes, versões e estrutura
-
-### Decisão
-- Matrizes M01 e M02 tornadas públicas para permitir leitura sem autenticação
-
----
-
-## [0.2] — 2026-05-26
-
-### Adicionado
-- Arquitetura do ecossistema definida: tipos M (Matriz), S (Skill), D (Documento)
-- Conceito do SUMÁRIO como meta-repositório roteador
-- Conceito de Matrizes como fontes de verdade consultadas por todas as skills
-- Padrão de backlog com campos: tipo de alteração, autorizado por, exposição de motivos
-- `saude-digital-taxonomia` (M02) integrada ao ecossistema
-
-### Decisão
-- Adotado padrão B (mínimo universal com extensões por tipo) para backlogs
-
----
-
-## [0.1] — 2026-05-22
-
-### Adicionado
-- `saude-digital-taxonomia` v1.0 — primeiro repositório do ecossistema
-  8 partes temáticas, 24 capítulos, 107 subtópicos de saúde digital
-- `backlog-versoes.md` com padrão de rastreabilidade de alterações
-
-### Contexto
-- Semana 1 da DTD/SETIS como unidade formal
-- Primeiro repositório GitHub criado pelo mantenedor
+  8 conv
