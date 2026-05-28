@@ -1,7 +1,7 @@
 # ROADMAP — Ecossistema DTD/SETIS
 
 Planejamento das próximas entregas, em ordem de prioridade.
-Atualizado em: 2026-05-27
+Atualizado em: 2026-05-28
 
 ---
 
@@ -34,6 +34,10 @@ Atualizado em: 2026-05-27
 **Objetivo:** dotar o ecossistema de conhecimento normativo e institucional
 permanente, reduzindo a necessidade de repassar contexto a cada sessão.
 
+- ✅ Skill de elaboração de PoC em Saúde Digital (S03) — baseada na PoC MedNear,
+  caso zero do Marco Regulatório Interno de PoCs da SES-DF; incorporada ao
+  ecossistema em 2026-05-28
+
 - 📋 Criar repositório `governanca-ses-df` (tipo D — público)
   - Portaria nº 193/2024 (CIG/SES, SGTD, Fórum de Subsecretários)
   - Portaria nº 718/2024 (CGTD/SEEC)
@@ -55,13 +59,13 @@ permanente, reduzindo a necessidade de repassar contexto a cada sessão.
 **Objetivo:** ampliar o ecossistema com skills que cubram outros processos
 recorrentes da DTD/SETIS.
 
-- 🔮 `skill-iac-generico` (S03) — IAC para qualquer par de documentos
+- 🔮 `skill-iac-generico` (S04) — IAC para qualquer par de documentos
   sem especialização temática; base para outras skills especializadas
 
-- 🔮 `skill-briefing-semanal` (S04) — já existe como skill no projeto Claude;
+- 🔮 `skill-briefing-semanal` (S05) — já existe como skill no projeto Claude;
   migrar para repositório GitHub dentro do padrão do ecossistema
 
-- 🔮 `skill-monitoramento-ptd` (S05) — monitora execução das iniciativas
+- 🔮 `skill-monitoramento-ptd` (S06) — monitora execução das iniciativas
   do PTD-SES, cruza com prazos e gera relatório de status
 
 - 🔮 Integração com GitHub MCP quando disponível nativamente no Claude
