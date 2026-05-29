@@ -5,6 +5,21 @@ Entrada mais recente no topo.
 
 ---
 
+## [0.9] — 2026-05-29
+
+### Atualizado
+- `ecossistema-sumario/CONTEXTO.md` -> v1.1: separação entre contexto durável e estado operacional transitório; tabela de repositórios completada com a skill S03 (skill-poc-saude-digital) e com o repositório-mãe (dtd-setis)
+- `ecossistema-sumario/nomenclatura.md` -> v0.5: arquivos obrigatórios do M01 completados; backlog de ações da DTD documentado
+- `ecossistema-sumario/sumario.md` -> v0.3: dtd-setis registrado; versão do M01 reconciliada para v0.10
+
+### Adicionado
+- `ecossistema-sumario/backlog-acoes-dtd.md`: histórico retrospectivo de ações e produtos da DTD — fonte única para relatórios de atividade consolidados
+
+### Corrigido
+- Drift de índices: S03 e dtd-setis ausentes do sumário/contexto; versão do M01 desalinhada (índices em v0.5, backlog em v0.9) -> reconciliada para v0.10
+
+---
+
 ## [0.8] — 2026-05-28
 
 ### Adicionado
