@@ -59,7 +59,11 @@ permanente, reduzindo a necessidade de repassar contexto a cada sessão.
 **Objetivo:** ampliar o ecossistema com skills que cubram outros processos
 recorrentes da DTD/SETIS.
 
-- 🔮 `skill-iac-generico` (S04) — IAC para qualquer par de documentos
+- ✅ `skill-github-orquestracao` (S04) — skill de orquestração do ecossistema;
+  garante consistência de todos os arquivos a cada operação; incorpora registro
+  permanente de erros aprendidos; criada em 2026-06-01
+
+- 🔮 `skill-iac-generico` (S05) — IAC para qualquer par de documentos
   sem especialização temática; base para outras skills especializadas
 
 - 🔮 `skill-briefing-semanal` (S05) — já existe como skill no projeto Claude;
