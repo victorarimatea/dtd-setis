@@ -29,11 +29,11 @@ instrumentos padronizados que trabalham juntos para automatizar a gestão
 de conhecimento e a produção de documentos institucionais.
 
 ```
-Matrizes (M)          Skills (S)              Documentos (D)
-─────────────         ──────────────          ──────────────
-M01 ecossistema-      S01 skill-criador-      D01 governanca-
-    sumario               de-skills               ses-df
-                                              (em construção)
+Matrizes (M)          Skills (S)              Documentos (D)        Projetos (P)
+─────────────         ──────────────          ──────────────        ────────────
+M01 ecossistema-      S01 skill-criador-      (em construção)       P01 telessaude-
+    sumario               de-skills                                     poc-prisional
+                                                                     (privado)
 M02 saude-digital-    S02 skill-iac-
     taxonomia             pdtic
 
@@ -48,9 +48,13 @@ executar qualquer tarefa. As matrizes são fontes de verdade compartilhadas.
 Os documentos são produzidos automaticamente, com acentuação correta,
 estrutura padronizada e registro em backlog auditável.
 
+Os projetos (tipo P) são repositórios privados com memória institucional
+viva — atas, decisões, stakeholders e artefatos — consultáveis por
+qualquer instância do ecossistema sob demanda.
+
 ---
 
-## Principais entregas
+## Principais instrumentos
 
 ### Instrumento de Análise Comparativa — IAC
 
@@ -82,23 +86,56 @@ aspectos regulatórios, deliberações pendentes e resultado esperado.
 
 | Repositório | Tipo | Visibilidade | Descrição |
 |---|---|---|---|
-| [ecossistema-sumario](https://github.com/victorarimatea/ecossistema-sumario) | Matriz | Público | Âncora do ecossistema: sumário, nomenclatura e contexto |
-| [saude-digital-taxonomia](https://github.com/victorarimatea/saude-digital-taxonomia) | Matriz | Público | Taxonomia estruturada de saúde digital |
-| [skill-criador-de-skills](https://github.com/victorarimatea/skill-criador-de-skills) | Skill | Público | Cria novos repositórios de skill via API GitHub |
-| [skill-iac-pdtic](https://github.com/victorarimatea/skill-iac-pdtic) | Skill | Privado | Gera IAC-V e IAC-H do PDTIC da SES-DF |
-| [skill-poc-saude-digital](https://github.com/victorarimatea/skill-poc-saude-digital) | Skill | Público | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
+| [dtd-setis](https://github.com/victorarimatea/dtd-setis) | Portfólio | Público | Este repositório — porta de entrada pública do ecossistema |
+| [ecossistema-sumario](https://github.com/victorarimatea/ecossistema-sumario) | Matriz (M01) | Público | Âncora: sumário, nomenclatura, contexto e protocolo de atualizações |
+| [saude-digital-taxonomia](https://github.com/victorarimatea/saude-digital-taxonomia) | Matriz (M02) | Público | Taxonomia estruturada de saúde digital |
+| [skill-criador-de-skills](https://github.com/victorarimatea/skill-criador-de-skills) | Skill (S01) | Público | Cria novos repositórios de skill via API GitHub |
+| skill-iac-pdtic | Skill (S02) | Privado | Gera IAC-V e IAC-H do PDTIC da SES-DF |
+| [skill-poc-saude-digital](https://github.com/victorarimatea/skill-poc-saude-digital) | Skill (S03) | Público | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
+| telessaude-poc-prisional | Projeto (P01) | Privado | PoC do Totem Health360 no Sistema Prisional do DF |
+
+---
+
+## Monitoramento de projetos
+
+A DTD/SETIS/SES-DF mantém um painel público de acompanhamento dos projetos
+em andamento, com visão panorâmica acessível a gestores e parceiros:
+
+→ **[Ver monitoramento de projetos](./projetos/monitoramento.md)**
 
 ---
 
 ## Navegação neste repositório
 
-| Arquivo | Conteúdo |
+| Arquivo / Pasta | Conteúdo |
 |---|---|
 | [MANIFESTO.md](./MANIFESTO.md) | Propósito, visão, objetivos e princípios do projeto |
 | [ROADMAP.md](./ROADMAP.md) | O que está planejado e em que ordem |
 | [CHANGELOG.md](./CHANGELOG.md) | Histórico completo do que foi construído |
 | [DECISOES.md](./DECISOES.md) | Registro das grandes decisões e seus motivos |
+| [projetos/monitoramento.md](./projetos/monitoramento.md) | Painel de projetos em execução e entregues |
 | [docs/arquitetura.md](./docs/arquitetura.md) | Como o ecossistema funciona tecnicamente |
+
+---
+
+## Como utilizar as skills
+
+As skills públicas do ecossistema podem ser utilizadas por qualquer membro
+da DTD/SETIS diretamente no Claude, sem necessidade de configuração adicional.
+Cada skill contém um `SKILL.md` com instruções completas de uso.
+
+**Skills disponíveis para uso imediato:**
+
+| Skill | O que faz | Como acionar |
+|---|---|---|
+| [skill-poc-saude-digital](https://github.com/victorarimatea/skill-poc-saude-digital) | Gera o documento completo de uma Prova de Conceito no padrão SES-DF/DTD | Descreva a solução e o problema — a skill conduz o processo |
+| [skill-criador-de-skills](https://github.com/victorarimatea/skill-criador-de-skills) | Cria novos repositórios de skill com estrutura padronizada via API GitHub | Informe o nome e propósito da nova skill |
+
+**Skills de uso interno (requerem acesso privado):**
+
+| Skill | O que faz |
+|---|---|
+| skill-iac-pdtic | Gera Instrumento de Análise Comparativa (IAC-V e IAC-H) para o PDTIC da SES-DF |
 
 ---
 
@@ -116,4 +153,3 @@ aspectos regulatórios, deliberações pendentes e resultado esperado.
 em paralelo com projetos institucionais de alta complexidade,
 com o objetivo de demonstrar que é possível fazer mais com menos
 quando tecnologia, método e propósito se encontram.*
-
