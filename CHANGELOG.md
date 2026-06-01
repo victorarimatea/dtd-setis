@@ -1,3 +1,23 @@
+## [1.0] — 2026-06-01
+
+### Adicionado
+- Pasta `projetos/` com `README.md` e `monitoramento.md`: monitoramento público
+  de projetos da DTD/SETIS/SES-DF; visão panorâmica curada para audiência externa;
+  documentação técnica interna mantida em repositórios privados separados
+- Repositório privado `telessaude-poc-prisional` (P01): primeiro projeto formal
+  do ecossistema, documentando a PoC do Totem Health360 no Sistema Prisional do DF
+
+### Atualizado
+- `ecossistema-sumario/nomenclatura.md` → v0.6: criação do tipo P (Projetos)
+  com Seção 4-A (estrutura interna), Seção 7.4 (extensões de backlog) e
+  política de visibilidade pública/privada
+- `ecossistema-sumario/sumario.md` → v0.4: seção "Projetos (P)" adicionada;
+  P01 registrado; tabela de links rápidos com coluna de visibilidade
+- `dtd-setis/README.md` → v1.0: diagrama ASCII atualizado com tipo P;
+  tabela de repositórios atualizada com P01
+
+---
+
 # CHANGELOG — Ecossistema DTD/SETIS
 
 Histórico cronológico de tudo que foi construído.
