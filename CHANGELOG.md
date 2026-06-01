@@ -1,3 +1,14 @@
+## [1.3] — 2026-06-01
+
+### Atualizado
+- `skill-github-orquestracao` → v1.1: primeiro ciclo completo de aprendizado
+  contínuo da skill — Erro #003 identificado, corrigido e registrado na mesma
+  sessão de criação. Python urllib definido como padrão obrigatório para chamadas
+  à API GitHub; funções helper (api_put, api_get) documentadas na Etapa 5 da skill.
+- `ecossistema-sumario/sumario.md` → v0.6: S04 atualizado para v1.1
+
+---
+
 ## [1.2] — 2026-06-01
 
 ### Atualizado
