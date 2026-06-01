@@ -96,3 +96,15 @@ da SES-DF, com governança compartilhada.
 Criar o repositório `governanca-ses-df` com os instrumentos normativos
 da SES-DF, começando pela Portaria nº 193/2024 e pelo PTD-SES 2024-2027
 que já estão disponíveis.
+
+---
+
+## Fase 2-B — Gestão de projetos ✅
+
+**Objetivo:** estruturar memória institucional permanente para projetos da DTD,
+com repositórios privados versionados e monitoramento público curado.
+
+- ✅ Criação do tipo P (Projetos) no ecossistema — nomenclatura e sumário atualizados
+- ✅ Repositório privado `telessaude-poc-prisional` (P01) — primeiro projeto formal,
+  documentando a PoC do Totem Health360 no Sistema Prisional do DF
+- ✅ Pasta `projetos/` no `dtd-setis` com monitoramento público curado
