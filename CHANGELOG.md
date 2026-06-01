@@ -1,3 +1,16 @@
+## [1.2] — 2026-06-01
+
+### Atualizado
+- `ecossistema-sumario/CONTEXTO.md` → v1.3: adição do protocolo obrigatório
+  para operações no GitHub com duas regras:
+  - **Regra 1 — Autodescoberta:** o Claude aciona a S04 automaticamente ao
+    identificar operações no GitHub, sem depender da memória do usuário
+  - **Regra 2 — Aprendizado contínuo:** todo erro, aprendizado ou melhoria
+    identificado na sessão atualiza a S04 antes do encerramento, garantindo
+    que o ecossistema evolua a cada operação
+
+---
+
 ## [1.1] — 2026-06-01
 
 ### Adicionado
