@@ -39,6 +39,9 @@ M02 saude-digital-    S02 skill-iac-
 
                       S03 skill-poc-
                           saude-digital
+
+                      S04 skill-github-
+                          orquestracao
 ```
 
 ### Como funciona
@@ -92,6 +95,7 @@ aspectos regulatórios, deliberações pendentes e resultado esperado.
 | [skill-criador-de-skills](https://github.com/victorarimatea/skill-criador-de-skills) | Skill (S01) | Público | Cria novos repositórios de skill via API GitHub |
 | skill-iac-pdtic | Skill (S02) | Privado | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | [skill-poc-saude-digital](https://github.com/victorarimatea/skill-poc-saude-digital) | Skill (S03) | Público | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
+| [skill-github-orquestracao](https://github.com/victorarimatea/skill-github-orquestracao) | Skill (S04) | Público | Garante consistência do ecossistema a cada operação no GitHub |
 | telessaude-poc-prisional | Projeto (P01) | Privado | PoC do Totem Health360 no Sistema Prisional do DF |
 
 ---
@@ -130,6 +134,7 @@ Cada skill contém um `SKILL.md` com instruções completas de uso.
 |---|---|---|
 | [skill-poc-saude-digital](https://github.com/victorarimatea/skill-poc-saude-digital) | Gera o documento completo de uma Prova de Conceito no padrão SES-DF/DTD | Descreva a solução e o problema — a skill conduz o processo |
 | [skill-criador-de-skills](https://github.com/victorarimatea/skill-criador-de-skills) | Cria novos repositórios de skill com estrutura padronizada via API GitHub | Informe o nome e propósito da nova skill |
+| [skill-github-orquestracao](https://github.com/victorarimatea/skill-github-orquestracao) | Garante que toda operação no ecossistema atualize todos os arquivos afetados — plano, aprovação, execução | Presente automaticamente em qualquer operação que altere repositórios |
 
 **Skills de uso interno (requerem acesso privado):**
 
