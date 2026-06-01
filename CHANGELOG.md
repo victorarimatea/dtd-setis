@@ -1,3 +1,20 @@
+## [1.1] — 2026-06-01
+
+### Adicionado
+- Repositório público `skill-github-orquestracao` (S04): skill de orquestração
+  do ecossistema DTD/SETIS. Garante que toda operação no GitHub atualize todos
+  os arquivos afetados — opera em duas fases separadas por aprovação explícita
+  (planejamento sem token → aprovação → execução com token). Incorpora registro
+  permanente de erros aprendidos que viram verificações adicionais.
+
+### Atualizado
+- `dtd-setis/README.md`: diagrama ASCII, tabela de repositórios e seção
+  "Como utilizar as skills" atualizados com S04
+- `ecossistema-sumario/sumario.md` → v0.5: S04 registrado
+- `ecossistema-sumario/CONTEXTO.md` → v1.2: S04 adicionado
+
+---
+
 ## [1.0] — 2026-06-01
 
 ### Adicionado
