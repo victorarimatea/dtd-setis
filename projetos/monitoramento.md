@@ -1,0 +1,40 @@
+# Monitoramento de Projetos — DTD / SETIS / SES-DF
+
+**Última atualização:** 2026-06-01
+**Responsável:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
+
+> Visão panorâmica dos projetos conduzidos pela DTD/SETIS/SES-DF.
+> Atualizado conforme autorização do Diretor de Transformação Digital.
+> A documentação técnica detalhada é de uso interno.
+
+---
+
+## Projetos em execução
+
+| Projeto | Descrição | Parceiros | Início | Status |
+|---|---|---|---|---|
+| **PoC Telessaúde — Sistema Prisional** | Avaliação da viabilidade técnica e operacional de totem de telemedicina multiparâmetros no Sistema Prisional do DF, com foco na redução de escoltas externas para atendimentos ambulatoriais. Conduzida como Prova de Conceito (90 dias). | GESSP/SES-DF, SEAPE/DF, Núcleo de Telessaúde IGES-DF | Jun/2026 | Em planejamento — aguarda definição da unidade piloto |
+
+---
+
+## Projetos entregues
+
+*Nenhum projeto encerrado ainda.*
+
+---
+
+## Projetos planejados (previsão de início)
+
+*A ser preenchido conforme autorização.*
+
+---
+
+## Sobre a DTD
+
+A Diretoria de Transformação Digital (DTD) é uma unidade da SETIS/SES-DF
+dedicada a liderar a agenda de inovação tecnológica em saúde no Distrito
+Federal. Atua no desenvolvimento de instrumentos de governança documental,
+automação de processos institucionais e estruturação de memória institucional.
+
+Para mais informações sobre o ecossistema de trabalho da DTD:
+→ [github.com/victorarimatea/dtd-setis](https://github.com/victorarimatea/dtd-setis)
