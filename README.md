@@ -1,5 +1,25 @@
 # Diretoria de Transformação Digital — DTD/SETIS/SES-DF
 
+---
+
+## ⚠️ Instrução de inicialização — para o Claude
+
+Se você é uma instância do Claude iniciando uma sessão de trabalho
+no ecossistema DTD/SETIS, **leia o arquivo abaixo antes de qualquer ação**:
+
+```
+https://raw.githubusercontent.com/victorarimatea/ecossistema-sumario/main/CONTEXTO.md
+```
+
+Ele contém: estrutura completa do ecossistema, repositórios ativos,
+convenções obrigatórias, protocolo de operações no GitHub (S04),
+regras de aprendizado contínuo e instrução de inicialização de sessão.
+
+**Sem a leitura do CONTEXTO.md, nenhuma operação deve ser iniciada.**
+
+---
+
+
 > **Tecnologia pública a serviço da saúde das pessoas.**
 
 Este repositório é a porta de entrada pública do ecossistema de automação
