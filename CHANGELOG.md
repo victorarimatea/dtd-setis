@@ -1,3 +1,14 @@
+## [1.9] — 2026-06-01
+
+### Atualizado
+- `ecossistema-sumario/GLOSSARIO.md` → v1.1: primeiro ciclo completo do
+  mecanismo de manutenção automática do glossário — a Verificação 4 da S04
+  identificou seus próprios termos como candidatos na operação de criação,
+  e eles foram adicionados imediatamente. "Auditoria de glossário" e
+  "termo candidato" agora têm definições formais.
+
+---
+
 ## [1.8] — 2026-06-01
 
 ### Atualizado
