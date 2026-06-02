@@ -1,3 +1,101 @@
+## v2.0 — 2026-06-02
+
+**Tipo de alteração:** Atualização + Saneamento
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Saneamento de drifts identificados em auditoria
+externa (diagnóstico por ferramenta LLM). Causa raiz: S04 não instruía
+atualização de CONTEXTO.md, ROADMAP.md e arquitetura.md em todos os tipos
+de operação. Resultado: arquivos centrais acumularam versões defasadas ao
+longo de duas sessões intensas de implementação. Corrigido com reescrita
+da arquitetura.md (v2.0), reorganização do ROADMAP.md e blindagem
+estrutural da S04 com Erro #007 e Verificação 5.
+
+### Alterações realizadas nesta versão
+- `docs/arquitetura.md` → v2.0: reescrita completa com 6 tipos, 4 camadas,
+  relações entre tipos e S04
+- `ROADMAP.md`: reorganizado em concluído/em curso/próximo/médio/longo prazo
+- `INDICE.md`: contagem e estrutura atualizadas
+- `backlog-versoes.md`: entradas retroativas v1.1–v1.9 adicionadas
+
+---
+
+## v1.9 — 2026-06-02 (retroativo)
+
+**Tipo de alteração:** Adição
+**Exposição de motivos:** Tipo A (Agenda) implementado. S06 e W02 criados.
+Implementação do workflow de registro de reunião com PLAUD NOTE Pro.
+Ver CHANGELOG [2.3].
+
+---
+
+## v1.8 — 2026-06-02 (retroativo)
+
+**Tipo de alteração:** Adição
+**Exposição de motivos:** Tipo W (Workflows) implementado. W01 criado como
+caso zero. P01 recebeu EXECUCOES.md. S04 atualizada para v1.6 com OP-W.
+Ver CHANGELOG [2.2].
+
+---
+
+## v1.7 — 2026-06-02 (retroativo)
+
+**Tipo de alteração:** Adição
+**Exposição de motivos:** Migração do Cowork concluída. D01, D02, S05
+registrados. 28 documentos transcritos no D01. Ver CHANGELOG [2.0].
+
+---
+
+## v1.6 — 2026-06-02 (retroativo)
+
+**Tipo de alteração:** Adição
+**Exposição de motivos:** GLOSSARIO.md criado com 8 categorias. S04 v1.4
+com Verificação 4 (auditoria de glossário). Ver CHANGELOG [1.7] e [1.9].
+
+---
+
+## v1.5 — 2026-06-01 (retroativo)
+
+**Tipo de alteração:** Correção
+**Exposição de motivos:** Saneamento de drifts durante diagnóstico de
+maturidade. INDICE.md criado em todos os repositórios públicos. Protocolo
+descontinuado em favor da S04. Ver CHANGELOG [1.4] a [1.6].
+
+---
+
+## v1.4 — 2026-06-01 (retroativo)
+
+**Tipo de alteração:** Adição
+**Exposição de motivos:** S04 criada (v1.0). Primeiro repositório de
+orquestração do ecossistema. CONTEXTO.md com regras de autodescoberta
+e aprendizado contínuo. Ver CHANGELOG [1.0] a [1.3].
+
+---
+
+## v1.3 — 2026-06-01 (retroativo)
+
+**Tipo de alteração:** Adição
+**Exposição de motivos:** P01 telessaude-poc-prisional criado. Tipo P
+formalizado no ecossistema. Pasta projetos/ criada no dtd-setis.
+Ver CHANGELOG anterior.
+
+---
+
+## v1.2 — 2026-05-29 (retroativo)
+
+**Tipo de alteração:** Adição
+**Exposição de motivos:** IAC-V e IAC-H do PDTIC produzidos via S02.
+ROADMAP e DECISOES evoluídos. Ver CHANGELOG v0.9.
+
+---
+
+## v1.1 — 2026-05-27 (retroativo)
+
+**Tipo de alteração:** Adição
+**Exposição de motivos:** S01, S02 adicionadas ao ecossistema. M02
+saude-digital-taxonomia criado. Ver CHANGELOG v0.6–v0.8.
+
+---
+
 # Backlog de Versões — dtd-setis
 
 **Versão:** v1.0 — 2026-06-01
