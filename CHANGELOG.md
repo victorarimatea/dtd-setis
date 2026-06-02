@@ -1,3 +1,20 @@
+## [1.6] — 2026-06-01
+
+### Adicionado
+- `INDICE.md` criado em todos os repositórios públicos do ecossistema
+  (M01, M02, S01, S03, S04, dtd-setis): navegação local padronizada que
+  permite chegar a qualquer recurso sem leitura exaustiva do repositório
+
+### Atualizado
+- `README.md` de todos os repositórios públicos: link para INDICE.md adicionado
+- `dtd-setis/README.md`: seção de navegação simplificada apontando para INDICE.md
+- `ecossistema-sumario/nomenclatura.md` → v0.7: Seção 10 — INDICE.md obrigatório
+  em todos os repositórios sem exceção
+- `skill-github-orquestracao` → v1.3: OP-E com critério objetivo, INDICE.md
+  nas checklists OP-A e OP-P, Erro #005 incorporado
+
+---
+
 ## [1.5] — 2026-06-01
 
 ### Atualizado
