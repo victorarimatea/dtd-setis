@@ -131,6 +131,10 @@ em andamento, com visão panorâmica acessível a gestores e parceiros:
 
 ## Navegação neste repositório
 
+Para uma visão completa de todos os arquivos e pastas, consulte o índice:
+
+→ **[INDICE.md](./INDICE.md)** — mapa completo de conteúdo
+
 | Arquivo / Pasta | Conteúdo |
 |---|---|
 | [MANIFESTO.md](./MANIFESTO.md) | Propósito, visão, objetivos e princípios do projeto |
