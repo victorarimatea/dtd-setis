@@ -1,114 +1,80 @@
-# ROADMAP — Ecossistema DTD/SETIS
+# Roadmap — DTD/SETIS/SES-DF
 
-Planejamento das próximas entregas, em ordem de prioridade.
-Atualizado em: 2026-05-28
-
----
-
-## Legenda
-
-| Símbolo | Status |
-|---|---|
-| ✅ | Concluído |
-| 🔄 | Em andamento |
-| 📋 | Planejado — próxima entrega |
-| 🔮 | Planejado — médio prazo |
-| 💡 | Ideia — a avaliar |
+**Última atualização:** 2026-06-02
+**Versão do ecossistema:** CHANGELOG [2.3] | S04 v1.8
 
 ---
 
-## Fase 1 — Fundação ✅
+## ✅ Concluído
 
-- ✅ Taxonomia de saúde digital (M02)
-- ✅ Repositório âncora com sumário e nomenclatura (M01)
-- ✅ Skill criadora de skills (S01)
-- ✅ Skill IAC do PDTIC — modo IAC-V (S02 v1.0)
-- ✅ Modelo IAC v0.1 — primeiro instrumento gerado
-- ✅ Modelo IAC v0.2 — IAC-H adicionado, governança SES-DF incorporada
-- ✅ Repositório mãe público como portfólio (este repositório)
+### Fase 1 — Fundação do ecossistema
+- ✅ Repositório âncora `ecossistema-sumario` (M01) com sumário, nomenclatura,
+  glossário, CONTEXTO.md e protocolo de operações
+- ✅ Portfólio público `dtd-setis` com MANIFESTO, ROADMAP, CHANGELOG, DECISOES
+- ✅ Taxonomia de saúde digital `saude-digital-taxonomia` (M02)
+- ✅ Skill criador de skills `skill-criador-de-skills` (S01)
 
----
+### Fase 2 — Instrumentos institucionais
+- ✅ Skill IAC `skill-iac-pdtic` (S02) — IAC-V e IAC-H do PDTIC
+- ✅ Skill PoC `skill-poc-saude-digital` (S03) — PoCs em saúde digital
+- ✅ Skill orquestração `skill-github-orquestracao` (S04 v1.8) —
+  consistência do ecossistema; 9 tipos de operação; 5 verificações pós-execução
+- ✅ Projeto `telessaude-poc-prisional` (P01) — PoC Totem Health360
 
-## Fase 2 — Conhecimento institucional 📋
+### Fase 3 — Camada documental
+- ✅ `governanca-ses-df` (D01) — 28 documentos transcritos: legislação federal,
+  distrital, portarias ministeriais, resoluções CFM/ANVISA, referências
+  internacionais bilíngues EN+PT
+- ✅ `skill-transcricao-documental` (S05) — pipeline de transcrição PDF→Markdown
+- ✅ `doc-cadastro-ses-setis-dtd` (D02) — matriz de cadastros de referência
+- ✅ Tipo D (Documentos) formalizado no ecossistema
 
-**Objetivo:** dotar o ecossistema de conhecimento normativo e institucional
-permanente, reduzindo a necessidade de repassar contexto a cada sessão.
-
-- ✅ Skill de elaboração de PoC em Saúde Digital (S03) — baseada na PoC MedNear,
-  caso zero do Marco Regulatório Interno de PoCs da SES-DF; incorporada ao
-  ecossistema em 2026-05-28
-
-- 📋 Criar repositório `governanca-ses-df` (tipo D — público)
-  - Portaria nº 193/2024 (CIG/SES, SGTD, Fórum de Subsecretários)
-  - Portaria nº 718/2024 (CGTD/SEEC)
-  - Decreto nº 48.503/2026 (PDTIC obrigatório)
-  - PTD-SES 2024-2027
-  - Base normativa de saúde digital (documento existente — migrar do Drive)
-  - Matriz de competências: quem aprova o quê na SES-DF
-
-- 📋 Atualizar `skill-iac-pdtic` → v2.1: consultar `governanca-ses-df` na Etapa 1
-
-- 📋 Criar repositório `pdtic-historico` (tipo D — privado)
-  - Uma pasta por versão aprovada do PDTIC
-  - Cada pasta contém: documento + IAC correspondente
-
----
-
-## Fase 3 — Expansão das skills 🔮
-
-**Objetivo:** ampliar o ecossistema com skills que cubram outros processos
-recorrentes da DTD/SETIS.
-
-- ✅ `skill-github-orquestracao` (S04) — skill de orquestração do ecossistema;
-  garante consistência de todos os arquivos a cada operação; incorpora registro
-  permanente de erros aprendidos; criada em 2026-06-01
-
-- 🔮 `skill-iac-generico` (S05) — IAC para qualquer par de documentos
-  sem especialização temática; base para outras skills especializadas
-
-- 🔮 `skill-briefing-semanal` (S05) — já existe como skill no projeto Claude;
-  migrar para repositório GitHub dentro do padrão do ecossistema
-
-- 🔮 `skill-monitoramento-ptd` (S06) — monitora execução das iniciativas
-  do PTD-SES, cruza com prazos e gera relatório de status
-
-- 🔮 Integração com GitHub MCP quando disponível nativamente no Claude
-  (elimina necessidade de Personal Access Token para escrita)
+### Fase 4 — Memória organizacional de processos
+- ✅ Tipo W (Workflows) formalizado — WORKFLOW.md 8 seções, logs de execução,
+  relação W↔P, referência cruzada via EXECUCOES.md
+- ✅ `workflow-transcricao-documental` (W01) — caso zero do tipo W
+- ✅ `workflow-registro-reuniao` (W02) — processo PLAUD NOTE → SEI
+- ✅ Tipo A (Agendas) formalizado — indexação cronológica, data_reuniao vs
+  data_registro, estrutura reunioes/AAAA/MM/
+- ✅ `agenda-dtd` (A01) — acervo cronológico de reuniões da DTD
+- ✅ `skill-registro-reuniao` (S06) — transformação de resumos em registros
+  institucionais padronizados para o SEI
+- ✅ GLOSSARIO.md com 8 categorias e 34+ termos formais
+- ✅ Saneamento de drifts e auditoria cruzada de consistência (Erro #007)
 
 ---
 
-## Fase 4 — Institucionalização 💡
+## 🔄 Em andamento
 
-**Objetivo:** transformar o ecossistema pessoal em recurso institucional
-da SES-DF, com governança compartilhada.
-
-- 💡 Proposta formal ao SGTD para adoção do modelo IAC como padrão
-  permanente de governança documental do PDTIC e PTD
-
-- 💡 Migração para organização GitHub da SES-DF (quando criada)
-
-- 💡 Documentação do ecossistema como caso de uso de IA na gestão pública
-  para compartilhamento com outras secretarias do GDF
-
-- 💡 Expansão da equipe da DTD — onboarding facilitado pelo ecossistema:
-  novos servidores leem o repositório mãe e já entendem como tudo funciona
+- 🔄 P01 `telessaude-poc-prisional` — PoC aguardando definição de unidade
+  piloto (12 deliberações pendentes, ver README.md do P01)
+- 🔄 Upload e transcrição dos documentos pendentes no D01 (itens 10–17 do §9
+  do WORKFLOW-ESPECIFICACAO.md)
 
 ---
 
-## Próxima ação imediata
+## 🎯 Próxima ação imediata
 
-Criar o repositório `governanca-ses-df` com os instrumentos normativos
-da SES-DF, começando pela Portaria nº 193/2024 e pelo PTD-SES 2024-2027
-que já estão disponíveis.
+**Criar `pdtic-historico` (D — tipo Documento):**
+Repositório para versionamento histórico do PDTIC da SES-DF com IACs gerados.
+Habilitará o uso pleno da `skill-iac-pdtic` (S02) no ecossistema.
 
 ---
 
-## Fase 2-B — Gestão de projetos ✅
+## 📅 Médio prazo
 
-**Objetivo:** estruturar memória institucional permanente para projetos da DTD,
-com repositórios privados versionados e monitoramento público curado.
+- Criar `workflow-iac-conformidade` (W03) — análise de conformidade documental
+  automatizada, consumindo D01 e S02 como subprocessos
+- Criar `governanca-ses-df-fase3` — transcrição dos documentos 10–17 pendentes
+- Evoluir S05 para fase sequencial autônoma (condição: PASSOU ≥ 95% em ≥ 10 docs)
+- Integração SEI via API quando disponível (roadmap longo prazo)
+- Calendário visual sobre A01 (`agenda-dtd`) — visualização de reuniões
 
-- ✅ Criação do tipo P (Projetos) no ecossistema — nomenclatura e sumário atualizados
-- ✅ Repositório privado `telessaude-poc-prisional` (P01) — primeiro projeto formal,
-  documentando a PoC do Totem Health360 no Sistema Prisional do DF
-- ✅ Pasta `projetos/` no `dtd-setis` com monitoramento público curado
+---
+
+## 🔭 Longo prazo
+
+- GitHub MCP para operações autenticadas sem PAT manual
+- Migração de PAT clássico para fine-grained com escopos mínimos e expiração curta
+- Replicação do modelo de ecossistema para outras unidades da SES-DF
+- Case institucional documentado para publicação
