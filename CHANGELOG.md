@@ -1,3 +1,21 @@
+## [1.4] — 2026-06-01
+
+### Corrigido
+- `README.md`: instrução obrigatória de inicialização adicionada ao topo —
+  Claude deve ler o CONTEXTO.md do ecossistema-sumario antes de qualquer ação;
+  resolve falha crítica de navegação identificada no diagnóstico de maturidade
+
+### Adicionado
+- `backlog-versoes.md`: criado com histórico retroalimentado desde v0.5;
+  corrige violação da nomenclatura.md (arquivo obrigatório ausente)
+
+### Atualizado (em ecossistema-sumario)
+- `protocolo-atualizacoes.md` → v2.0: descontinuado formalmente em favor da S04;
+  conteúdo original preservado para rastreabilidade histórica
+- `sumario.md` → v0.7: versão do M01 corrigida de v0.11 para v0.14
+
+---
+
 ## [1.3] — 2026-06-01
 
 ### Atualizado
