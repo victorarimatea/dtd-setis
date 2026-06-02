@@ -1,3 +1,30 @@
+## [2.4] — 2026-06-02
+
+### Corrigido (saneamento de drifts — causa raiz: S04 sem cobertura de arquivos centrais)
+- `ecossistema-sumario/CONTEXTO.md` → v1.7: versões de todos os componentes
+  sincronizadas com `sumario.md` (fonte de verdade); M01 e S04 estavam com
+  versões de meses atrás
+- `ecossistema-sumario/sumario.md` → v1.5: duplicações textuais removidas
+  (S05/S06 e W01/W02 tinham descrições contaminadas); S04 atualizado para v1.8
+- `docs/arquitetura.md` → v2.0: reescrita completa — descreve os 6 tipos
+  (M, S, D, W, A, P), 4 camadas, relações entre tipos e papel da S04;
+  versão anterior (v1.0) descrevia arquitetura de 3 camadas sem W, A, D01
+- `ROADMAP.md`: reorganizado em 5 seções (concluído / em andamento / próxima
+  ação / médio prazo / longo prazo); governanca-ses-df e todos os entregáveis
+  de 2026-06-02 marcados como ✅
+- `INDICE.md`: data, contagem de arquivos e referência a arquitetura.md v2.0
+  atualizados
+- `backlog-versoes.md`: entradas retroativas v1.1–v2.0 adicionadas — histórico
+  completo do portfólio desde a fundação
+
+### Atualizado (blindagem estrutural)
+- `skill-github-orquestracao` → v1.8: Verificação 5 (consistência cruzada
+  obrigatória entre sumario × CONTEXTO × README × ROADMAP × arquitetura);
+  OP-C recebe CONTEXTO.md; OP-W e OP-AG recebem ROADMAP.md e arquitetura.md;
+  Erro #007 documentado com causa raiz e correção
+
+---
+
 ## [2.3] — 2026-06-02
 
 ### Adicionado
