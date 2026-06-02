@@ -1,3 +1,15 @@
+## [2.1] — 2026-06-02
+
+### Atualizado
+- `ecossistema-sumario/GLOSSARIO.md` → v1.2: Categoria 6 adicionada —
+  Pipeline de Transcrição Documental. 4 novos termos definidos:
+  "artefato de extração", "front matter YAML", "pipeline de transcrição"
+  e "reflow". Total do glossário: 29 termos em 6 categorias.
+  Primeiro ciclo de expansão por domínio técnico novo incorporado ao
+  ecossistema (D01/S05).
+
+---
+
 ## [2.0] — 2026-06-02
 
 ### Adicionado
