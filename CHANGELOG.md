@@ -1,3 +1,20 @@
+## [1.7] — 2026-06-01
+
+### Adicionado
+- `ecossistema-sumario/GLOSSARIO.md` (v1.0): glossário formal do ecossistema
+  com 18 termos em 5 categorias — tipos de repositório, arquivos obrigatórios,
+  instrumentos institucionais, operações/versionamento, conceitos de qualidade.
+  Implementação identificada como essencial em sistema maduro.
+
+### Atualizado
+- `ecossistema-sumario/sumario.md` → v1.0: marco de maturidade do M01;
+  GLOSSARIO.md registrado; S04 atualizado para v1.4
+- `ecossistema-sumario/nomenclatura.md` → v0.8: referência ao GLOSSARIO.md
+- `skill-github-orquestracao` → v1.4: INDICE.md adicionado às checklists
+  OP-B, OP-C, OP-D, OP-E e OP-F (instrução condicional); Erro #006 incorporado
+
+---
+
 ## [1.6] — 2026-06-01
 
 ### Adicionado
