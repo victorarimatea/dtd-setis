@@ -119,6 +119,7 @@ aspectos regulatórios, deliberações pendentes e resultado esperado.
 | [skill-transcricao-documental](https://github.com/victorarimatea/skill-transcricao-documental) | Skill (S05) | Público | Converte PDFs regulatórios em Markdown estruturado e auditável |
 | [governanca-ses-df](https://github.com/victorarimatea/governanca-ses-df) | Documento (D01) | Público | 28 documentos transcritos — legislação e referências internacionais de saúde digital |
 | [doc-cadastro-ses-setis-dtd](https://github.com/victorarimatea/doc-cadastro-ses-setis-dtd) | Documento (D02) | Público | Matriz de Cadastros de referência validada para uso interno da DTD |
+| [workflow-transcricao-documental](https://github.com/victorarimatea/workflow-transcricao-documental) | Workflow (W01) | Público | Processo completo de transcrição de PDFs regulatórios em Markdown — memória organizacional do pipeline |
 | telessaude-poc-prisional | Projeto (P01) | Privado | PoC do Totem Health360 no Sistema Prisional do DF |
 
 ---
