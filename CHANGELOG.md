@@ -1,3 +1,31 @@
+## [2.0] — 2026-06-02
+
+### Adicionado
+- `governanca-ses-df` (D01, público): primeiro repositório do tipo Documento
+  no ecossistema. Contém 28 documentos transcritos em Markdown sobre saúde
+  digital — 18 regulamentações nacionais (legislação federal, distrital,
+  portarias ministeriais, resoluções CFM e ANVISA) + 10 referências
+  internacionais bilíngues EN+PT. Estrutura com 6 subpastas + WORKFLOW-
+  ESPECIFICACAO.md v1.1 (8 problemas documentados, protocolo de exceção,
+  roadmap de automação).
+- `skill-transcricao-documental` (S05, público): pipeline de transcrição
+  documental formalizado como skill do ecossistema — 7 etapas, auto-
+  verificação programática, protocolo de exceção §3.1.
+
+### Regularizado
+- `doc-cadastro-ses-setis-dtd` (D02): repositório existente sem estrutura
+  padrão — adicionados INDICE.md, backlog-versoes.md e ficha técnica.
+  Registrado formalmente como D02 no sumário.
+- `skill-iac-pdtic` (S02): estava ativo mas não registrado no sumário.
+  Regularizado como S02 v2.0.
+
+### Atualizado
+- `ecossistema-sumario/sumario.md` → v1.1: seção Documentos (D) preenchida
+  pela primeira vez; D01, D02, S05, S02 registrados
+- `ecossistema-sumario/CONTEXTO.md` → v1.4: D01, D02, S05 nos repositórios ativos
+
+---
+
 ## [1.9] — 2026-06-01
 
 ### Atualizado
