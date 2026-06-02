@@ -1,3 +1,14 @@
+## [1.5] — 2026-06-01
+
+### Atualizado
+- `skill-github-orquestracao` → v1.2: segundo ciclo de aprendizado
+  contínuo na mesma sessão de criação — Erro #004 incorporado.
+  Verificação de backlog agora aceita '## v' e '### v' como padrões
+  válidos, eliminando falsos positivos em repositórios com subseções.
+- `ecossistema-sumario/sumario.md` → v0.8: S04 atualizado para v1.2
+
+---
+
 ## [1.4] — 2026-06-01
 
 ### Corrigido
