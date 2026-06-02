@@ -1,3 +1,29 @@
+## [2.3] — 2026-06-02
+
+### Adicionado
+- Tipo A (Agenda) ao ecossistema: primeiro tipo indexado por tempo de ocorrência
+  — não por ordem de criação. Repositórios `agenda-[unidade]` contêm acervos
+  cronológicos de registros de reunião com estrutura `reunioes/AAAA/MM/` e
+  campos distintos `data_reuniao` / `data_registro`.
+- `agenda-dtd` (A01, privado): acervo institucional de reuniões da DTD.
+- `workflow-registro-reuniao` (W02, privado): memória organizacional do processo
+  de transformação de gravações em registros formais — inclui histórico de
+  problemas P01-P03 e roadmap de automação com integração SEI.
+- `skill-registro-reuniao` (S06, público): skill que formaliza o prompt
+  institucional desenvolvido com o PLAUD NOTE Pro — 5 etapas, 8 seções
+  obrigatórias, depósito automático via S04.
+- `skill-github-orquestracao` → v1.7: OP-AG adicionado com lógica específica
+  de indexação cronológica do tipo A.
+
+### Atualizado
+- `ecossistema-sumario/nomenclatura.md` → v1.0: marco — Seção 4-C tipo A,
+  Seção 7.6, indexação cronológica, campos data_reuniao/data_registro
+- `ecossistema-sumario/sumario.md` → v1.3: tipo A, A01, S06, W02
+- `ecossistema-sumario/GLOSSARIO.md` → v1.4: Categoria 8 com 6 termos
+- `ecossistema-sumario/CONTEXTO.md` → v1.6: S06, W02, A01
+
+---
+
 ## [2.2] — 2026-06-02
 
 ### Adicionado
