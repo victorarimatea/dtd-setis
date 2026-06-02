@@ -1,3 +1,27 @@
+## [2.2] — 2026-06-02
+
+### Adicionado
+- `workflow-transcricao-documental` (W01, público): primeiro repositório do
+  tipo Workflow (W) no ecossistema. Contém o WORKFLOW.md com 8 seções
+  obrigatórias — missão, estado final esperado, etapas, skills consumidas,
+  histórico de problemas, roadmap de automação — e pasta `execucoes/` para
+  logs de execução. O tipo W nasce para preservar o capital organizacional
+  da DTD: workflows escritos, versionados e consultáveis por humanos e IA.
+- `telessaude-poc-prisional/EXECUCOES.md`: registro retroativo dos workflows
+  acionados no P01, com nota sobre registros anteriores ao tipo W.
+
+### Atualizado
+- `ecossistema-sumario/nomenclatura.md` → v0.9: Seção 4-B (estrutura tipo W),
+  Seção 7.5 (backlog tipo W), WORKFLOW.md e EXECUCOES.md na tabela de arquivos
+- `ecossistema-sumario/sumario.md` → v1.2: seção Workflows (W) criada; W01 registrado
+- `ecossistema-sumario/GLOSSARIO.md` → v1.3: Categoria 7 com 5 termos
+  (workflow, subprocesso, log de execução, estado final esperado, EXECUCOES.md)
+- `ecossistema-sumario/CONTEXTO.md` → v1.5: W01 nos repositórios ativos
+- `skill-github-orquestracao` → v1.6: OP-W adicionado; EXECUCOES.md na OP-P
+- `dtd-setis/README.md`: diagrama ASCII e tabela com tipo W e W01
+
+---
+
 ## [2.1] — 2026-06-02
 
 ### Atualizado
