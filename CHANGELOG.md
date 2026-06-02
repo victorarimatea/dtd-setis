@@ -1,3 +1,15 @@
+## [1.8] — 2026-06-01
+
+### Atualizado
+- `skill-github-orquestracao` → v1.5: Verificação 4 adicionada à Etapa 6
+  da S04 — auditoria obrigatória de termos novos ao final de cada operação,
+  com comparação ao GLOSSARIO.md e proposta de atualização antes do
+  encerramento. O GLOSSARIO.md criado em [1.7] passa a ter mecanismo
+  automático de manutenção. Campo "Glossário verificado" adicionado ao
+  relatório padrão da Etapa 7.
+
+---
+
 ## [1.7] — 2026-06-01
 
 ### Adicionado
