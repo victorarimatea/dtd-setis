@@ -116,6 +116,9 @@ aspectos regulatórios, deliberações pendentes e resultado esperado.
 | skill-iac-pdtic | Skill (S02) | Privado | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | [skill-poc-saude-digital](https://github.com/victorarimatea/skill-poc-saude-digital) | Skill (S03) | Público | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
 | [skill-github-orquestracao](https://github.com/victorarimatea/skill-github-orquestracao) | Skill (S04) | Público | Garante consistência do ecossistema a cada operação no GitHub |
+| [skill-transcricao-documental](https://github.com/victorarimatea/skill-transcricao-documental) | Skill (S05) | Público | Converte PDFs regulatórios em Markdown estruturado e auditável |
+| [governanca-ses-df](https://github.com/victorarimatea/governanca-ses-df) | Documento (D01) | Público | 28 documentos transcritos — legislação e referências internacionais de saúde digital |
+| [doc-cadastro-ses-setis-dtd](https://github.com/victorarimatea/doc-cadastro-ses-setis-dtd) | Documento (D02) | Público | Matriz de Cadastros de referência validada para uso interno da DTD |
 | telessaude-poc-prisional | Projeto (P01) | Privado | PoC do Totem Health360 no Sistema Prisional do DF |
 
 ---
