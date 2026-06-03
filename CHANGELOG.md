@@ -5,6 +5,21 @@ Entrada mais recente no topo.
 
 ---
 
+## [2.8] — 2026-06-03
+
+### Atualizado
+- `ecossistema-sumario/CONTEXTO.md` → v2.0 (MAJOR): reescrita completa.
+  Removidos todos os elementos transitórios acumulados desde maio/2026 —
+  datas de reunião, processos SEI, versões específicas de documentos,
+  próximos passos e tokens. Adicionada mensagem de boas-vindas do mantenedor
+  para colaboradores e agentes externos. Estrutura de repositórios atualizada
+  com os 15 repositórios ativos em 6 tipos (M, S, D, W, A, P). ONBOARDING.md
+  registrado nos arquivos obrigatórios do M01.
+- `ecossistema-sumario/sumario.md` → v1.9: M01 atualizado para v0.24.
+- `ecossistema-sumario/backlog-versoes.md`: entrada v0.24 registrada.
+
+---
+
 ## [2.7] — 2026-06-03
 
 ### Adicionado
