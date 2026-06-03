@@ -5,6 +5,23 @@ Entrada mais recente no topo.
 
 ---
 
+## [2.7] — 2026-06-03
+
+### Adicionado
+- `ecossistema-sumario/ONBOARDING.md` (v1.0): porta de entrada para agentes de IA
+  e colaboradores externos. Organiza o acesso ao ecossistema por propósito:
+  A) entender o projeto, B) agente de IA iniciando sessão, C) executar tarefa
+  específica, D) contribuir com o ecossistema. Cada propósito tem links diretos
+  para os recursos corretos. Permite compartilhar um único link como ponto de
+  entrada universal para o ecossistema.
+
+### Atualizado
+- `ecossistema-sumario/INDICE.md`: ONBOARDING.md adicionado à tabela de arquivos
+- `ecossistema-sumario/sumario.md` → v1.8: M01 atualizado para v0.23
+- `ecossistema-sumario/backlog-versoes.md`: entrada v0.23 registrada
+
+---
+
 ## [2.6] — 2026-06-03
 
 ### Corrigido
