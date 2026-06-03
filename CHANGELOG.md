@@ -1,3 +1,21 @@
+## [2.5] — 2026-06-02
+
+### Adicionado
+- `ecossistema-dtd-setis` (P02, privado): projeto que documenta a construção
+  do ecossistema. Contém Resumo Executivo técnico completo (v1.0) e relatório
+  narrativo da sessão fundacional de 2026-06-02 — história das decisões de
+  design, percalços, soluções e aprendizados. O projeto que deveria ter sido P01.
+- `workflow-registro-sessao` (W03, público): workflow de registro estruturado
+  de sessões de trabalho intensivo — distinto do W02 (reuniões). Documenta
+  como preservar a história de construção de sistemas em sessões de IA.
+
+### Atualizado
+- `ecossistema-sumario/sumario.md` → v1.6: P02 e W03 registrados
+- `ecossistema-sumario/CONTEXTO.md` → v1.8: P02 e W03 adicionados
+- `dtd-setis/projetos/monitoramento.md`: ecossistema adicionado como projeto ativo
+
+---
+
 ## [2.4] — 2026-06-02
 
 ### Corrigido (saneamento de drifts — causa raiz: S04 sem cobertura de arquivos centrais)
