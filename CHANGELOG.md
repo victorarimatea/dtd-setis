@@ -1,18 +1,25 @@
-## [2.5] — 2026-06-02
+# CHANGELOG — Ecossistema DTD/SETIS
 
-### Adicionado
-- `ecossistema-dtd-setis` (P02, privado): projeto que documenta a construção
-  do ecossistema. Contém Resumo Executivo técnico completo (v1.0) e relatório
-  narrativo da sessão fundacional de 2026-06-02 — história das decisões de
-  design, percalços, soluções e aprendizados. O projeto que deveria ter sido P01.
-- `workflow-registro-sessao` (W03, público): workflow de registro estruturado
-  de sessões de trabalho intensivo — distinto do W02 (reuniões). Documenta
-  como preservar a história de construção de sistemas em sessões de IA.
+Histórico cronológico de tudo que foi construído.
+Entrada mais recente no topo.
 
-### Atualizado
-- `ecossistema-sumario/sumario.md` → v1.6: P02 e W03 registrados
-- `ecossistema-sumario/CONTEXTO.md` → v1.8: P02 e W03 adicionados
-- `dtd-setis/projetos/monitoramento.md`: ecossistema adicionado como projeto ativo
+---
+
+## [2.6] — 2026-06-03
+
+### Corrigido
+- `dtd-setis/README.md`: atualizado com estado completo do ecossistema derivado
+  do `sumario.md` v1.6 — diagrama ASCII com 4 camadas e todos os tipos (M, S, D, W, A, P);
+  tabela de repositórios expandida de 4 para 15 entradas, organizadas por tipo;
+  seção de navegação com orientação de leitura ("Leia primeiro"). Correção de drift
+  acumulado desde as Fases 2, 3 e 4 do ecossistema (2026-06-01 a 2026-06-02).
+- `dtd-setis/CHANGELOG.md`: cabeçalho duplicado (`# CHANGELOG`) removido — o arquivo
+  tinha o bloco de introdução repetido a partir da posição [0.9], violando a convenção
+  de entrada mais recente no topo.
+- `skill-github-orquestracao/SKILL.md` → v2.1: Verificação 2 da Etapa 6 reescrita
+  para comparação obrigatória contra `sumario.md` (fonte de verdade) em vez de
+  verificação auto-referencial da sessão atual; Erro #009 registrado com causa raiz
+  e correção.
 
 ---
 
@@ -280,12 +287,6 @@
 
 ---
 
-# CHANGELOG — Ecossistema DTD/SETIS
-
-Histórico cronológico de tudo que foi construído.
-Entrada mais recente no topo.
-
----
 
 ## [0.9] — 2026-05-29
 
