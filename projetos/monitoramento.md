@@ -13,6 +13,7 @@
 
 | Projeto | Descrição | Parceiros | Início | Status |
 |---|---|---|---|---|
+| **Ecossistema de Automação e Governança Documental** | Construção do ecossistema integrado de repositórios, skills e workflows para automação e governança documental da DTD/SETIS/SES-DF. Inclui 6 tipos de repositório, skill de orquestração S04, pipeline de transcrição, registro de reuniões e 28 documentos regulatórios transcritos. | DTD/SETIS interna | Mai/2026 | Em evolução contínua |
 | **PoC Telessaúde — Sistema Prisional** | Avaliação da viabilidade técnica e operacional de totem de telemedicina multiparâmetros no Sistema Prisional do DF, com foco na redução de escoltas externas para atendimentos ambulatoriais. Conduzida como Prova de Conceito (90 dias). | GESSP/SES-DF, SEAPE/DF, Núcleo de Telessaúde IGES-DF | Jun/2026 | Em planejamento — aguarda definição da unidade piloto |
 
 ---
