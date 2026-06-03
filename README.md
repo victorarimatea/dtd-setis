@@ -123,6 +123,8 @@ aspectos regulatórios, deliberações pendentes e resultado esperado.
 | workflow-registro-reuniao | Workflow (W02) | Privado | Processo de registro institucional de reunião — PLAUD NOTE Pro → Markdown → SEI |
 | [skill-registro-reuniao](https://github.com/victorarimatea/skill-registro-reuniao) | Skill (S06) | Público | Transforma resumos de reunião em registros institucionais padronizados para o SEI |
 | agenda-dtd | Agenda (A01) | Privado | Acervo cronológico de registros de reunião da DTD — indexado por data de ocorrência |
+| [workflow-registro-sessao](https://github.com/victorarimatea/workflow-registro-sessao) | Workflow (W03) | Público | Processo de registro estruturado de sessões de trabalho intensivo |
+| ecossistema-dtd-setis | Projeto (P02) | Privado | Projeto do Ecossistema — Resumo Executivo, relatórios de sessão, história da construção |
 | telessaude-poc-prisional | Projeto (P01) | Privado | PoC do Totem Health360 no Sistema Prisional do DF |
 
 ---
