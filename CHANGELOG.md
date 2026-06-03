@@ -13,15 +13,7 @@ Entrada mais recente no topo.
   tabela de repositórios expandida de 4 para 15 entradas, organizadas por tipo;
   seção de navegação com orientação de leitura ("Leia primeiro"). Correção de drift
   acumulado desde as Fases 2, 3 e 4 do ecossistema (2026-06-01 a 2026-06-02).
-- `dtd-setis/CHANGELOG.md`: cabeçalho duplicado (`# CHANGELOG`) removido — o arquivo
-  tinha o bloco de introdução repetido a partir da posição [0.9], violando a convenção
-  de entrada mais recente no topo.
-- `skill-github-orquestracao/SKILL.md` → v2.1: Verificação 2 da Etapa 6 reescrita
-  para comparação obrigatória contra `sumario.md` (fonte de verdade) em vez de
-  verificação auto-referencial da sessão atual; Erro #009 registrado com causa raiz
-  e correção.
-
----
+- `dtd-setis/CHANGELOG.md`: cabeçalho duplicado (
 
 ## [2.4] — 2026-06-02
 
