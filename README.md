@@ -33,21 +33,21 @@ Camada 4 — Portfólio Institucional
     dtd-setis: porta de entrada, ROADMAP, CHANGELOG, vitrine
 
 Camada 3 — Conhecimento Estrutural (Matrizes M)
-    M01 ecossistema-sumario      M02 saude-digital-taxonomia
+    M01 hub-fonte      M02 saude-digital-taxonomia
 
 Camada 2 — Instrumentos Operacionais (Skills S + Workflows W)
-    S01 skill-criador-de-skills      S02 skill-iac-pdtic (privado)
-    S03 skill-poc-saude-digital      S04 skill-github-orquestracao
-    S05 skill-transcricao-documental S06 skill-registro-reuniao
+    S01 skl-criador-de-skills      S02 skl-iac-pdtic (privado)
+    S03 skl-poc-saude-digital      S04 skill-github-orquestracao
+    S05 skl-transcricao-documental S06 skill-registro-reuniao
     W01 workflow-transcricao-documental
-    W02 workflow-registro-reuniao (privado)
+    W02 wkf-registro-reuniao (privado)
     W03 workflow-registro-sessao
 
 Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
-    D01 governanca-ses-df            D02 doc-cadastro-ses-setis-dtd
-    A01 agenda-dtd (privado)
-    P01 telessaude-poc-prisional (privado)
-    P02 ecossistema-dtd-setis (privado)
+    D01 doc-governanca-ses-df            D02 doc-cadastro-ses-setis-dtd
+    A01 agd-dtd (privado)
+    P01 prj-telessaude-poc-prisional (privado)
+    P02 hub-memoria (privado)
 ```
 
 ---
@@ -58,41 +58,41 @@ Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
 
 | ID | Repositório | Visibilidade | Descrição |
 |---|---|---|---|
-| M01 | [ecossistema-sumario](https://github.com/victorarimatea/ecossistema-sumario) | Público | Âncora do ecossistema: sumário, nomenclatura, glossário e contexto |
-| M02 | [saude-digital-taxonomia](https://github.com/victorarimatea/saude-digital-taxonomia) | Público | Taxonomia estruturada de saúde digital |
+| M01 | [ecossistema-sumario](https://github.com/victorarimatea/hub-fonte) | Público | Âncora do ecossistema: sumário, nomenclatura, glossário e contexto |
+| M02 | [saude-digital-taxonomia](https://github.com/victorarimatea/mat-saude-digital-taxonomia) | Público | Taxonomia estruturada de saúde digital |
 
 ### Skills (S) — agentes de automação especializados
 
 | ID | Repositório | Visibilidade | Descrição |
 |---|---|---|---|
-| S01 | [skill-criador-de-skills](https://github.com/victorarimatea/skill-criador-de-skills) | Público | Cria novos repositórios de skill via API GitHub |
-| S02 | skill-iac-pdtic | Privado | Gera IAC-V e IAC-H do PDTIC da SES-DF |
-| S03 | [skill-poc-saude-digital](https://github.com/victorarimatea/skill-poc-saude-digital) | Público | Gera documentos de PoC em saúde digital no padrão SES-DF |
-| S04 | [skill-github-orquestracao](https://github.com/victorarimatea/skill-github-orquestracao) | Público | Garante consistência do ecossistema a cada operação |
-| S05 | [skill-transcricao-documental](https://github.com/victorarimatea/skill-transcricao-documental) | Público | Converte PDFs regulatórios em Markdown estruturado |
-| S06 | [skill-registro-reuniao](https://github.com/victorarimatea/skill-registro-reuniao) | Público | Transforma resumos de reunião em registros institucionais para o SEI |
+| S01 | [skill-criador-de-skills](https://github.com/victorarimatea/skl-criador-de-skills) | Público | Cria novos repositórios de skill via API GitHub |
+| S02 | skl-iac-pdtic | Privado | Gera IAC-V e IAC-H do PDTIC da SES-DF |
+| S03 | [skill-poc-saude-digital](https://github.com/victorarimatea/skl-poc-saude-digital) | Público | Gera documentos de PoC em saúde digital no padrão SES-DF |
+| S04 | [skill-github-orquestracao](https://github.com/victorarimatea/skl-github-orquestracao) | Público | Garante consistência do ecossistema a cada operação |
+| S05 | [skill-transcricao-documental](https://github.com/victorarimatea/skl-transcricao-documental) | Público | Converte PDFs regulatórios em Markdown estruturado |
+| S06 | [skill-registro-reuniao](https://github.com/victorarimatea/skl-registro-reuniao) | Público | Transforma resumos de reunião em registros institucionais para o SEI |
 
 ### Documentos (D) — conteúdo institucional estruturado
 
 | ID | Repositório | Visibilidade | Descrição |
 |---|---|---|---|
-| D01 | [governanca-ses-df](https://github.com/victorarimatea/governanca-ses-df) | Público | 28 documentos transcritos: legislação, portarias, resoluções e referências internacionais |
-| D02 | [doc-cadastro-ses-setis-dtd](https://github.com/victorarimatea/doc-cadastro-ses-setis-dtd) | Público | Matriz de cadastros de referência da DTD/SETIS/SES-DF |
+| D01 | [governanca-ses-df](https://github.com/victorarimatea/doc-governanca-ses-df) | Público | 28 documentos transcritos: legislação, portarias, resoluções e referências internacionais |
+| D02 | [doc-cadastro-ses-setis-dtd](https://github.com/victorarimatea/mat-cadastro-ses-setis-dtd) | Público | Matriz de cadastros de referência da DTD/SETIS/SES-DF |
 
 ### Workflows (W) — memória organizacional de processos
 
 | ID | Repositório | Visibilidade | Descrição |
 |---|---|---|---|
-| W01 | [workflow-transcricao-documental](https://github.com/victorarimatea/workflow-transcricao-documental) | Público | Processo completo de transcrição de PDFs regulatórios |
-| W02 | workflow-registro-reuniao | Privado | Processo de registro institucional de reunião (PLAUD NOTE → SEI) |
-| W03 | [workflow-registro-sessao](https://github.com/victorarimatea/workflow-registro-sessao) | Público | Registro estruturado de sessões de trabalho intensivo |
+| W01 | [workflow-transcricao-documental](https://github.com/victorarimatea/wkf-transcricao-documental) | Público | Processo completo de transcrição de PDFs regulatórios |
+| W02 | wkf-registro-reuniao | Privado | Processo de registro institucional de reunião (PLAUD NOTE → SEI) |
+| W03 | [workflow-registro-sessao](https://github.com/victorarimatea/wkf-registro-sessao) | Público | Registro estruturado de sessões de trabalho intensivo |
 
 ### Projetos (P) — iniciativas formais da DTD
 
 | ID | Repositório | Status | Descrição |
 |---|---|---|---|
-| P01 | telessaude-poc-prisional | em execução | PoC de totem de telemedicina no Sistema Prisional do DF |
-| P02 | ecossistema-dtd-setis | em execução | Memória viva da construção do próprio ecossistema |
+| P01 | prj-telessaude-poc-prisional | em execução | PoC de totem de telemedicina no Sistema Prisional do DF |
+| P02 | hub-memoria | em execução | Memória viva da construção do próprio ecossistema |
 
 ---
 
