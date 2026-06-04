@@ -1,7 +1,7 @@
 # Roadmap — DTD/SETIS/SES-DF
 
-**Última atualização:** 2026-06-02
-**Versão do ecossistema:** CHANGELOG [2.3] | S04 v1.8
+**Última atualização:** 2026-06-04
+**Versão do ecossistema:** CHANGELOG [2.6] | S04 v2.2
 
 ---
 
@@ -35,6 +35,7 @@
   relação W↔P, referência cruzada via EXECUCOES.md
 - ✅ `wkf-transcricao-documental` (W01) — caso zero do tipo W
 - ✅ `wkf-registro-reuniao` (W02) — processo PLAUD NOTE → SEI
+- ✅ `wkf-registro-sessao` (W03) — registro estruturado de sessões de trabalho intensivo (2026-06-02)
 - ✅ Tipo A (Agendas) formalizado — indexação cronológica, data_reuniao vs
   data_registro, estrutura reunioes/AAAA/MM/
 - ✅ `agd-dtd` (A01) — acervo cronológico de reuniões da DTD
@@ -42,6 +43,10 @@
   institucionais padronizados para o SEI
 - ✅ GLOSSARIO.md com 8 categorias e 34+ termos formais
 - ✅ Saneamento de drifts e auditoria cruzada de consistência (Erro #007)
+- ✅ `hub-memoria` (P02) — projeto de memória da construção do ecossistema (2026-06-02)
+
+### Fase 5 — Governança e rastreabilidade cronológica
+- ✅ S04 v2.2 e W03 v1.1 — gestão de ROADMAP para itens não previstos: reconciliação obrigatória a cada operação (2026-06-04)
 
 ---
 
@@ -64,7 +69,7 @@ Habilitará o uso pleno da `skl-iac-pdtic` (S02) no ecossistema.
 
 ## 📅 Médio prazo
 
-- Criar `workflow-iac-conformidade` (W03) — análise de conformidade documental
+- Criar `wkf-iac-conformidade` (W04) — análise de conformidade documental
   automatizada, consumindo D01 e S02 como subprocessos
 - Criar `governanca-ses-df-fase3` — transcrição dos documentos 10–17 pendentes
 - Evoluir S05 para fase sequencial autônoma (condição: PASSOU ≥ 95% em ≥ 10 docs)
