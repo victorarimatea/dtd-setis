@@ -1,3 +1,20 @@
+## [3.1] — 2026-06-04
+
+### Adicionado
+- W04 `wkf-roadmap-geral` v1.0 — workflow de gestão de roadmap genérico e replicável;
+  ciclo semanal de revisão estratégica com três camadas (interna, estratégica, pública),
+  staging area, diálogo estratégico com perguntas provocadoras e geração de Resumo Executivo
+- `hub-entrada/staging.md` v1.0 — staging area com quatro seções: registros automáticos (S04),
+  ideias sinalizadas, ideias mineradas (Etapa 6-A) e arquivo histórico; política de limpeza
+  e ciclo de vida completo das ideias
+
+### Atualizado
+- S04 `skl-github-orquestracao` → v2.3: Etapa 6-A adicionada — mineração ativa de ideias
+  com 7 perguntas orientadoras de elegibilidade, procedimento de 6 passos e depósito na
+  staging.md/Seção C. Erro #011 registrado.
+
+---
+
 ## [3.0] — 2026-06-04
 
 ### Atualizado
