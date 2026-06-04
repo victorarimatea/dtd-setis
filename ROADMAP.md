@@ -1,7 +1,7 @@
 # Roadmap — DTD/SETIS/SES-DF
 
 **Última atualização:** 2026-06-04
-**Versão do ecossistema:** CHANGELOG [2.6] | S04 v2.2
+**Versão do ecossistema:** CHANGELOG [3.1] | S04 v2.3
 
 ---
 
@@ -47,6 +47,9 @@
 
 ### Fase 5 — Governança e rastreabilidade cronológica
 - ✅ S04 v2.2 e W03 v1.1 — gestão de ROADMAP para itens não previstos: reconciliação obrigatória a cada operação (2026-06-04)
+- ✅ W04 `wkf-roadmap-geral` v1.0 — workflow de gestão de roadmap com staging area, três camadas de curadoria e ciclo semanal de revisão estratégica (2026-06-04)
+- ✅ `staging.md` — staging area criada no hub-entrada: receptor de registros automáticos (S04) e ideias mineradas (Etapa 6-A) (2026-06-04)
+- ✅ S04 v2.3 — Etapa 6-A: mineração ativa de ideias com 7 critérios de elegibilidade e procedimento de 6 passos (2026-06-04)
 
 ---
 
