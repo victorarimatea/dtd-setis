@@ -15,6 +15,7 @@
 - ✅ Skill criador de skills `skl-criador-de-skills` (S01)
 
 ### Fase 2 — Instrumentos institucionais
+- ✅ Skill briefing `skl-briefing-saude-digital` (S07) — monitoramento periódico de saúde digital com taxonomia
 - ✅ Skill IAC `skl-iac-pdtic` (S02) — IAC-V e IAC-H do PDTIC
 - ✅ Skill PoC `skl-poc-saude-digital` (S03) — PoCs em saúde digital
 - ✅ Skill orquestração `skl-github-orquestracao` (S04 v1.8) —
