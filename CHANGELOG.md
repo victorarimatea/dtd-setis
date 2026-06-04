@@ -1,3 +1,20 @@
+## [2.6] — 2026-06-04
+
+### Adicionado
+- `skl-briefing-saude-digital` (S07, público): skill de briefing periódico de saúde digital
+  para o Diretor de Transformação Digital. Formaliza no ecossistema uma skill que existia apenas
+  no projeto Claude — cobrindo monitoramento de notícias, regulações, mercado e tecnologia,
+  com classificação taxonômica via M02, gestão de histórico contínuo e formato mobile-first.
+
+### Corrigido
+- `hub-entrada/README.md`: diagrama ASCII e tabelas corrigidos — nomes de repositórios
+  atualizados para o padrão atual (`skl-`, `wkf-`, `hub-`); seção Agendas (A01) adicionada
+  (ausente desde o CHANGELOG [2.3]); S07 incluído.
+- `hub-fonte/sumario.md` v1.9→v2.0: tabela de Links rápidos corrigida — duplicatas removidas,
+  todos os 18 repositórios ativos listados com ID, tipo e visibilidade.
+
+---
+
 # CHANGELOG — Ecossistema DTD/SETIS
 
 Histórico cronológico de tudo que foi construído.
