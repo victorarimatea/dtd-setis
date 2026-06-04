@@ -1,3 +1,15 @@
+## [2.9] — 2026-06-04
+
+### Adicionado / Melhorado
+- `hub-fonte/CONTEXTO.md` v2.1→v2.2: seção "Taxonomia e Glossário — distinção
+  essencial" adicionada com exemplos concretos, tabela de coexistência e regra
+  de uso para agentes de IA. Elimina ambiguidade histórica entre M01 e M02.
+- `mat-saude-digital-taxonomia/README.md` v1.0→v1.1: reescrito com preâmbulo
+  explicativo, distinção vs. glossário com exemplo prático (Interoperabilidade),
+  guia de uso para classificação e regra para agentes de IA.
+
+---
+
 ## [2.8] — 2026-06-04
 
 ### Adicionado
