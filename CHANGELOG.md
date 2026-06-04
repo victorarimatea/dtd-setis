@@ -1,3 +1,23 @@
+## [2.7] — 2026-06-04
+
+### Adicionado
+- `hub-fonte/GLOSSARIO.md` v1.4→v1.5: Parte II — Saúde Digital incorporada com
+  26 termos normativos (Cat. 9–12) extraídos do corpus documental do D01 via
+  NotebookLM. Criada Cat. 13 (Monitoramento e Inteligência Organizacional) como
+  placeholder. Índice Alfabético Unificado com 62 entradas adicionado.
+
+### Corrigido / Adaptado
+- Termo "Auditabilidade" renomeado para "Auditabilidade de IA" (Cat. 11) para
+  evitar ambiguidade com "Auditoria de glossário" (Cat. 5). Cross-references
+  cruzados entre as duas entradas. Decisão aprovada pelo mantenedor.
+
+### Regra implementada
+- Análise de conflitos de terminologia passa a ser etapa obrigatória antes de
+  qualquer complementação, modificação ou correção do GLOSSARIO.md. Conflitos
+  identificados devem ser alertados ao mantenedor antes da execução.
+
+---
+
 ## [2.6] — 2026-06-04
 
 ### Adicionado
