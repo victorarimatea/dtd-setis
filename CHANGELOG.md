@@ -59,11 +59,11 @@ Entrada mais recente no topo.
 ## [2.5] — 2026-06-02
 
 ### Adicionado
-- `ecossistema-dtd-setis` (P02, privado): projeto que documenta a construção
+- `hub-memoria` (P02, privado): projeto que documenta a construção
   do ecossistema. Contém Resumo Executivo técnico completo (v1.0) e relatório
   narrativo da sessão fundacional de 2026-06-02 — história das decisões de
   design, percalços, soluções e aprendizados. O projeto que deveria ter sido P01.
-- `workflow-registro-sessao` (W03, público): workflow de registro estruturado
+- `wkf-registro-sessao` (W03, público): workflow de registro estruturado
   de sessões de trabalho intensivo — distinto do W02 (reuniões). Documenta
   como preservar a história de construção de sistemas em sessões de IA.
 
@@ -86,7 +86,7 @@ Entrada mais recente no topo.
   (M, S, D, W, A, P), 4 camadas, relações entre tipos e papel da S04;
   versão anterior (v1.0) descrevia arquitetura de 3 camadas sem W, A, D01
 - `ROADMAP.md`: reorganizado em 5 seções (concluído / em andamento / próxima
-  ação / médio prazo / longo prazo); governanca-ses-df e todos os entregáveis
+  ação / médio prazo / longo prazo); doc-governanca-ses-df e todos os entregáveis
   de 2026-06-02 marcados como ✅
 - `INDICE.md`: data, contagem de arquivos e referência a arquitetura.md v2.0
   atualizados
@@ -94,7 +94,7 @@ Entrada mais recente no topo.
   completo do portfólio desde a fundação
 
 ### Atualizado (blindagem estrutural)
-- `skill-github-orquestracao` → v1.8: Verificação 5 (consistência cruzada
+- `skl-github-orquestracao` → v1.8: Verificação 5 (consistência cruzada
   obrigatória entre sumario × CONTEXTO × README × ROADMAP × arquitetura);
   OP-C recebe CONTEXTO.md; OP-W e OP-AG recebem ROADMAP.md e arquitetura.md;
   Erro #007 documentado com causa raiz e correção
@@ -108,14 +108,14 @@ Entrada mais recente no topo.
   — não por ordem de criação. Repositórios `agenda-[unidade]` contêm acervos
   cronológicos de registros de reunião com estrutura `reunioes/AAAA/MM/` e
   campos distintos `data_reuniao` / `data_registro`.
-- `agenda-dtd` (A01, privado): acervo institucional de reuniões da DTD.
-- `workflow-registro-reuniao` (W02, privado): memória organizacional do processo
+- `agd-dtd` (A01, privado): acervo institucional de reuniões da DTD.
+- `wkf-registro-reuniao` (W02, privado): memória organizacional do processo
   de transformação de gravações em registros formais — inclui histórico de
   problemas P01-P03 e roadmap de automação com integração SEI.
-- `skill-registro-reuniao` (S06, público): skill que formaliza o prompt
+- `skl-registro-reuniao` (S06, público): skill que formaliza o prompt
   institucional desenvolvido com o PLAUD NOTE Pro — 5 etapas, 8 seções
   obrigatórias, depósito automático via S04.
-- `skill-github-orquestracao` → v1.7: OP-AG adicionado com lógica específica
+- `skl-github-orquestracao` → v1.7: OP-AG adicionado com lógica específica
   de indexação cronológica do tipo A.
 
 ### Atualizado
@@ -130,7 +130,7 @@ Entrada mais recente no topo.
 ## [2.2] — 2026-06-02
 
 ### Adicionado
-- `workflow-transcricao-documental` (W01, público): primeiro repositório do
+- `wkf-transcricao-documental` (W01, público): primeiro repositório do
   tipo Workflow (W) no ecossistema. Contém o WORKFLOW.md com 8 seções
   obrigatórias — missão, estado final esperado, etapas, skills consumidas,
   histórico de problemas, roadmap de automação — e pasta `execucoes/` para
@@ -146,7 +146,7 @@ Entrada mais recente no topo.
 - `ecossistema-sumario/GLOSSARIO.md` → v1.3: Categoria 7 com 5 termos
   (workflow, subprocesso, log de execução, estado final esperado, EXECUCOES.md)
 - `ecossistema-sumario/CONTEXTO.md` → v1.5: W01 nos repositórios ativos
-- `skill-github-orquestracao` → v1.6: OP-W adicionado; EXECUCOES.md na OP-P
+- `skl-github-orquestracao` → v1.6: OP-W adicionado; EXECUCOES.md na OP-P
 - `dtd-setis/README.md`: diagrama ASCII e tabela com tipo W e W01
 
 ---
@@ -166,22 +166,22 @@ Entrada mais recente no topo.
 ## [2.0] — 2026-06-02
 
 ### Adicionado
-- `governanca-ses-df` (D01, público): primeiro repositório do tipo Documento
+- `doc-governanca-ses-df` (D01, público): primeiro repositório do tipo Documento
   no ecossistema. Contém 28 documentos transcritos em Markdown sobre saúde
   digital — 18 regulamentações nacionais (legislação federal, distrital,
   portarias ministeriais, resoluções CFM e ANVISA) + 10 referências
   internacionais bilíngues EN+PT. Estrutura com 6 subpastas + WORKFLOW-
   ESPECIFICACAO.md v1.1 (8 problemas documentados, protocolo de exceção,
   roadmap de automação).
-- `skill-transcricao-documental` (S05, público): pipeline de transcrição
+- `skl-transcricao-documental` (S05, público): pipeline de transcrição
   documental formalizado como skill do ecossistema — 7 etapas, auto-
   verificação programática, protocolo de exceção §3.1.
 
 ### Regularizado
-- `doc-cadastro-ses-setis-dtd` (D02): repositório existente sem estrutura
+- `mat-cadastro-ses-setis-dtd` (D02): repositório existente sem estrutura
   padrão — adicionados INDICE.md, backlog-versoes.md e ficha técnica.
   Registrado formalmente como D02 no sumário.
-- `skill-iac-pdtic` (S02): estava ativo mas não registrado no sumário.
+- `skl-iac-pdtic` (S02): estava ativo mas não registrado no sumário.
   Regularizado como S02 v2.0.
 
 ### Atualizado
@@ -205,7 +205,7 @@ Entrada mais recente no topo.
 ## [1.8] — 2026-06-01
 
 ### Atualizado
-- `skill-github-orquestracao` → v1.5: Verificação 4 adicionada à Etapa 6
+- `skl-github-orquestracao` → v1.5: Verificação 4 adicionada à Etapa 6
   da S04 — auditoria obrigatória de termos novos ao final de cada operação,
   com comparação ao GLOSSARIO.md e proposta de atualização antes do
   encerramento. O GLOSSARIO.md criado em [1.7] passa a ter mecanismo
@@ -226,7 +226,7 @@ Entrada mais recente no topo.
 - `ecossistema-sumario/sumario.md` → v1.0: marco de maturidade do M01;
   GLOSSARIO.md registrado; S04 atualizado para v1.4
 - `ecossistema-sumario/nomenclatura.md` → v0.8: referência ao GLOSSARIO.md
-- `skill-github-orquestracao` → v1.4: INDICE.md adicionado às checklists
+- `skl-github-orquestracao` → v1.4: INDICE.md adicionado às checklists
   OP-B, OP-C, OP-D, OP-E e OP-F (instrução condicional); Erro #006 incorporado
 
 ---
@@ -243,7 +243,7 @@ Entrada mais recente no topo.
 - `dtd-setis/README.md`: seção de navegação simplificada apontando para INDICE.md
 - `ecossistema-sumario/nomenclatura.md` → v0.7: Seção 10 — INDICE.md obrigatório
   em todos os repositórios sem exceção
-- `skill-github-orquestracao` → v1.3: OP-E com critério objetivo, INDICE.md
+- `skl-github-orquestracao` → v1.3: OP-E com critério objetivo, INDICE.md
   nas checklists OP-A e OP-P, Erro #005 incorporado
 
 ---
@@ -251,7 +251,7 @@ Entrada mais recente no topo.
 ## [1.5] — 2026-06-01
 
 ### Atualizado
-- `skill-github-orquestracao` → v1.2: segundo ciclo de aprendizado
+- `skl-github-orquestracao` → v1.2: segundo ciclo de aprendizado
   contínuo na mesma sessão de criação — Erro #004 incorporado.
   Verificação de backlog agora aceita '## v' e '### v' como padrões
   válidos, eliminando falsos positivos em repositórios com subseções.
@@ -263,7 +263,7 @@ Entrada mais recente no topo.
 
 ### Corrigido
 - `README.md`: instrução obrigatória de inicialização adicionada ao topo —
-  Claude deve ler o CONTEXTO.md do ecossistema-sumario antes de qualquer ação;
+  Claude deve ler o CONTEXTO.md do hub-fonte antes de qualquer ação;
   resolve falha crítica de navegação identificada no diagnóstico de maturidade
 
 ### Adicionado
@@ -280,7 +280,7 @@ Entrada mais recente no topo.
 ## [1.3] — 2026-06-01
 
 ### Atualizado
-- `skill-github-orquestracao` → v1.1: primeiro ciclo completo de aprendizado
+- `skl-github-orquestracao` → v1.1: primeiro ciclo completo de aprendizado
   contínuo da skill — Erro #003 identificado, corrigido e registrado na mesma
   sessão de criação. Python urllib definido como padrão obrigatório para chamadas
   à API GitHub; funções helper (api_put, api_get) documentadas na Etapa 5 da skill.
@@ -304,7 +304,7 @@ Entrada mais recente no topo.
 ## [1.1] — 2026-06-01
 
 ### Adicionado
-- Repositório público `skill-github-orquestracao` (S04): skill de orquestração
+- Repositório público `skl-github-orquestracao` (S04): skill de orquestração
   do ecossistema DTD/SETIS. Garante que toda operação no GitHub atualize todos
   os arquivos afetados — opera em duas fases separadas por aprovação explícita
   (planejamento sem token → aprovação → execução com token). Incorpora registro
@@ -324,7 +324,7 @@ Entrada mais recente no topo.
 - Pasta `projetos/` com `README.md` e `monitoramento.md`: monitoramento público
   de projetos da DTD/SETIS/SES-DF; visão panorâmica curada para audiência externa;
   documentação técnica interna mantida em repositórios privados separados
-- Repositório privado `telessaude-poc-prisional` (P01): primeiro projeto formal
+- Repositório privado `prj-telessaude-poc-prisional` (P01): primeiro projeto formal
   do ecossistema, documentando a PoC do Totem Health360 no Sistema Prisional do DF
 
 ### Atualizado
@@ -344,13 +344,13 @@ Entrada mais recente no topo.
 ### Atualizado
 - `ecossistema-sumario/CONTEXTO.md` -> v1.1: separação entre contexto durável e estado operacional transitório; tabela de repositórios completada com a skill S03 (skill-poc-saude-digital) e com o repositório-mãe (dtd-setis)
 - `ecossistema-sumario/nomenclatura.md` -> v0.5: arquivos obrigatórios do M01 completados; backlog de ações da DTD documentado
-- `ecossistema-sumario/sumario.md` -> v0.3: dtd-setis registrado; versão do M01 reconciliada para v0.10
+- `ecossistema-sumario/sumario.md` -> v0.3: hub-entrada registrado; versão do M01 reconciliada para v0.10
 
 ### Adicionado
 - `ecossistema-sumario/backlog-acoes-dtd.md`: histórico retrospectivo de ações e produtos da DTD — fonte única para relatórios de atividade consolidados
 
 ### Corrigido
-- Drift de índices: S03 e dtd-setis ausentes do sumário/contexto; versão do M01 desalinhada (índices em v0.5, backlog em v0.9) -> reconciliada para v0.10
+- Drift de índices: S03 e hub-entrada ausentes do sumário/contexto; versão do M01 desalinhada (índices em v0.5, backlog em v0.9) -> reconciliada para v0.10
 
 ---
 
@@ -367,31 +367,31 @@ Entrada mais recente no topo.
 ## [0.7] — 2026-05-28
 
 ### Adicionado
-- Repositório público `skill-poc-saude-digital` (S03) incorporado ao ecossistema
+- Repositório público `skl-poc-saude-digital` (S03) incorporado ao ecossistema
 - Padrão de PoC em Saúde Digital formalizado como skill: 11 seções obrigatórias,
   protocolo de governança, análise normativa e instrumentos jurídicos
 - Baseado na PoC MedNear, caso zero do Marco Regulatório Interno de PoCs da SES-DF
-- `sumario.md` do ecossistema-sumario estruturado pela primeira vez (v0.2)
+- `sumario.md` do hub-fonte estruturado pela primeira vez (v0.2)
 
 ---
 
 ## [0.6] — 2026-05-27
 
 ### Adicionado
-- Repositório público `dtd-setis` como repositório mãe do ecossistema
+- Repositório público `hub-entrada` como repositório mãe do ecossistema
 - `README.md` com apresentação pública e portfólio da DTD
 - `MANIFESTO.md` com propósito, visão, objetivos e princípios
 - `ROADMAP.md` com planejamento das próximas entregas
 - `CHANGELOG.md` (este arquivo)
 - `DECISOES.md` com registro das grandes decisões do projeto
 - `docs/arquitetura.md` com descrição técnica do ecossistema
-- `CONTEXTO.md` no `ecossistema-sumario` para inicialização rápida de sessões
+- `CONTEXTO.md` no `hub-fonte` para inicialização rápida de sessões
 
 ### Atualizado
-- `skill-iac-pdtic` → v2.0: adição do modo IAC-H, governança SES-DF,
+- `skl-iac-pdtic` → v2.0: adição do modo IAC-H, governança SES-DF,
   regras de linguagem institucional, protocolo de 7 etapas
 - `ecossistema-sumario/sumario.md` → v0.5: modelo IAC documentado,
-  skill-iac-pdtic registrada como v2.0
+  skl-iac-pdtic registrada como v2.0
 - `ecossistema-sumario/nomenclatura.md` → v0.3: seção 8 adicionada
   (Modelo IAC como padrão do ecossistema)
 - `ecossistema-sumario/README.md`: instrução de nova sessão adicionada
