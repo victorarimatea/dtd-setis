@@ -1,3 +1,18 @@
+## [2.8] — 2026-06-04
+
+### Adicionado
+- `hub-fonte/GLOSSARIO.md` v1.5→v1.6: 5 novas categorias com 32 termos.
+  Cat. 13 — Monitoramento e Inteligência Organizacional (8 termos, com
+  pergunta orientadora por tipo). Cat. 14 — Análise de Dados e BI (6 termos).
+  Cat. 15 — Gestão Orientada a Dados (5 termos). Cat. 16 — Arquitetura de
+  Dados (5 termos). Cat. 17 — Conceitos Proprietários do Ecossistema (8 termos
+  de autoria DTD/SETIS: Radar Institucional, Mapa Cognitivo Institucional,
+  Sistema de Consciência Situacional, Ativo Informacional, Memória Institucional,
+  Conhecimento Operacional, Conhecimento Estratégico, Observabilidade
+  Organizacional). Índice Alfabético Unificado atualizado: 62 → 91 entradas.
+
+---
+
 ## [2.7] — 2026-06-04
 
 ### Adicionado
