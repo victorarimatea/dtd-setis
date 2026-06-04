@@ -1,3 +1,25 @@
+## [3.0] — 2026-06-04
+
+### Atualizado
+- `skl-github-orquestracao` (S04) → v2.2: Verificação 5-A adicionada —
+  reconciliação obrigatória com ROADMAP ao final de toda operação. Itens
+  previstos marcados ✅ com data; itens não previstos incluídos retroativamente
+  já como ✅ com data. Erro #010 registrado.
+- `wkf-registro-sessao` (W03) → v1.1: Etapa 2-A adicionada — reconciliação
+  com ROADMAP antes da redação do relatório narrativo. Etapas 3 e 4 atualizadas
+  para incluir validação e atualização do ROADMAP.
+- `ROADMAP.md`: W03 `wkf-registro-sessao` e P02 `hub-memoria` adicionados à
+  Fase 4 como concluídos (drift corrigido). Fase 5 criada registrando esta
+  correção estrutural. `wkf-iac-conformidade` renomeado para W04 no médio prazo
+  (W03 já estava ocupado pelo wkf-registro-sessao).
+
+### Corrigido
+- Drift: ROADMAP não tinha instrução para registrar entregáveis não previstos —
+  causava acúmulo silencioso de histórico incompleto. Causa raiz corrigida
+  na S04 (Verificação 5-A) e no W03 (Etapa 2-A).
+
+---
+
 ## [2.9] — 2026-06-04
 
 ### Adicionado / Melhorado
