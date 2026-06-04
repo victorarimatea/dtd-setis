@@ -5,6 +5,29 @@ Entrada mais recente no topo.
 
 ---
 
+## [2.9] — 2026-06-04
+
+### Alterado (refatoração estrutural de nomenclatura)
+- **17 repositórios renomeados** para novo padrão de prefixos de tipo:
+  - `hub-` : infraestrutura do ecossistema (entrada, fonte, memória)
+  - `mat-` : matrizes de conhecimento
+  - `doc-` : acervos documentais
+  - `skl-` : skills
+  - `wkf-` : workflows
+  - `agd-` : agendas
+  - `prj-` : projetos
+- `hub-fonte/nomenclatura.md` → v1.1: Seção 1 reescrita com tabela de prefixos
+  obrigatórios, exemplos e regras; revoga convenção anterior que proibia prefixos
+- Todas as referências internas atualizadas: `sumario.md`, `CONTEXTO.md`,
+  `ONBOARDING.md`, `README.md`, `ROADMAP.md`, `CHANGELOG.md` e 5 `SKILL.md`
+
+**Motivação:** navegação no GitHub era difícil com 17 repositórios sem sinalização
+visual de tipo. Prefixo de 3 letras resolve triagem imediata e agrupamento
+alfabético natural. Decisão tomada após análise comparativa com sistema de
+ficheiros do mantenedor e diagnóstico de que o item 4 (ausência de pistas de tipo)
+era o maior problema de navegação.
+
+
 ## [2.8] — 2026-06-03
 
 ### Atualizado
