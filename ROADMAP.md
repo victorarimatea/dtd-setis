@@ -46,6 +46,8 @@
 - ✅ `hub-memoria` (P02) — projeto de memória da construção do ecossistema (2026-06-02)
 
 ### Fase 5 — Governança e rastreabilidade cronológica
+- ✅ `wkf-auditoria-consistencia` (W05) criado — Workflow de Auditoria de Consistência em 5 camadas; independente da S04; resposta estrutural ao GAP 1 (2026-06-05)
+
 - ✅ `hub-aprendizagem` criado — repositório de memória intelectual: boas práticas, benchmarks e lições aprendidas (2026-06-05)
 - ✅ S04 v2.5 — escala de severidade SEV1–SEV4; classificação retroativa de 13 erros — 2026-06-05
 - ✅ S04 v2.6 — verificações embutidas CONFIRMAR em todas as checklists OP-X; regra de dois registros; padrão de campos de erro — 2026-06-05
