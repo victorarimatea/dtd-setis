@@ -45,6 +45,7 @@ Camada 2 — Instrumentos Operacionais (Skills S + Workflows W)
     W02 wkf-registro-reuniao (privado)
     W03 wkf-registro-sessao
     W04 wkf-roadmap-geral
+    W05 wkf-auditoria-consistencia
 
 Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
     D01 doc-governanca-ses-df            D02 mat-cadastro-ses-setis-dtd
@@ -83,6 +84,8 @@ Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
 | S05 | [skl-transcricao-documental](https://github.com/victorarimatea/skl-transcricao-documental) | Público | Converte PDFs regulatórios em Markdown estruturado |
 | S06 | [skl-registro-reuniao](https://github.com/victorarimatea/skl-registro-reuniao) | Público | Transforma resumos de reunião em registros institucionais para o SEI |
 | S07 | [skl-briefing-saude-digital](https://github.com/victorarimatea/skl-briefing-saude-digital) | Público | Briefing periódico de saúde digital para o Diretor de Transformação Digital |
+
+| W05 | [wkf-auditoria-consistencia](https://github.com/victorarimatea/wkf-auditoria-consistencia) | Público | Auditoria de consistência do ecossistema em 5 camadas — independente da S04 |
 
 ### Documentos (D) — conteúdo institucional estruturado
 
