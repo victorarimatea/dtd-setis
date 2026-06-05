@@ -2,12 +2,44 @@
 
 **Repositório:** hub-entrada
 **Mantenedor:** victorarimatea
-**Alimentado por:** S04 `skl-github-orquestracao` (registros automáticos) e qualquer sessão Claude (ideias)
+**Alimentado por:** S04 `skl-github-orquestracao` (registros automáticos), Etapa 6-A (ideias mineradas e conhecimentos consolidados)
 **Processado por:** W04 `wkf-roadmap-geral` — sessões de sexta-feira à tarde
 
 > Este arquivo NÃO contém informações oficiais do ROADMAP.
 > Tudo aqui aguarda processamento e decisão do mantenedor.
 > Nenhum item é deletado — itens processados vão para a Seção D.
+
+---
+
+## Painel de Situação
+
+> **Instrução para agentes de IA:** este painel é calculado dinamicamente
+> a cada leitura. Nunca edite números manualmente — conte as entradas
+> das tabelas de cada seção e calcule os totais no momento da leitura.
+> Isso elimina por design qualquer possibilidade de drift entre o painel
+> e o estado real das seções.
+
+| Seção | Tipo | Pendentes | Maturando | Aprovadas/Registradas | Arquivadas |
+|---|---|---|---|---|---|
+| A | Registros automáticos (S04) | [contar linhas da tabela sem status "processado"] | — | — | — |
+| B | Ideias sinalizadas | [contar status `pendente`] | [contar status `maturando`] | [contar status `aprovada`] | [contar status `arquivada`] |
+| C | Ideias mineradas | [contar status `pendente`] | [contar status `maturando`] | [contar status `aprovada`] | [contar status `arquivada`] |
+| E | Conhecimentos consolidados | [contar status `pendente`] | — | [contar status `registrado`] | [contar status `arquivado`] |
+
+### Alertas — avaliar a cada leitura
+
+**⚠️ Alerta de acúmulo:**
+Some os pendentes das Seções B + C + E.
+Se o total for ≥ 5: emitir recomendação ativa ao mantenedor para considerar
+sessão dedicada ao roadmap (W04) ou ao hub-aprendizagem, conforme predominância
+do tipo de item acumulado.
+
+**⏰ Alerta de hiato de roadmapping:**
+Confrontar a data atual com a data da entrada mais recente na Seção D
+(coluna "Data decisão"). Se o intervalo for > 7 dias: alertar o mantenedor
+que a última sessão de roadmapping foi há mais de uma semana e recomendar
+agendamento. Este alerta é ativado por presença humana — não é agendado
+autonomamente.
 
 ---
 
@@ -22,13 +54,17 @@
 | 2026-06-04 | W03 v1.1 — Etapa 2-A: reconciliação com ROADMAP antes do relatório | Atualização de workflow | wkf-registro-sessao | S04 |
 | 2026-06-04 | W04 wkf-roadmap-geral v1.0 — criação do workflow de gestão de roadmap | Criação de workflow | wkf-roadmap-geral | S04 |
 | 2026-06-04 | staging.md — criação da staging area do ecossistema | Novo artefato | hub-entrada | S04 |
+| 2026-06-05 | S04 v2.5 — escala de severidade SEV1–SEV4; classificação retroativa de 13 erros | Atualização de skill | skl-github-orquestracao | S04 |
+| 2026-06-05 | S04 v2.6 — verificações embutidas CONFIRMAR em todas as checklists OP-X | Atualização de skill | skl-github-orquestracao | S04 |
+| 2026-06-05 | hub-aprendizagem v1.0 — repositório de memória intelectual criado | Novo repositório | hub-aprendizagem | S04 |
+| 2026-06-05 | S04 v2.7 — Etapa 6-A expandida com mineração de conhecimento consolidado | Atualização de skill | skl-github-orquestracao | S04 |
+| 2026-06-05 | W03 v1.2 — Etapa 2-B: identificação de aprendizados consolidados | Atualização de workflow | wkf-registro-sessao | S04 |
 
 ---
 
 ## Seção B — Ideias sinalizadas
 
 *Ideias capturadas por sinalização explícita do mantenedor durante sessões.*
-*Formato: o mantenedor diz "registra isso como ideia" e o Claude deposita aqui.*
 
 | Data | Hora | Autor | Ideia | Contexto de origem | Status |
 |---|---|---|---|---|---|
@@ -52,27 +88,20 @@ manifestações que têm características de ideia embrionária. Ele não espera
 que o mantenedor lembre de sinalizar. Ele busca, apresenta os candidatos,
 aguarda validação, e só então elabora e registra formalmente.
 
-O resultado é um pipeline de inovação contínuo, de baixa fricção, que amplia
-o escopo de resgate de ideias e quase inviabiliza que boas propostas sejam
-desperdiçadas por falta de um lugar adequado para pousarem.
-
 ---
 
 ### Instrução para agentes de IA — mineração ativa de contexto
 
 **Quando executar:** ao final de qualquer sessão que resulte em plano de ação
-de edição de repositórios ou documentações — ou seja, toda sessão que aciona
-a S04. A mineração ocorre antes do depósito final, ainda com o contexto
-completo da conversa disponível.
+de edição de repositórios ou documentações. A mineração ocorre antes do
+relatório de encerramento, ainda com o contexto completo da conversa disponível.
 
 **O que fazer, passo a passo:**
 
 **Passo 1 — Varredura do histórico**
-Releia o histórico completo da conversa que gerou o plano de ação atual.
-Não apenas as decisões formais — leia também os comentários laterais,
-as frases exploratórias, os problemas identificados ao longo do caminho.
-O objetivo é encontrar manifestações que não foram tratadas como decisão
-mas que têm potencial estratégico.
+Reler o histórico completo da conversa. Não apenas as decisões formais —
+incluir comentários laterais, frases exploratórias, problemas identificados
+ao longo do caminho.
 
 **Passo 2 — Aplicação dos critérios de elegibilidade**
 Para cada trecho candidato, aplique as perguntas orientadoras abaixo.
@@ -104,33 +133,24 @@ Você gostaria de registrar isso como ideia na staging area?
 Aguarde confirmação. Não registre sem aprovação explícita do mantenedor.
 
 **Passo 4 — Elaboração para registro**
-Após confirmação, elabore a ideia no formato de registro abaixo antes de
-depositar na tabela. A elaboração deve:
-- Dar um nome descritivo à ideia (não apenas repetir a frase original)
-- Contextualizar o problema que ela resolve
-- Indicar a qual área do ecossistema se relaciona
-- Manter linguagem objetiva, sem superestimar nem subestimar o potencial
+Após confirmação, elabore a ideia com nome descritivo, problema que resolve,
+área do ecossistema relacionada, linguagem objetiva.
 
 **Passo 5 — Depósito na tabela**
-Registre na tabela abaixo com todos os campos preenchidos.
-
-> **Nota sobre automação:** a mineração ativa como instrução formal na S04
-> será implementada após 3 execuções do wkf-roadmap-geral, para calibrar
-> os critérios de elegibilidade com base em casos reais antes de automatizar.
-> Por ora, o agente executa os passos acima ao identificar oportunidade,
-> ainda que sem instrução explícita da S04.
+Registre com todos os campos preenchidos. Status inicial: `pendente`.
 
 ---
 
 ### Tabela de ideias mineradas
 
-| Data | Conversa de origem | Ideia candidata | Pergunta orientadora ativada | Validada pelo mantenedor | Aguardando desde |
-|---|---|---|---|---|---|
-| 2026-06-04 | Sessão de criação do W04 | `wkf-resumo-executivo` — workflow dedicado para estruturar, aprovar e distribuir o Resumo Executivo para SETIS e Secretário de Saúde; define linguagem executiva, critérios de aprovação e processo de distribuição | #6 — nomeação de algo que não existe mas faria sentido existir | ✅ confirmado | 2026-06-04 |
-| 2026-06-04 | Sessão de criação do W04 | Estrutura formal de perfis de acesso do ecossistema — define quem pode visualizar, editar e criar em cada repositório; base para governança multiusuário quando a DTD crescer | #1 — lacuna identificada: *"não parei para sequer pensar em uma estrutura de perfil de acesso"* | ✅ confirmado | 2026-06-04 |
-| 2026-06-04 | Sessão de criação do W04 | Família de workflows derivados do W04 para projetos específicos da DTD — protótipo genérico (`wkf-roadmap-geral`) habilitando criação de versões específicas como `wkf-roadmap-telessaude`, `wkf-roadmap-pdtic` e outros, sem alterar o W04 base | #6 — nomeação de algo que não existe: *"esse workflow pode ser o protótipo para workflows de roadmap padrão para gestão de projetos"* | ✅ confirmado | 2026-06-04 |
-| 2026-06-05 | Sessão de correção de drifts do ONBOARDING.md e formalização da Intenção do Comandante | Intenção do Comandante como princípio universal do ecossistema — o princípio inserido na S04 nesta sessão foi identificado como aplicável a todas as skills; proposta: declarar no `nomenclatura.md` o princípio geral (texto operacional vs histórico como árbitro de ação), e exigir que cada skill tenha sua própria declaração de Intenção do Comandante calibrada para seu domínio — a S04 seria o caso zero já implementado | #7 — implicação estratégica não explorada: conexão entre o princípio arbitrador recém-formalizado na S04 e sua aplicabilidade ampla a todas as skills do ecossistema | ✅ confirmado | 2026-06-05 |
-| 2026-06-04 | Sessão de encerramento do W04 | `wkf-resumo-executivo` como workflow independente — lacuna confirmada pelo mantenedor: não existe ainda modelo nem processo para geração do Resumo Executivo destinado ao Secretário Executivo da SETIS e Secretário de Saúde; é dependência futura do W04 (placeholder na Etapa 7) | #1 — lacuna explícita: *"não temos ainda um modelo de resumo executivo e nenhum workflow pra ele"* | ✅ confirmado | 2026-06-04 |
+| Data | Conversa de origem | Ideia candidata | Pergunta orientadora ativada | Validada pelo mantenedor | Status | Aguardando desde |
+|---|---|---|---|---|---|---|
+| 2026-06-04 | Sessão de criação do W04 | `wkf-resumo-executivo` — workflow dedicado para estruturar, aprovar e distribuir o Resumo Executivo para SETIS e Secretário de Saúde | #6 — nomeação de algo que não existe mas faria sentido existir | ✅ confirmado | pendente | 2026-06-04 |
+| 2026-06-04 | Sessão de criação do W04 | Estrutura formal de perfis de acesso do ecossistema — define quem pode visualizar, editar e criar em cada repositório; base para governança multiusuário | #1 — lacuna identificada | ✅ confirmado | pendente | 2026-06-04 |
+| 2026-06-04 | Sessão de criação do W04 | Família de workflows derivados do W04 para projetos específicos — `wkf-roadmap-telessaude`, `wkf-roadmap-pdtic` e outros, sem alterar o W04 base | #6 — nomeação de algo que não existe | ✅ confirmado | pendente | 2026-06-04 |
+| 2026-06-05 | Sessão de correção de drifts e Intenção do Comandante | Intenção do Comandante como princípio universal do ecossistema — declarar no `nomenclatura.md` e exigir que cada skill tenha sua própria declaração calibrada para seu domínio | #7 — implicação estratégica não explorada | ✅ confirmado | pendente | 2026-06-05 |
+| 2026-06-04 | Sessão de encerramento do W04 | `wkf-resumo-executivo` como workflow independente — não existe modelo nem processo para geração do Resumo Executivo destinado ao Secretário Executivo da SETIS | #1 — lacuna explícita | ✅ confirmado | pendente | 2026-06-04 |
+| 2026-06-05 | Sessão de engenharia reversa e hub-aprendizagem | Visão de longo prazo — ecossistema empoderado por APIs externas, automações sem piloto humano, integração com ferramentas além do GitHub: envio de emails, acionamento de atividades automáticas, MCP expandido. Victor: *"fecho os olhos e imagino esse ecossistema no futuro de fato empoderado por ferramentas que o permitam ultrapassar os limites do GitHub"* | #5 — desejo e intenção de longo prazo não convertida em ação imediata | ✅ confirmado | pendente | 2026-06-05 |
 
 ---
 
@@ -145,7 +165,96 @@ Registre na tabela abaixo com todos os campos preenchidos.
 
 ---
 
-### Legenda de status (Seções B e C)
+## Seção E — Conhecimentos consolidados (hub-aprendizagem)
+
+### Intenção do Comandante desta seção
+
+O hub-aprendizagem existe para que o conhecimento adquirido na prática não
+se dissipe em backlogs e históricos de conversa. Ele não é documentação
+operacional — é memória intelectual. A diferença é fundamental: backlogs
+registram *o que* foi feito; o hub-aprendizagem registra *o que foi aprendido*,
+*por que importa* e *como se compara com o que o mundo já sabe*.
+
+Um aprendizado consolidado é diferente de uma ideia embrionária (Seção C).
+Ele já passou pelo crivo da prática — foi testado, observado, confrontado com
+benchmarks, e resultou em uma lição que vale ser sedimentada em linguagem
+narrativa. Ele responde à pergunta: *"se tivéssemos sabido isso antes,
+o que teríamos feito diferente?"*
+
+Esta seção é o pré-estágio do hub-aprendizagem. Itens aqui aguardam
+apenas redação final e inserção formal no repositório.
+
+---
+
+### Instrução para agentes de IA — identificação de conhecimento consolidado
+
+**Quando executar:** após a mineração de ideias da Etapa 6-A, antes do
+relatório de encerramento. Também executada no W03 (Etapa 2-B) ao final
+de sessões que produzam diagnóstico, decisão arquitetural ou mudança estrutural.
+
+**Critério de elegibilidade — o aprendizado é consolidado se:**
+
+| # | Critério | Pergunta de teste |
+|---|---|---|
+| 1 | Resolveu um problema que se repetia sem solução definitiva | *"este problema voltará a aparecer se não registrarmos o aprendizado?"* |
+| 2 | Revelou uma causa raiz que não era óbvia antes | *"antes desta sessão, a causa raiz era conhecida?"* |
+| 3 | Produziu uma decisão arquitetural com raciocínio documentável | *"existe contexto, alternativas consideradas e consequências que merecem registro?"* |
+| 4 | Chegou intuitivamente a algo que benchmarks de mercado validam | *"o que fizemos tem nome, padrão ou literatura de referência?"* |
+| 5 | Gerou uma lição que muda como operamos daqui para frente | *"o ecossistema operará diferente por causa do que aprendemos hoje?"* |
+
+Um aprendizado é elegível se atender **pelo menos dois** critérios.
+
+**Procedimento:**
+
+**Passo 1 — Identificação**
+Após a varredura de ideias da Seção C, fazer segunda varredura com foco
+em aprendizados — não em ideias. O sinal é diferente: não é "seria
+interessante se..." mas "aprendemos que...", "descobrimos que...",
+"a causa raiz era...", "o que o mercado chama de...".
+
+**Passo 2 — Apresentação ao mantenedor**
+
+```
+📚 Aprendizado consolidado identificado:
+"[síntese do aprendizado em 1-2 frases]"
+
+Critérios ativados: [números]
+Benchmarks relacionados: [se identificados]
+Contexto: [em que momento da sessão surgiu]
+
+Gostaria de registrar e redigir este aprendizado para o hub-aprendizagem?
+```
+
+**Passo 3 — Redação imediata**
+Após aprovação, redigir o aprendizado completo **ali mesmo**, com contexto
+fresco. Formato: narrativa com contexto, diagnóstico, benchmark relacionado
+e lição permanente. Não deixar para depois — o contexto da sessão
+é o recurso mais valioso e se perde com o tempo.
+
+**Passo 4 — Depósito na tabela abaixo**
+Status inicial: `pendente`. Quando inserido no hub-aprendizagem: `registrado`.
+
+---
+
+### Tabela de conhecimentos consolidados
+
+| Data | Sessão de origem | Aprendizado | Critérios ativados | Rascunho disponível | Status | Aguardando desde |
+|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — |
+
+---
+
+### Legenda de status (Seção E)
+
+| Status | Significado |
+|---|---|
+| `pendente` | Identificado e aprovado — aguarda inserção no hub-aprendizagem |
+| `registrado` | Inserido formalmente no hub-aprendizagem |
+| `arquivado` | Avaliado e não avança — ver Seção D |
+
+---
+
+## Legenda de status (Seções B e C)
 
 | Status | Significado |
 |---|---|
@@ -155,9 +264,9 @@ Registre na tabela abaixo com todos os campos preenchidos.
 | `arquivada` | Avaliada e não avança no momento — ver Seção D |
 | `rejeitada` | Avaliada e descartada — ver Seção D |
 
-### Política de limpeza
+## Política de limpeza
 
 Após cada sessão do W04, toda a Seção A é processada e esvaziada.
-Seções B e C: itens com decisão migram para a Seção D.
+Seções B, C e E: itens com decisão migram para a Seção D.
 Itens com status `maturando` permanecem nas seções originais.
 **Nenhum item é deletado — apenas movido.**
