@@ -240,7 +240,7 @@ Status inicial: `pendente`. Quando inserido no hub-aprendizagem: `registrado`.
 
 | Data | Sessão de origem | Aprendizado | Critérios ativados | Rascunho disponível | Status | Aguardando desde |
 |---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — |
+| 2026-06-05 | Sessão de engenharia reversa e W05 | Separação executor/auditor como princípio arquitetural — viés de confirmação estrutural, Defense in Depth, W05 como camada independente | #1, #2, #4, #5 | Rascunho completo disponível (cap-02) | registrado | 2026-06-05 |
 
 ---
 
