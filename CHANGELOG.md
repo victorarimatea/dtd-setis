@@ -1,3 +1,13 @@
+## [Não versionado] — 2026-06-05 (W05)
+
+### Adicionado
+- `wkf-auditoria-consistencia` (W05) — Workflow de Auditoria de Consistência:
+  processo independente da S04 que verifica o estado real do ecossistema em
+  5 camadas (versões, arquivos obrigatórios, hub-entrada, backlogs, glossário).
+  Resposta estrutural ao GAP 1 identificado no exercício de engenharia reversa.
+  Não executa operações — detecta, classifica por SEV e reporta.
+
+
 ## [Não versionado] — 2026-06-05
 
 ### Adicionado
