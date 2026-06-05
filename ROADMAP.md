@@ -46,6 +46,11 @@
 - ✅ `hub-memoria` (P02) — projeto de memória da construção do ecossistema (2026-06-02)
 
 ### Fase 5 — Governança e rastreabilidade cronológica
+- ✅ `hub-aprendizagem` criado — repositório de memória intelectual: boas práticas, benchmarks e lições aprendidas (2026-06-05)
+- ✅ S04 v2.5 — escala de severidade SEV1–SEV4; classificação retroativa de 13 erros — 2026-06-05
+- ✅ S04 v2.6 — verificações embutidas CONFIRMAR em todas as checklists OP-X; regra de dois registros; padrão de campos de erro — 2026-06-05
+- ✅ Exercício de engenharia reversa: 13 pontos de falha, 4 GAPs estruturais identificados — 2026-06-05
+
 - ✅ S04 v2.2 e W03 v1.1 — gestão de ROADMAP para itens não previstos: reconciliação obrigatória a cada operação (2026-06-04)
 - ✅ W04 `wkf-roadmap-geral` v1.0 — workflow de gestão de roadmap com staging area, três camadas de curadoria e ciclo semanal de revisão estratégica (2026-06-04)
 - ✅ `staging.md` — staging area criada no hub-entrada: receptor de registros automáticos (S04) e ideias mineradas (Etapa 6-A) (2026-06-04)
