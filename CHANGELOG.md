@@ -1,3 +1,18 @@
+## [Não versionado] — 2026-06-05
+
+### Adicionado
+- `hub-aprendizagem` — repositório de memória intelectual do ecossistema:
+  boas práticas, benchmarks externos e lições aprendidas. Primeiro capítulo:
+  "Engenharia Reversa de um Ecossistema Vivo" — diagnóstico completo de
+  falhas sistêmicas, 4 GAPs estruturais identificados, benchmarks (AAR, ADR,
+  Defense in Depth, SEV, DORA) e respostas aplicadas.
+- S04 v2.5: escala de severidade SEV1–SEV4 adotada; 13 erros classificados
+  retroativamente
+- S04 v2.6: verificações embutidas obrigatórias (CONFIRMAR) em todas as
+  checklists OP-X; regra de dois registros para erros novos; padrão de
+  campos obrigatórios na seção de erros
+
+
 ## [3.2] — 2026-06-05
 
 ### Corrigido
