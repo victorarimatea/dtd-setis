@@ -1,3 +1,25 @@
+## 2026-06-05 — staging.md reformulada
+
+**Tipo de alteração:** Atualização estrutural
+**Autorizado por:** Victor Leonardo Arimatea Queiroz
+**Exposição de motivos:** Reformulação completa da staging.md para incorporar
+os aprendizados da sessão de 2026-06-05. Painel de situação com contagem
+dinâmica (sem números fixos — calculado a cada leitura para evitar drift
+estrutural). Alertas de acúmulo e hiato embutidos como instruções de leitura.
+Seção E criada para conhecimentos consolidados destinados ao hub-aprendizagem,
+com Intenção do Comandante e critérios de elegibilidade próprios. Coluna
+Status adicionada na Seção C. Visão de longo prazo registrada.
+
+### Alterações realizadas
+- Painel de Situação dinâmico adicionado (Abordagem 1 — contagem calculada)
+- Alertas de acúmulo (≥5 pendentes) e hiato (>7 dias) embutidos
+- Seção E — Conhecimentos consolidados criada com instrução completa
+- Coluna Status adicionada na tabela da Seção C
+- Entradas da Seção A atualizadas com registros de 2026-06-05
+- Ideia de visão de longo prazo registrada na Seção C
+
+---
+
 ## v2.0 — 2026-06-02
 
 **Tipo de alteração:** Atualização + Saneamento
