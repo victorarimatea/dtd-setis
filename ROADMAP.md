@@ -49,6 +49,9 @@
 - ✅ S04 v2.2 e W03 v1.1 — gestão de ROADMAP para itens não previstos: reconciliação obrigatória a cada operação (2026-06-04)
 - ✅ W04 `wkf-roadmap-geral` v1.0 — workflow de gestão de roadmap com staging area, três camadas de curadoria e ciclo semanal de revisão estratégica (2026-06-04)
 - ✅ `staging.md` — staging area criada no hub-entrada: receptor de registros automáticos (S04) e ideias mineradas (Etapa 6-A) (2026-06-04)
+- ✅ Correção de drifts de nomenclatura legada no M01 (ONBOARDING.md v1.1, INDICE.md, README.md v0.11) — 2026-06-05
+- ✅ S04 v2.4 — seção "Intenção do Comandante" adicionada; ONBOARDING.md incluído na Verificação 5; IDENTIDADE DO ECOSSISTEMA corrigida; Erro #012 documentado — 2026-06-05
+- ✅ Princípio de integridade de registros históricos formalizado — texto operacional (corrigir) vs texto histórico (preservar) — 2026-06-05
 - ✅ S04 v2.3 — Etapa 6-A: mineração ativa de ideias com 7 critérios de elegibilidade e procedimento de 6 passos (2026-06-04)
 
 ---
