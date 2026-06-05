@@ -1,3 +1,27 @@
+## [3.2] — 2026-06-05
+
+### Corrigido
+- Drifts de nomenclatura legada em três arquivos operacionais do M01
+  (`ONBOARDING.md` v1.0 → v1.1, `INDICE.md`, `README.md` v0.10 → v0.11):
+  campos de metadados e URL de sessão ainda referenciavam `ecossistema-sumario`
+  e `dtd-setis` (nomes anteriores de `hub-fonte` e `hub-entrada`)
+- Seção IDENTIDADE DO ECOSSISTEMA da S04 corrigida para nomenclatura atual
+
+### Adicionado
+- Seção "Intenção do Comandante" à S04 — princípio arbitrador para situações
+  não cobertas pelos procedimentos: texto operacional (corrigir) versus texto
+  histórico (preservar). Formaliza que registros em CHANGELOG e backlogs que
+  referenciam nomenclaturas legadas são imutáveis por representarem o estado
+  real do sistema no momento em que foram escritos
+
+### Atualizado
+- `skl-github-orquestracao` (S04) → v2.4: Intenção do Comandante adicionada;
+  ONBOARDING.md incluído na Verificação 5 como item 6; Erro #012 documentado
+- `hub-fonte` (M01) → v0.11 (README): título, tabela de arquivos e URL de sessão
+  atualizados para nomenclatura atual
+
+---
+
 ## [3.1] — 2026-06-04
 
 ### Adicionado
