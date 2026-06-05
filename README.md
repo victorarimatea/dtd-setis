@@ -29,8 +29,9 @@ instrumentos padronizados que trabalham juntos para automatizar a gestão
 de conhecimento e a produção de documentos institucionais.
 
 ```
-Camada 4 — Portfólio Institucional
+Camada 4 — Portfólio Institucional e Infraestrutura de Conhecimento
     hub-entrada: porta de entrada, ROADMAP, CHANGELOG, vitrine
+    hub-aprendizagem: memória intelectual, boas práticas, benchmarks
 
 Camada 3 — Conhecimento Estrutural (Matrizes M)
     M01 hub-fonte      M02 mat-saude-digital-taxonomia
@@ -55,6 +56,14 @@ Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
 ---
 
 ## Repositórios do ecossistema
+
+### Infraestrutura de conhecimento
+
+| Repositório | Visibilidade | Descrição |
+|---|---|---|
+| [hub-aprendizagem](https://github.com/victorarimatea/hub-aprendizagem) | Público | Memória intelectual do ecossistema — boas práticas, benchmarks e lições aprendidas |
+
+---
 
 ### Matrizes (M) — fontes de verdade estruturais
 
