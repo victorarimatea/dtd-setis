@@ -98,6 +98,7 @@ Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
 | W03 | [wkf-registro-sessao](https://github.com/victorarimatea/wkf-registro-sessao) | Público | Registro estruturado de sessões de trabalho intensivo |
 | W04 | [wkf-roadmap-geral](https://github.com/victorarimatea/wkf-roadmap-geral) | Público | Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico e três camadas de curadoria |
 | W05 | [wkf-auditoria-consistencia](https://github.com/victorarimatea/wkf-auditoria-consistencia) | Público | Auditoria de consistência do ecossistema em 5 camadas — independente da S04; sem token; apenas detecta e reporta |
+| W06 | [wkf-sessao-agente](https://github.com/victorarimatea/wkf-sessao-agente) | Público | Protocolo de Sessão Assistida por Agente — padroniza abertura, trabalho e fechamento; processo pai do W03 e W05 |
 
 ### Agendas (A) — acervos cronológicos
 
