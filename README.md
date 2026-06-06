@@ -87,6 +87,7 @@ Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
 |---|---|---|---|
 | D01 | [doc-governanca-ses-df](https://github.com/victorarimatea/doc-governanca-ses-df) | Público | 28 documentos transcritos: legislação, portarias, resoluções e referências internacionais |
 | D02 | [mat-cadastro-ses-setis-dtd](https://github.com/victorarimatea/mat-cadastro-ses-setis-dtd) | Público | Matriz de cadastros de referência da DTD/SETIS/SES-DF |
+| D03 | [hub-aprendizagem](https://github.com/victorarimatea/hub-aprendizagem) | Público | Repositório documental reflexivo — boas práticas, benchmarks e lições aprendidas da construção do ecossistema DTD/SETIS |
 
 ### Workflows (W) — memória organizacional de processos
 
