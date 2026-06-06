@@ -58,12 +58,6 @@ Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
 
 ## Repositórios do ecossistema
 
-### Infraestrutura de conhecimento
-
-| Repositório | Visibilidade | Descrição |
-|---|---|---|
-| [hub-aprendizagem](https://github.com/victorarimatea/hub-aprendizagem) | Público | Memória intelectual do ecossistema — boas práticas, benchmarks e lições aprendidas |
-
 ---
 
 ### Matrizes (M) — fontes de verdade estruturais
@@ -101,6 +95,8 @@ Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
 | W01 | [wkf-transcricao-documental](https://github.com/victorarimatea/wkf-transcricao-documental) | Público | Processo completo de transcrição de PDFs regulatórios |
 | W02 | wkf-registro-reuniao | Privado | Processo de registro institucional de reunião (PLAUD NOTE → SEI) |
 | W03 | [wkf-registro-sessao](https://github.com/victorarimatea/wkf-registro-sessao) | Público | Registro estruturado de sessões de trabalho intensivo |
+| W04 | [wkf-roadmap-geral](https://github.com/victorarimatea/wkf-roadmap-geral) | Público | Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico e três camadas de curadoria |
+| W05 | [wkf-auditoria-consistencia](https://github.com/victorarimatea/wkf-auditoria-consistencia) | Público | Auditoria de consistência do ecossistema em 5 camadas — independente da S04; sem token; apenas detecta e reporta |
 
 ### Agendas (A) — acervos cronológicos
 
