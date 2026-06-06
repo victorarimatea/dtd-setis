@@ -146,7 +146,7 @@ O IAC foi aplicado ao PDTIC 2024-2027 da SES-DF, produzindo:
 
 ## Contexto institucional
 
-**Versão:** v0.9 — 2026-06-06
+**Versão:** v2.0 — 2026-06-06
 **Unidade:** Diretoria de Transformação Digital — DTD
 **Órgão:** Secretaria Executiva de Tecnologia da Informação em Saúde — SETIS
 **Secretaria:** Secretaria de Estado de Saúde do Distrito Federal — SES-DF
