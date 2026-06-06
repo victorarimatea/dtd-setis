@@ -1,7 +1,7 @@
 # Roadmap — DTD/SETIS/SES-DF
 
-**Última atualização:** 2026-06-04
-**Versão do ecossistema:** CHANGELOG [3.1] | S04 v2.3
+**Última atualização:** 2026-06-06
+**Versão do ecossistema:** sumario v2.5 | S04 v2.7 | W06 v1.0
 
 ---
 
@@ -62,6 +62,17 @@
 - ✅ S04 v2.3 — Etapa 6-A: mineração ativa de ideias com 7 critérios de elegibilidade e procedimento de 6 passos (2026-06-04)
 
 ---
+
+
+### Fase 6 — Protocolo de sessão e conformidade estrutural
+- ✅ hub-aprendizagem reclassificado como D03 — repositório documental reflexivo (2026-06-06)
+- ✅ 19 divergências corrigidas em duas rodadas de auditoria W05 independente (2026-06-06)
+- ✅ Separação executor/auditor demonstrada empiricamente — auditoria independente encontrou erros introduzidos pela própria operação de correção (2026-06-06)
+- ✅ `wkf-sessao-agente` (W06) criado — Protocolo de Sessão Assistida por Agente; processo pai do W03 e W05; governa abertura, trabalho e fechamento com Handoff entre sessões (2026-06-06)
+- ✅ Conceito de Handoff introduzido formalmente no ecossistema como padrão arquitetural em amadurecimento (2026-06-06)
+- ✅ Perguntas ordenadoras como técnica de instrução incorporadas ao W06 (2026-06-06)
+- ✅ Alerta de cache raw.githubusercontent.com protocolado no W05 (2026-06-06)
+- ✅ Escala SEV1–SEV4 e Auditoria de Consistência adicionados ao GLOSSARIO.md (2026-06-06)
 
 ## 🔄 Em andamento
 
