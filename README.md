@@ -48,9 +48,11 @@ Camada 2 — Instrumentos Operacionais (Skills S + Workflows W)
     W03 wkf-registro-sessao
     W04 wkf-roadmap-geral
     W05 wkf-auditoria-consistencia
+    W06 wkf-sessao-agente
 
 Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
     D01 doc-governanca-ses-df            D02 mat-cadastro-ses-setis-dtd
+    D03 hub-aprendizagem
     A01 agd-dtd (privado)
     P01 prj-telessaude-poc-prisional (privado)
     P02 hub-memoria (privado)
