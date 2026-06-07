@@ -59,6 +59,7 @@ autonomamente.
 | 2026-06-05 | hub-aprendizagem v1.0 — repositório de memória intelectual criado | Novo repositório | hub-aprendizagem | S04 |
 | 2026-06-05 | S04 v2.7 — Etapa 6-A expandida com mineração de conhecimento consolidado | Atualização de skill | skl-github-orquestracao | S04 |
 | 2026-06-05 | W03 v1.2 — Etapa 2-B: identificação de aprendizados consolidados | Atualização de workflow | wkf-registro-sessao | S04 |
+| 2026-06-07 | cap-03 hub-aprendizagem v1.1 — "Conhecimento como Query" (visão wiki-ecossistema) + registro de 5 ideias no staging | Aprendizado consolidado + ideias | hub-aprendizagem / hub-entrada | S04 |
 
 ---
 
@@ -161,6 +162,11 @@ Registre com todos os campos preenchidos. Status inicial: `pendente`.
 | 2026-06-06 | Fechamento sessão 2026-06-06 — reflexão de Victor | Adotar timestamp ISO 8601 completo (data+hora+minuto+segundo+timezone, ex: 2026-06-06T14:32:05-03:00) nas entradas de backlog/changelog — múltiplas operações no mesmo dia hoje ficaram indistinguíveis por carimbar somente data; timestamp completo dá assinatura única a cada entrada e reduz falsos positivos de duplicata na auditoria | Reflexão estratégica de Victor; evolução do protocolo de versionamento | ✅ confirmado | pendente | 2026-06-06 |
 | 2026-06-06 | Fechamento sessão 2026-06-06 — visão de Victor | Antecipar cenário multi-contribuidor: adicionar campos de autor (quem contribuiu) e revisor (quem auditou) nas entradas de backlog, espelhando o padrão colaborativo do GitHub (author/committer + timestamp). Hoje Victor é solo, mas o ecossistema pode futuramente ter múltiplas sessões paralelas e vários contribuidores cultivando os repositórios | Visão de longo prazo de Victor; preparação para colaboração distribuída | ✅ confirmado | pendente | 2026-06-06 |
 | 2026-06-06 | Fechamento sessão 2026-06-06 — derivado | Ajustar critério de detecção de duplicata do W05 para definir duplicata = mesmo número de versão COM mesmo conteúdo/propósito (não apenas mesmo número), distinguindo reuso histórico legítimo de erro de inserção — complementa a adoção de timestamp | Derivado da discussão sobre timestamp e da nota de reconciliação do M01 | ✅ confirmado | pendente | 2026-06-06 |
+| 2026-06-07 | Sessão de design do wiki-ecossistema | Criar o tipo `wiki` na nomenclatura + repositório `wiki-ecossistema` (monorepo leve) — camada de hipertexto navegável do ecossistema; nome descreve função, não conteúdo (saúde digital é a 1ª seção); exceção deliberada à regra "um repo por unidade" justificada pela natureza de links internos/backlinks | #6 — nomeação de algo que não existe mas faria sentido existir | ✅ confirmado | pendente | 2026-06-07 |
+| 2026-06-07 | Sessão de design do wiki-ecossistema | Definir a anatomia do cabeçalho de metadados de documento normativo (YAML frontmatter) — base de toda query, da visão Kelsen compilada e dos workflows de vigília. **EM ABERTO**: campos a decidir (modelo enxuto/completo/camadas) | #1 — lacuna + #2 — hipótese sobre algo que poderia existir | ✅ confirmado | pendente | 2026-06-07 |
+| 2026-06-07 | Sessão de design do wiki-ecossistema | Workflow de ingestão assistida de norma (N1) — ao subir documento novo, gera relatório de impacto: quais páginas-tema criar e quais revisar; mantenedor aprova e executa. NOTA: distinto da família de workflows derivados do W04 (roadmap de projeto) já registrada em 2026-06-04 — este trata de ingestão de documento na base de conhecimento | #1 — lacuna + #6 — nomeação funcional | ✅ confirmado | pendente | 2026-06-07 |
+| 2026-06-07 | Sessão de design do wiki-ecossistema | Workflow de vigília de conformidade (N2) — cruza a base: lei federal nova → portarias/normas locais potencialmente desatualizadas. Hoje não existe nenhum instrumento para isso. NOTA: especialização normativa concreta da "visão de longo prazo" (automações/MCP) registrada em 2026-06-05 | #1 — lacuna explícita + #4 — pergunta estratégica | ✅ confirmado | pendente | 2026-06-07 |
+| 2026-06-07 | Sessão de design do wiki-ecossistema | Template padronizado de página-tema do wiki — anatomia: contextualização → marco normativo aplicável → análise (olhar local Brasil/DF/SES-DF/DTD) → pontos críticos e lacunas; faz cada tema futuro nascer consistente e legível por agentes | #6 — nomeação funcional + #1 — não existe padrão | ✅ confirmado | pendente | 2026-06-07 |
 
 ---
 
@@ -251,6 +257,7 @@ Status inicial: `pendente`. Quando inserido no hub-aprendizagem: `registrado`.
 | Data | Sessão de origem | Aprendizado | Critérios ativados | Rascunho disponível | Status | Aguardando desde |
 |---|---|---|---|---|---|---|
 | 2026-06-05 | Sessão de engenharia reversa e W05 | Separação executor/auditor como princípio arquitetural — viés de confirmação estrutural, Defense in Depth, W05 como camada independente | #1, #2, #4, #5 | Rascunho completo disponível (cap-02) | registrado | 2026-06-05 |
+| 2026-06-07 | Sessão de design do wiki-ecossistema | Conhecimento como query — distinção entre informação materializada (fonte imutável + análise autoral) e derivada sob demanda (índice/ficha/visão Kelsen); fronteira viva/congelada; eficiência cognitiva de agentes; erosão de critério | #3, #5 | Rascunho completo (cap-03) | registrado | 2026-06-07 |
 
 ---
 
