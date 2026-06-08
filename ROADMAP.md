@@ -1,7 +1,7 @@
 # Roadmap — DTD/SETIS/SES-DF
 
-**Última atualização:** 2026-06-06
-**Versão do ecossistema:** sumario v3.1 | S04 v2.7 | W06 v1.1
+**Última atualização:** 2026-06-08
+**Versão do ecossistema:** sumario v3.3 | S04 v2.7 | W06 v1.1
 
 ---
 
@@ -47,22 +47,17 @@
 
 ### Fase 5 — Governança e rastreabilidade cronológica
 - ✅ `wkf-auditoria-consistencia` (W05) criado — Workflow de Auditoria de Consistência em 5 camadas; independente da S04; resposta estrutural ao GAP 1 (2026-06-05)
-
 - ✅ `hub-aprendizagem` criado — repositório de memória intelectual: boas práticas, benchmarks e lições aprendidas (2026-06-05)
 - ✅ S04 v2.5 — escala de severidade SEV1–SEV4; classificação retroativa de 13 erros — 2026-06-05
 - ✅ S04 v2.6 — verificações embutidas CONFIRMAR em todas as checklists OP-X; regra de dois registros; padrão de campos de erro — 2026-06-05
 - ✅ Exercício de engenharia reversa: 13 pontos de falha, 4 GAPs estruturais identificados — 2026-06-05
-
 - ✅ S04 v2.2 e W03 v1.1 — gestão de ROADMAP para itens não previstos: reconciliação obrigatória a cada operação (2026-06-04)
-- ✅ W04 `wkf-roadmap-geral` v1.0 — workflow de gestão de roadmap com staging area, três camadas de curadoria e ciclo semanal de revisão estratégica (2026-06-04)
-- ✅ `staging.md` — staging area criada no hub-entrada: receptor de registros automáticos (S04) e ideias mineradas (Etapa 6-A) (2026-06-04)
+- ✅ W04 `wkf-roadmap-geral` v1.0 — workflow de gestão de roadmap com staging area, três camadas de curadoria e ciclo semanal de revisão estratégica (2026-06-04) 📊
+- ✅ `staging.md` — staging area criada no hub-entrada: receptor de registros automáticos (S04) e ideias mineradas (Etapa 6-A) (2026-06-04) 🔒
 - ✅ Correção de drifts de nomenclatura legada no M01 (ONBOARDING.md v1.1, INDICE.md, README.md v0.11) — 2026-06-05
 - ✅ S04 v2.4 — seção "Intenção do Comandante" adicionada; ONBOARDING.md incluído na Verificação 5; IDENTIDADE DO ECOSSISTEMA corrigida; Erro #012 documentado — 2026-06-05
 - ✅ Princípio de integridade de registros históricos formalizado — texto operacional (corrigir) vs texto histórico (preservar) — 2026-06-05
 - ✅ S04 v2.3 — Etapa 6-A: mineração ativa de ideias com 7 critérios de elegibilidade e procedimento de 6 passos (2026-06-04)
-
----
-
 
 ### Fase 6 — Protocolo de sessão e conformidade estrutural
 - ✅ hub-aprendizagem reclassificado como D03 — repositório documental reflexivo (2026-06-06)
@@ -70,9 +65,18 @@
 - ✅ Separação executor/auditor demonstrada empiricamente — auditoria independente encontrou erros introduzidos pela própria operação de correção (2026-06-06)
 - ✅ `wkf-sessao-agente` (W06) criado — Protocolo de Sessão Assistida por Agente; processo pai do W03 e W05; governa abertura, trabalho e fechamento com Handoff entre sessões (2026-06-06)
 - ✅ Conceito de Handoff introduzido formalmente no ecossistema como padrão arquitetural em amadurecimento (2026-06-06)
-- ✅ Perguntas ordenadoras como técnica de instrução incorporadas ao W06 (2026-06-06)
+- ✅ Perguntas orientadoras como técnica de instrução incorporadas ao W06 (2026-06-06)
 - ✅ Alerta de cache raw.githubusercontent.com protocolado no W05 (2026-06-06)
 - ✅ Escala SEV1–SEV4 e Auditoria de Consistência adicionados ao GLOSSARIO.md (2026-06-06)
+- ✅ S04 v2.7 — Etapa 6-A expandida com mineração de conhecimento consolidado (2026-06-05) 🔒
+- ✅ W03 v1.2 — Etapa 2-B: identificação de aprendizados consolidados (2026-06-05) 🔒
+- ✅ cap-03 hub-aprendizagem v1.1 — "Conhecimento como Query" + design wiki-ecossistema (2026-06-07) 📊
+
+### Fase 7 — Primeira sessão de roadmapping (W04)
+- ✅ Primeira execução do W04 `wkf-roadmap-geral` — 21 itens curados, ROADMAP estruturado por camadas, staging limpa (2026-06-08) 📊
+- ✅ GLOSSARIO.md v2.2 — 5 termos novos adicionados à Categoria 17 (2026-06-08) 🔒
+
+---
 
 ## 🔄 Em andamento
 
@@ -85,20 +89,48 @@
 
 ## 🎯 Próxima ação imediata
 
-**Criar `pdtic-historico` (D — tipo Documento):**
-Repositório para versionamento histórico do PDTIC da SES-DF com IACs gerados.
-Habilitará o uso pleno da `skl-iac-pdtic` (S02) no ecossistema.
+**Missão definida na sessão W04 de 2026-06-08 — correções técnicas remanescentes:**
+
+- I1 — Corrigir instruções `raw.githubusercontent.com` → API GitHub no W05/WORKFLOW.md e CONTEXTO.md
+- I2 — Padronizar "perguntas orientadoras" (substituir "ordenadoras") na S04 e W06
+- I3 — Corrigir campo Versão da Seção 1 do W06/WORKFLOW.md (v1.0 → v1.1)
+- I4 — Corrigir ID W07 do `wkf-iac-conformidade` no ROADMAP.md
+- I5 — Adicionar entrada raw vs API ao hub-aprendizagem (aprendizado consolidado T1)
+- I6 — Atualizar campo "Versão do ecossistema" no ROADMAP.md já refletido nesta versão
 
 ---
 
 ## 📅 Médio prazo
 
-- Criar `wkf-iac-conformidade` (W04) — análise de conformidade documental
-  automatizada, consumindo D01 e S02 como subprocessos
+- Criar `wkf-resumo-executivo` (W07 reservado) — workflow para estruturar, aprovar
+  e distribuir Resumo Executivo para SETIS e Secretário de Saúde; ativo estratégico
+  em amadurecimento permanente
+- Criar `wiki-ecossistema` — projeto formal; camada de hipertexto navegável do
+  ecossistema; arquitetura de 3 camadas discutida em 2026-06-07
+- Adotar timestamp ISO 8601 completo (`2026-06-08T14:00:00-03:00`) em entradas
+  novas de backlog/changelog — aplicação prospectiva, sem refatoração retroativa
+- Refinar critério de duplicata do W05 — duplicata = mesmo número de versão COM
+  mesmo conteúdo/propósito (complementa timestamp ISO)
+- Reorganização do `backlog-versoes.md` do M01 — missão dedicada; 910+ linhas
+  com numeração duplicada e séries entrelaçadas
+- Intenção do Comandante como princípio universal — declarar no `nomenclatura.md`
+  e propagar às skills existentes
+- Criar `pdtic-historico` (D — tipo Documento) — versionamento histórico do PDTIC
+  com IACs gerados
 - Criar `governanca-ses-df-fase3` — transcrição dos documentos 10–17 pendentes
 - Evoluir S05 para fase sequencial autônoma (condição: PASSOU ≥ 95% em ≥ 10 docs)
-- Integração SEI via API quando disponível (roadmap longo prazo)
-- Calendário visual sobre A01 (`agd-dtd`) — visualização de reuniões
+- Criar `wkf-iac-conformidade` (W07) — análise de conformidade documental
+  automatizada, consumindo D01 e S02 como subprocessos
+- Integração SEI via API quando disponível
+
+---
+
+## 🌱 Maturando
+
+- Campos autor/revisor nas entradas de backlog — aguarda primeiro colaborador externo
+- Perfis de acesso formais do ecossistema — aguarda colaborador externo
+- Família de workflows derivados do W04 por projeto (`wkf-roadmap-telessaude` etc.)
+  — aguarda projeto em fase ativa
 
 ---
 
@@ -108,3 +140,11 @@ Habilitará o uso pleno da `skl-iac-pdtic` (S02) no ecossistema.
 - Migração de PAT clássico para fine-grained com escopos mínimos e expiração curta
 - Replicação do modelo de ecossistema para outras unidades da SES-DF
 - Case institucional documentado para publicação
+
+---
+
+> **Legenda de curadoria:**
+> 🔒 interno — relevante para rastreabilidade, sem valor comunicacional externo
+> 📊 estratégico — tem narrativa de valor para SETIS e instâncias superiores
+> 🌐 público — comunicável externamente
+> *(itens sem símbolo = curadoria pendente ou não aplicável)*
