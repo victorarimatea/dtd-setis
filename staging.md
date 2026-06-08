@@ -136,6 +136,8 @@ Registre com todos os campos preenchidos. Status inicial: `pendente`.
 
 | Data | Conversa de origem | Ideia candidata | Pergunta orientadora ativada | Validada pelo mantenedor | Status | Aguardando desde |
 |---|---|---|---|---|---|---|
+| 2026-06-08 | W04 — primeira sessão de roadmapping | Princípio da staging area: "idéias em excesso são preferíveis a idéias perdidas" — a curadoria é o momento da consolidação, não o registro; formalizar na Seção 2 do W04/WORKFLOW.md como princípio de design da staging | #6 — nomeação de princípio que não estava formalizado | ✅ confirmado | pendente | 2026-06-08 |
+| 2026-06-08 | W04 — primeira sessão de roadmapping | Critério de curadoria da Etapa 5 do W04: árbitro é prioridade × factibilidade × tempo disponível na sessão — quando há pouco tempo, encaixar tarefa mais rápida sem perder visão do que é mais importante; formalizar na Etapa 5 do W04/WORKFLOW.md | #6 — princípio articulado em voz alta, não escrito no workflow | ✅ confirmado | pendente | 2026-06-08 |
 | 2026-06-04 | Sessão de criação do W04 | Estrutura formal de perfis de acesso do ecossistema — define quem pode visualizar, editar e criar em cada repositório; base para governança multiusuário | #1 — lacuna identificada | ✅ confirmado | maturando | 2026-06-04 |
 | 2026-06-04 | Sessão de criação do W04 | Família de workflows derivados do W04 para projetos específicos — `wkf-roadmap-telessaude`, `wkf-roadmap-pdtic` e outros, sem alterar o W04 base | #6 — nomeação de algo que não existe | ✅ confirmado | maturando | 2026-06-04 |
 | 2026-06-05 | Sessão de correção de drifts e Intenção do Comandante | Intenção do Comandante como princípio universal do ecossistema — declarar no `nomenclatura.md` e exigir que cada skill tenha sua própria declaração calibrada para seu domínio | #7 — implicação estratégica não explorada | ✅ confirmado | aprovada | 2026-06-05 |
@@ -255,6 +257,7 @@ Status inicial: `pendente`. Quando inserido no hub-aprendizagem: `registrado`.
 
 | Data | Sessão de origem | Aprendizado | Critérios ativados | Rascunho disponível | Status | Aguardando desde |
 |---|---|---|---|---|---|---|
+| 2026-06-08 | W04 — primeira sessão de roadmapping (curadoria T1) | API GitHub vs raw.githubusercontent.com: por que a regra existe, o que observamos que acontece com CDN cache em operações de leitura operacional, e como chegamos à instrução "nunca raw — sempre API" | #1 (problema recorrente), #2 (causa raiz não óbvia antes da prática), #5 (muda como operamos daqui para frente) | Rascunho a redigir | pendente | 2026-06-08 |
 | 2026-06-05 | Sessão de engenharia reversa e W05 | Separação executor/auditor como princípio arquitetural — viés de confirmação estrutural, Defense in Depth, W05 como camada independente | #1, #2, #4, #5 | Rascunho completo disponível (cap-02) | registrado | 2026-06-05 |
 | 2026-06-07 | Sessão de design do wiki-ecossistema | Conhecimento como query — distinção entre informação materializada e derivada sob demanda; fronteira viva/congelada | #3, #5 | Rascunho completo (cap-03) | registrado | 2026-06-07 |
 
