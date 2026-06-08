@@ -1,3 +1,32 @@
+## [Não versionado] — 2026-06-08 (W04)
+
+### W04 — Primeira sessão de roadmapping
+
+**Primeira execução formal do workflow W04 `wkf-roadmap-geral`.**
+
+#### Curadoria realizada
+- 10 registros automáticos (Seção A) processados — Seção A limpa
+- 21 ideias mineradas (Seção C) curadas:
+  - 13 aprovadas → ROADMAP (ações imediatas, médio prazo ou longo prazo)
+  - 5 maturando → permanecem na Seção C
+  - 3 maturando por decisão explícita do mantenedor (aguardam colaborador externo ou projeto ativo)
+- 2 entradas duplicadas do `wkf-resumo-executivo` consolidadas em 1
+
+#### Atualizado
+- `ROADMAP.md` — Fase 7 criada; próxima missão estruturada (I1–I6);
+  médio prazo reorganizado; seção Maturando criada; legenda de curadoria adicionada
+- `staging.md` — Seção A limpa; Seção D populada com 12 entradas históricas;
+  itens curados com decisão e curadoria registradas
+- `GLOSSARIO.md` (hub-fonte) → v2.2 — 5 termos novos adicionados à Categoria 17
+
+#### Decisões de design registradas
+- Filosofia da staging area formalizada: idéias em excesso são preferíveis
+  a idéias perdidas — a curadoria é o momento da consolidação, não o registro
+- `wkf-resumo-executivo` definido como ativo estratégico permanente em
+  amadurecimento, não entregável pontual
+- Wiki-ecossistema aprovado como projeto formal de médio prazo
+- Timestamp ISO 8601 adotado para entradas novas — sem refatoração retroativa
+
 ## [Não versionado] — 2026-06-05 (W05)
 
 ### Adicionado
