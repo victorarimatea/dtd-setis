@@ -1,3 +1,33 @@
+## [Não versionado] — 2026-06-11 (sessão de design)
+
+### Design do ciclo de sessão — relatório de encerramento, Handoff e ritos
+
+**Sessão de design conceitual conduzida por etapas, como discussão de princípios.**
+
+#### Decisões de arquitetura amadurecidas
+- O rito de condução mora no W06 (roteiro); o W03 define a forma do relatório (ata)
+- O Handoff é a seção final do relatório, vivendo no hub-memoria — localizado pela
+  abertura via API, eliminando o atrito de colá-lo manualmente a cada sessão
+- Convergência declarada como estado + resíduo SEV (não rótulo novo); sessão sem
+  convergência entrega dívida prioritária
+- Classificação de sessão por modos coexistentes (escreve / não-escreve), não por
+  tipos rígidos; sessão de leitura dispensa o rito completo de auditoria
+
+#### Roteado ao ROADMAP (Médio prazo)
+- Bloco "Formalização do ciclo de sessão" — 3 metas fechadas
+- Meta autônoma "Reclassificação W03 e fronteira skill↔workflow" — contém decisão
+  de design pendente; deixada separada para amadurecer
+
+#### Roteado à staging (Seção C — pendentes)
+- Memória de domínio do briefing de saúde digital (1ª categoria de registro de conteúdo)
+- Contribuição externa via issues públicas (viabilidade técnica confirmada)
+- Disciplina de Arquitetura do Conhecimento (3ª camada de governança, do anexo)
+
+#### Princípio metodológico registrado
+- "A velocidade pode ser nossa inimiga" — sistema robusto se constrói passo a passo;
+  a staging existe para reter ideias que atropelam o fluxo, não para deixá-las
+  sequestrar o trabalho corrente
+
 ## [Não versionado] — 2026-06-08 (W04)
 
 ### W04 — Primeira sessão de roadmapping
