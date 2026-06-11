@@ -1,3 +1,38 @@
+## 2026-06-11 — Roteamento do design do ciclo de sessão (ROADMAP + staging)
+
+**Tipo de alteração:** Atualização estrutural (registro de design)
+**Autorizado por:** Victor Leonardo Arimatea Queiroz
+**Timestamp:** 2026-06-11T20:42:00-03:00
+**Exposição de motivos:** Sessão de design conceitual conduziu, por etapas e como
+discussão de princípios, ao desenho do relatório de encerramento de sessão, do
+Bloco de Handoff e dos ritos de condução. Quatro decisões de arquitetura foram
+amadurecidas; três ideias emergentes foram deliberadamente retidas para não
+sequestrar o fio em andamento (princípio "a velocidade pode ser nossa inimiga").
+Esta operação roteia cada peça ao seu lar canônico: decisões fechadas ao ROADMAP,
+ideias ainda embrionárias à staging. Nenhuma alteração na fonte de verdade
+(sumario.md) nem em workflows — puro registro.
+
+### Alterações realizadas
+- `ROADMAP.md` — bloco "Formalização do ciclo de sessão" criado no Médio prazo
+  com 3 metas fechadas (estrutura do relatório no W03; localização do handoff no
+  W06; convergência como estado+resíduo SEV)
+- `ROADMAP.md` — meta autônoma "Reclassificação W03 e fronteira skill↔workflow"
+  registrada separadamente, por conter decisão de design pendente (não só execução)
+- `ROADMAP.md` — cabeçalho: última atualização 2026-06-08 → 2026-06-11
+- `staging.md` — 3 ideias adicionadas à Seção C (status pendente): memória de
+  domínio do briefing; contribuição externa via issues públicas; disciplina de
+  Arquitetura do Conhecimento
+- `CHANGELOG.md` — entrada de 2026-06-11 documentando o roteamento
+
+### Vínculos registrados
+- Meta autônoma (reclassificação W03) ↔ Ideia C (Arquitetura do Conhecimento):
+  mesma família de questão; provável abordagem conjunta em sessão evolutiva
+- Ideia A (memória do briefing) ↔ "Handoff qualificado" (já na Seção C): lógica
+  de acervo consultável
+- Ideia C ↔ "Modularização da S04" (já na Seção C): respostas ao mesmo inchaço
+
+---
+
 ## 2026-06-05 — staging.md reformulada
 
 **Tipo de alteração:** Atualização estrutural
