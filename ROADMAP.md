@@ -1,6 +1,6 @@
 # Roadmap — DTD/SETIS/SES-DF
 
-**Última atualização:** 2026-06-08
+**Última atualização:** 2026-06-11
 **Versão do ecossistema:** sumario v3.4 | S04 v2.7 | W06 v1.1
 
 ---
@@ -101,6 +101,31 @@
 ---
 
 ## 📅 Médio prazo
+
+### Formalização do ciclo de sessão (relatório + handoff + ritos)
+*Três decisões de arquitetura amadurecidas na sessão de design de 2026-06-11.
+Conjunto coeso, executável em sequência. Ref.: registro de design 2026-06-11.*
+
+- Formalizar a estrutura do relatório de encerramento no W03 — três blocos:
+  (I) narrativa; (II) ciclo de qualidade [operações S04, ciclo auditoria→correção,
+  declaração de convergência]; (III) Bloco de Handoff. Atualiza a Seção 6 do
+  W03/WORKFLOW.md, hoje defasada (não prevê auditorias, convergência nem handoff)
+- Instruir a localização do handoff na abertura do W06 — a abertura lê o handoff
+  como seção final do último relatório no hub-memoria, via API; elimina o atrito
+  de colar o handoff manualmente a cada sessão
+- Adotar convergência como estado + resíduo SEV — campo `convergencia`
+  (atingida/nao-atingida) + `residuo_tolerado` [lista SEV3/SEV4] no frontmatter
+  e como declaração que autoriza o encerramento; sessão sem convergência entrega
+  dívida prioritária no handoff
+
+### Reclassificação W03 e fronteira skill↔workflow (meta autônoma)
+- **Sessão evolutiva dedicada — contém DECISÃO DE DESIGN, não só execução.**
+  Definir com clareza o critério que separa skill de workflow no ecossistema e
+  aplicá-lo daqui em diante. Pode resultar em renomear
+  `wkf-registro-sessao`→`skl-registro-sessao` OU em manter o nome e cravar o
+  critério de classificação. Toca a fonte de verdade (sumario.md, nomenclatura,
+  referências cruzadas). Vinculada à disciplina de Arquitetura do Conhecimento
+  (staging Seção C) — provável abordagem conjunta
 
 - Criar `wkf-resumo-executivo` (W07 reservado) — workflow para estruturar, aprovar
   e distribuir Resumo Executivo para SETIS e Secretário de Saúde; ativo estratégico
