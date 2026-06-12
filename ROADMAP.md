@@ -76,6 +76,12 @@
 - ✅ Primeira execução do W04 `wkf-roadmap-geral` — 21 itens curados, ROADMAP estruturado por camadas, staging limpa (2026-06-08) 📊
 - ✅ GLOSSARIO.md v2.2 — 5 termos novos adicionados à Categoria 17 (2026-06-08) 🔒
 
+### Fase 8 — Formalização do ciclo de sessão
+- ✅ W03 v1.3 — estrutura do relatório de encerramento formalizada em três blocos: (I) narrativa; (II) ciclo de qualidade [operações S04, ciclo auditoria→correção, declaração de convergência]; (III) Bloco de Handoff (2026-06-12)
+- ✅ W03 v1.3 — convergência adotada como estado + resíduo SEV no frontmatter: campos `convergencia` (atingida/nao-atingida) e `residuo_tolerado` [SEV3/SEV4]; declaração que autoriza o encerramento (2026-06-12)
+- ✅ W06 v1.2 — localização automática do handoff na abertura: a sessão lê o Bloco de Handoff como seção final do último relatório no hub-memoria via API; elimina a cola manual e o atrito diário de abertura (2026-06-12)
+- ✅ W06 v1.2 — regra de fallback do handoff: falha na extração aciona auditoria W05 nova do zero, nunca reverte ao processo manual de colagem (decisão do mantenedor, 2026-06-12)
+
 ---
 
 ## 🔄 Em andamento
@@ -101,22 +107,6 @@
 ---
 
 ## 📅 Médio prazo
-
-### Formalização do ciclo de sessão (relatório + handoff + ritos)
-*Três decisões de arquitetura amadurecidas na sessão de design de 2026-06-11.
-Conjunto coeso, executável em sequência. Ref.: registro de design 2026-06-11.*
-
-- Formalizar a estrutura do relatório de encerramento no W03 — três blocos:
-  (I) narrativa; (II) ciclo de qualidade [operações S04, ciclo auditoria→correção,
-  declaração de convergência]; (III) Bloco de Handoff. Atualiza a Seção 6 do
-  W03/WORKFLOW.md, hoje defasada (não prevê auditorias, convergência nem handoff)
-- Instruir a localização do handoff na abertura do W06 — a abertura lê o handoff
-  como seção final do último relatório no hub-memoria, via API; elimina o atrito
-  de colar o handoff manualmente a cada sessão
-- Adotar convergência como estado + resíduo SEV — campo `convergencia`
-  (atingida/nao-atingida) + `residuo_tolerado` [lista SEV3/SEV4] no frontmatter
-  e como declaração que autoriza o encerramento; sessão sem convergência entrega
-  dívida prioritária no handoff
 
 ### Reclassificação W03 e fronteira skill↔workflow (meta autônoma)
 - **Sessão evolutiva dedicada — contém DECISÃO DE DESIGN, não só execução.**
