@@ -1,3 +1,30 @@
+## [Não versionado] — 2026-06-12 (sessão de operação)
+
+### Formalização do ciclo de sessão implementada — W03 v1.3 e W06 v1.2
+
+**Execução das 3 metas desenhadas na sessão de design de 2026-06-11.**
+
+#### W03 v1.3 — estrutura do relatório de sessão
+- Seção 6 reorganizada em três blocos: (I) narrativa; (II) ciclo de qualidade
+  [operações S04, ciclo auditoria→correção, declaração de convergência];
+  (III) Bloco de Handoff como seção final
+- Frontmatter expandido com `convergencia` (atingida/nao-atingida) e
+  `residuo_tolerado` [SEV3/SEV4], ancorando a convergência na escala SEV existente
+
+#### W06 v1.2 — localização automática do handoff
+- Etapa 2 reescrita: a abertura lê o Bloco de Handoff do último relatório no
+  hub-memoria via API, sem cola manual — elimina o atrito diário de abertura
+- Regra de fallback: falha na extração do handoff aciona auditoria W05 nova do
+  zero, nunca reverte ao processo manual de colagem
+- Pacote 1 (mensagem de abertura) atualizado para refletir a leitura automática
+
+#### Propagação
+- hub-fonte: sumario.md v3.5, CONTEXTO.md v3.8, backlog v0.33
+- ROADMAP: bloco "Formalização do ciclo de sessão" concluído (Fase 8); removido
+  do médio prazo
+
+---
+
 ## [Não versionado] — 2026-06-11 (sessão de design)
 
 ### Design do ciclo de sessão — relatório de encerramento, Handoff e ritos
