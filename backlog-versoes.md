@@ -1,3 +1,28 @@
+## 2026-06-11 — Ancoragem da pérola final (protocolo de sessão + acesso API/raw)
+
+**Tipo de alteração:** Captura de conhecimento (pós-encerramento)
+**Autorizado por:** Victor Leonardo Arimatea Queiroz
+**Timestamp:** 2026-06-11T21:00:00-03:00
+**Exposição de motivos:** Após o encerramento formal da sessão, emergiu uma
+descoberta de alto valor sobre acesso ao ecossistema sem token e sobre a
+canonização dos blocos de terminal. Aplicando a própria lição de captura
+descoberta na sessão (o que não tem endereço no ecossistema se perde), a pérola
+foi ancorada antes de o token ser revogado.
+
+### Alterações realizadas
+- `hub-memoria/documentos/ANEXO-2026-06-11-blocos-terminal-e-protocolo-sessao.md`
+  — criado: três blocos de terminal (abertura/fechamento/leitura), regra de acesso
+  contextual API/raw, e desenho do arquivo canônico PROTOCOLO-SESSAO.md
+- `staging.md` — entrada na Seção C (pendente): protocolo canônico + regra de
+  acesso API/raw + bloco de leitura compartilhável
+
+### Descoberta empírica registrada (a formalizar no CONTEXTO.md)
+- API Contents sem token: teto de 60 req/h por IP (esgota em rede compartilhada)
+- raw.githubusercontent.com: sem teto de autenticação; cache CDN inócuo em leitura pura
+- Princípio: API-only é regra de OPERAÇÃO (anti-drift); leitura sem token usa raw
+
+---
+
 ## 2026-06-11 — Roteamento do design do ciclo de sessão (ROADMAP + staging)
 
 **Tipo de alteração:** Atualização estrutural (registro de design)
