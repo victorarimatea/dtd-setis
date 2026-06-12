@@ -1,7 +1,7 @@
 # Roadmap — DTD/SETIS/SES-DF
 
-**Última atualização:** 2026-06-11
-**Versão do ecossistema:** sumario v3.4 | S04 v2.7 | W06 v1.1
+**Última atualização:** 2026-06-12
+**Versão do ecossistema:** sumario v3.5 | S04 v2.7 | W06 v1.2
 
 ---
 
