@@ -1,3 +1,23 @@
+## [Não versionado] — 2026-06-12 (correção pós-auditoria W05)
+
+### Correção de divergências SEV2 detectadas no fechamento
+
+A auditoria W05 independente de 2026-06-12 identificou 4 divergências SEV2 de
+propagação de versão, todas corrigidas na mesma sessão:
+- D1: `wkf-sessao-agente/README.md` v1.1 → v1.2
+- D2: `wkf-registro-sessao/README.md` v1.2 → v1.3
+- D3: `wkf-registro-sessao/WORKFLOW.md` tabela Seção 1, campo Versão v1.0 → v1.3
+- D4: `hub-entrada/ROADMAP.md` campo "Versão do ecossistema" → sumario v3.5 |
+  S04 v2.7 | W06 v1.2; "Última atualização" → 2026-06-12
+
+Todas eram divergências de propagação: a operação principal atualizou os
+arquivos canônicos (WORKFLOW.md, sumario, CONTEXTO) mas não propagou para
+READMEs, tabela interna e campo de versão do ROADMAP. Lição reforçada — relação
+direta com a ideia "Consulta de previsão na abertura" e com a ordem de
+dependência de sincronização de versões.
+
+---
+
 ## [Não versionado] — 2026-06-12 (sessão de operação)
 
 ### Formalização do ciclo de sessão implementada — W03 v1.3 e W06 v1.2
