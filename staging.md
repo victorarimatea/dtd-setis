@@ -100,7 +100,6 @@ Um candidato é elegível se responder afirmativamente a pelo menos duas:
 
 | # | Pergunta orientadora | Sinal típico no texto |
 |---|---|---|
-| 2026-06-13 | Sessão quitação dívida legada | Design: Simplificação do modelo de propagação de versões — avaliar sumario-only ou source-only (omitir versão do CONTEXTO.md; adaptar Camada 1 da W05 e checklists da S04). Motivação: cadeia de 3 nós é fonte recorrente de drift; princípio knowledge-as-query já adotado no ecossistema | 7 | ⏳ pendente | — |
 | 1 | O mantenedor identificou um problema recorrente ou uma lacuna no ecossistema? | *"ainda não temos..."*, *"falta um..."*, *"o problema é que..."* |
 | 2 | O mantenedor expressou uma hipótese sobre algo que poderia existir? | *"seria interessante se..."*, *"imagino que..."*, *"poderia ser..."* |
 | 3 | O mantenedor fez uma comparação com uma referência externa? | *"como fazem em..."*, *"seria como um..."*, *"semelhante ao..."* |
@@ -137,6 +136,7 @@ Registre com todos os campos preenchidos. Status inicial: `pendente`.
 
 | Data | Conversa de origem | Ideia candidata | Pergunta orientadora ativada | Validada pelo mantenedor | Status | Aguardando desde |
 |---|---|---|---|---|---|---|
+| 2026-06-13 | Sessão quitação dívida legada | Design: Simplificação do modelo de propagação de versões — avaliar sumario-only ou source-only (omitir versão do CONTEXTO.md; adaptar Camada 1 da W05 e checklists da S04). Motivação: cadeia de 3 nós é fonte recorrente de drift; princípio knowledge-as-query já adotado no ecossistema | 7 | ⏳ pendente | — | — |
 | 2026-06-08 | W04 — encerramento + exercício teórico pós-auditoria | Handoff qualificado com diagnóstico causal: quando o W05 retorna SEV2, o W03 inclui etapa explícita de diagnóstico causal ("por que esse SEV2 existiu") aproveitando o contexto vivo da sessão executora — a correção vai para o Handoff, o diagnóstico fica registrado; a sessão de auditoria absorve o Handoff qualificado e pode executar as correções com causa raiz documentada, fechando o ciclo entre executor e auditor | #4 (pergunta estratégica sem resposta imediata) e #7 (implicação estratégica identificada pelo agente) | ✅ confirmado | pendente | 2026-06-08 |
 | 2026-06-08 | W04 — primeira sessão de roadmapping | Princípio da staging area: "idéias em excesso são preferíveis a idéias perdidas" — a curadoria é o momento da consolidação, não o registro; formalizar na Seção 2 do W04/WORKFLOW.md como princípio de design da staging | #6 — nomeação de princípio que não estava formalizado | ✅ confirmado | pendente | 2026-06-08 |
 | 2026-06-08 | W04 — primeira sessão de roadmapping | Critério de curadoria da Etapa 5 do W04: árbitro é prioridade × factibilidade × tempo disponível na sessão — quando há pouco tempo, encaixar tarefa mais rápida sem perder visão do que é mais importante; formalizar na Etapa 5 do W04/WORKFLOW.md | #6 — princípio articulado em voz alta, não escrito no workflow | ✅ confirmado | pendente | 2026-06-08 |
