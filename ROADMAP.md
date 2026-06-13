@@ -1,7 +1,7 @@
 # Roadmap — DTD/SETIS/SES-DF
 
-**Última atualização:** 2026-06-12
-**Versão do ecossistema:** sumario v3.5 | S04 v2.7 | W06 v1.2
+**Última atualização:** 2026-06-13
+**Versão do ecossistema:** sumario v3.6 | S04 v2.8 | W06 v1.2
 
 ---
 
@@ -82,6 +82,10 @@
 - ✅ W06 v1.2 — localização automática do handoff na abertura: a sessão lê o Bloco de Handoff como seção final do último relatório no hub-memoria via API; elimina a cola manual e o atrito diário de abertura (2026-06-12)
 - ✅ W06 v1.2 — regra de fallback do handoff: falha na extração aciona auditoria W05 nova do zero, nunca reverte ao processo manual de colagem (decisão do mantenedor, 2026-06-12)
 
+### Fase 9 — Protocolo de sessão canônico e doutrina de acesso
+- ✅ `hub-entrada/PROTOCOLO-SESSAO.md` v1.0 — lar canônico e versionado dos ritos de sessão (abertura, fechamento, leitura); consolida as ideias de fluidez mineradas em 2026-06-11/06-12; blocos sempre em code fence copiável (2026-06-13)
+- ✅ Doutrina de dois tokens adotada — token de leitura ampla na abertura (alcança privados; 5000 req/h; sem cache CDN) e token de edição só na conversão para escrita; raw aposentado como canal de sessão. Propagada ao S04 (ETAPA 0, v2.8) e ao CONTEXTO.md (v3.9) (2026-06-13)
+
 ---
 
 ## 🔄 Em andamento
@@ -97,7 +101,7 @@
 
 **Missão definida na sessão W04 de 2026-06-08 — correções técnicas remanescentes:**
 
-- I1 — Corrigir instruções `raw.githubusercontent.com` → API GitHub no W05/WORKFLOW.md e CONTEXTO.md
+- ✅ I1 — Resolvido pela doutrina de dois tokens (2026-06-13): leitura e escrita passam a ser API autenticada (token de leitura na abertura; token de edição na escrita); raw aposentado como canal de sessão. CONTEXTO.md (v3.9) e S04/ETAPA 0 (v2.8) atualizados. Resta propagar a regra ao W05/WORKFLOW.md (próxima operação)
 - I2 — Padronizar "perguntas orientadoras" (substituir "ordenadoras") na S04 e W06
 - I3 — Corrigir campo Versão da Seção 1 do W06/WORKFLOW.md (v1.0 → v1.1)
 - I4 — Corrigir ID W07 do `wkf-iac-conformidade` no ROADMAP.md
