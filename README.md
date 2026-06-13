@@ -83,8 +83,6 @@ Camada 1 — Conteúdo Institucional (Documentos D + Agendas A + Projetos P)
 | S06 | [skl-registro-reuniao](https://github.com/victorarimatea/skl-registro-reuniao) | Público | Transforma resumos de reunião em registros institucionais para o SEI |
 | S07 | [skl-briefing-saude-digital](https://github.com/victorarimatea/skl-briefing-saude-digital) | Público | Briefing periódico de saúde digital para o Diretor de Transformação Digital |
 
-| W05 | [wkf-auditoria-consistencia](https://github.com/victorarimatea/wkf-auditoria-consistencia) | Público | Auditoria de consistência do ecossistema em 5 camadas — independente da S04 |
-
 ### Documentos (D) — conteúdo institucional estruturado
 
 | ID | Repositório | Visibilidade | Descrição |
