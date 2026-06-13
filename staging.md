@@ -100,6 +100,7 @@ Um candidato é elegível se responder afirmativamente a pelo menos duas:
 
 | # | Pergunta orientadora | Sinal típico no texto |
 |---|---|---|
+| 2026-06-13 | Sessão quitação dívida legada | Design: Simplificação do modelo de propagação de versões — avaliar sumario-only ou source-only (omitir versão do CONTEXTO.md; adaptar Camada 1 da W05 e checklists da S04). Motivação: cadeia de 3 nós é fonte recorrente de drift; princípio knowledge-as-query já adotado no ecossistema | 7 | ⏳ pendente | — |
 | 1 | O mantenedor identificou um problema recorrente ou uma lacuna no ecossistema? | *"ainda não temos..."*, *"falta um..."*, *"o problema é que..."* |
 | 2 | O mantenedor expressou uma hipótese sobre algo que poderia existir? | *"seria interessante se..."*, *"imagino que..."*, *"poderia ser..."* |
 | 3 | O mantenedor fez uma comparação com uma referência externa? | *"como fazem em..."*, *"seria como um..."*, *"semelhante ao..."* |
