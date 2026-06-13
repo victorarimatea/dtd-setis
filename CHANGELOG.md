@@ -1,3 +1,29 @@
+## [Não versionado] — 2026-06-13 (sessão de operação — protocolo de sessão)
+
+### PROTOCOLO-SESSAO.md criado e doutrina de dois tokens adotada
+
+Criado o `hub-entrada/PROTOCOLO-SESSAO.md` v1.0 — lar canônico dos ritos de
+sessão (abertura, fechamento, leitura), consolidando as ideias de fluidez
+mineradas em 2026-06-11 e 2026-06-12. Os blocos operacionais vivem no arquivo;
+os blocos de notas viram ponteiros enxutos.
+
+#### Doutrina de dois tokens (supera a regra "API/raw")
+- **Token de leitura ampla** na abertura de toda sessão — alcança repositórios
+  privados (o handoff mora no hub-memoria, privado), eleva o teto a 5000 req/h
+  e elimina o cache CDN. Era a causa-raiz das falhas recorrentes de leitura.
+- **Token de edição** apenas na conversão para escrita; revogado ao fim.
+- `raw.githubusercontent.com` aposentado como canal de sessão.
+
+#### Propagação
+- S04 v2.7 → v2.8 (ETAPA 0 reescrita); hub-fonte CONTEXTO.md v3.8 → v3.9,
+  sumario.md v3.5 → v3.6, backlog v0.34; hub-entrada v2.1
+- Item I1 do ROADMAP resolvido para CONTEXTO e S04 (raw → API); resta
+  propagar ao W05/WORKFLOW.md
+- Reconciliada a versão do M01 no sumario (v0.31 → v0.34), defasagem de
+  propagação herdada
+
+---
+
 ## [Não versionado] — 2026-06-12 (correção pós-auditoria W05)
 
 ### Correção de divergências SEV2 detectadas no fechamento
