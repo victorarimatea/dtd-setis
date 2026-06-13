@@ -59,6 +59,10 @@ autonomamente.
 
 | Data | Hora | Autor | Ideia | Contexto de origem | Status |
 |---|---|---|---|---|---|
+| 2026-06-13 | CONTEXTO.md (hub-fonte) | PTD / PTD-SES | Instrumento de planejamento citado junto ao PDTIC (que está definido); assimetria notável — pode merecer entrada breve de contextualização | SEV4 W05 2026-06-13 | ⏳ pendente |
+| 2026-06-13 | CONTEXTO.md (hub-fonte) | SGTD | Subcomitê de Governança de TI e Dados que o mantenedor preside; usado na seção de governança do ecossistema | SEV4 W05 2026-06-13 | ⏳ pendente |
+| 2026-06-13 | CONTEXTO.md (hub-fonte) | CIG/SES | Comitê Institucional de Governança referenciado na Portaria 193/2024; colegiado externo ao ecossistema | SEV4 W05 2026-06-13 | ⏳ pendente |
+| 2026-06-13 | CONTEXTO.md (hub-fonte) | Fórum de Subsecretários | Instância deliberativa referenciada nas regras de linguagem institucional do CONTEXTO.md | SEV4 W05 2026-06-13 | ⏳ pendente |
 | — | — | — | — | — | — |
 
 ---
