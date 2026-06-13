@@ -1,8 +1,8 @@
 # Índice — dtd-setis
 
 **Tipo:** Portfólio público
-**Última atualização:** 2026-06-02
-**Total de arquivos:** 12 (raiz + docs/ + projetos/)
+**Última atualização:** 2026-06-13
+**Total de arquivos:** 13 (raiz + docs/ + projetos/)
 
 > Porta de entrada pública do ecossistema DTD/SETIS/SES-DF.
 > Para iniciar uma sessão de trabalho, leia o CONTEXTO.md do
@@ -20,6 +20,7 @@
 | [`ROADMAP.md`](./ROADMAP.md) | Fases concluídas, em andamento, próximas ações e médio/longo prazo | Para ver o estado atual e o que vem a seguir |
 | [`CHANGELOG.md`](./CHANGELOG.md) | Histórico completo de entregas — [0.5] a [2.3] | Para ver o que foi construído e quando |
 | [`DECISOES.md`](./DECISOES.md) | Registro das grandes decisões estratégicas e seus motivos | Para entender por que o ecossistema é como é |
+| [`PROTOCOLO-SESSAO.md`](./PROTOCOLO-SESSAO.md) | Ritos canônicos de sessão (abertura, fechamento, leitura) e doutrina de acesso de dois tokens | Antes de abrir ou fechar qualquer sessão de trabalho |
 | [`backlog-versoes.md`](./backlog-versoes.md) | Histórico de decisões e motivações por alteração do portfólio | Para rastreabilidade das alterações |
 
 ## Subpasta — docs/
