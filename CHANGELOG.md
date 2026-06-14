@@ -1,3 +1,26 @@
+## [Não versionado] — 2026-06-13 (correção pós-auditoria W05)
+
+### Correção de 1 SEV2 + 2 SEV3 detectados no fechamento
+
+A auditoria W05 independente da sessão do protocolo de sessão identificou e
+corrigiu, na mesma data:
+- **SEV2** — `hub-fonte/CONTEXTO.md`: a célula do S04 na tabela de repositórios
+  mostrava v2.7 enquanto `sumario.md` (v3.6) e `SKILL.md` já estavam em v2.8;
+  descrição também desatualizada. Último salto do grafo `sumario → CONTEXTO`
+  ficou incompleto na propagação de v0.34. Corrigido para v2.8 + menção à
+  ETAPA 0 de dois tokens (correção dentro da v3.9, sem novo bump).
+- **SEV3** — `hub-fonte/CONTEXTO.md`: linha do W05 dizia "sem token"; sob a
+  doutrina de dois tokens o W05 (Modo 2) usa token de leitura. Ajustado para
+  "sem token de edição".
+- **SEV3** — `hub-entrada/INDICE.md`: contagem corrigida de 13 → 12 (árvore
+  real) e `staging.md` adicionada à tabela da raiz (estava omitida).
+
+Reforça o ganho da separação executor/auditor: o CHANGELOG da sessão afirmava
+a propagação ao CONTEXTO concluída, mas a auditoria independente mostrou o
+número do S04 ausente na tabela. Mesma classe dos SEV2 de 2026-06-12 (D3/D4).
+
+---
+
 ## [Não versionado] — 2026-06-13 (sessão de operação — protocolo de sessão)
 
 ### PROTOCOLO-SESSAO.md criado e doutrina de dois tokens adotada
