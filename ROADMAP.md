@@ -1,7 +1,7 @@
 # Roadmap — DTD/SETIS/SES-DF
 
-**Última atualização:** 2026-06-13
-**Versão do ecossistema:** sumario v3.6 | S04 v2.8 | W06 v1.2
+**Última atualização:** 2026-06-14
+**Versão do ecossistema:** sumario v3.7 | S04 v2.8 | W05 v1.3 | W06 v1.3
 
 ---
 
@@ -85,6 +85,7 @@
 ### Fase 9 — Protocolo de sessão canônico e doutrina de acesso
 - ✅ `hub-entrada/PROTOCOLO-SESSAO.md` v1.0 — lar canônico e versionado dos ritos de sessão (abertura, fechamento, leitura); consolida as ideias de fluidez mineradas em 2026-06-11/06-12; blocos sempre em code fence copiável (2026-06-13)
 - ✅ Doutrina de dois tokens adotada — token de leitura ampla na abertura (alcança privados; 5000 req/h; sem cache CDN) e token de edição só na conversão para escrita; raw aposentado como canal de sessão. Propagada ao S04 (ETAPA 0, v2.8) e ao CONTEXTO.md (v3.9) (2026-06-13)
+- ✅ Doutrina de dois tokens propagada ao W05 (`wkf-auditoria-consistencia` v1.3 — auditor opera só com token de leitura, nunca edição; Etapa 8 redesenhada: log depositado pela sessão executora) e ao W06 (`wkf-sessao-agente` v1.3 — Pacotes 1/2 pedem token de leitura). Conclui o I1 e fecha o SEV3 de acesso herdado (2026-06-14)
 
 ---
 
@@ -101,7 +102,7 @@
 
 **Missão definida na sessão W04 de 2026-06-08 — correções técnicas remanescentes:**
 
-- ✅ I1 — Resolvido pela doutrina de dois tokens (2026-06-13): leitura e escrita passam a ser API autenticada (token de leitura na abertura; token de edição na escrita); raw aposentado como canal de sessão. CONTEXTO.md (v3.9) e S04/ETAPA 0 (v2.8) atualizados. Resta propagar a regra ao W05/WORKFLOW.md (próxima operação)
+- ✅ I1 — Concluído (2026-06-14): doutrina de dois tokens propagada ao W05/WORKFLOW.md (v1.3 — auditor só com token de leitura, nunca edição; Etapa 8 redesenhada: log depositado pela sessão executora) e aos Pacotes 1/2 do W06/WORKFLOW.md (v1.3). Leitura/escrita via API autenticada; raw aposentado como canal de sessão. CONTEXTO.md (v3.10), sumario.md (v3.7) e S04/ETAPA 0 (v2.8) alinhados. Fecha o SEV3 de acesso herdado no W05
 - I2 — Padronizar "perguntas orientadoras" (substituir "ordenadoras") na S04 e W06
 - I3 — Corrigir campo Versão da Seção 1 do W06/WORKFLOW.md (v1.0 → v1.1)
 - I4 — Corrigir ID W07 do `wkf-iac-conformidade` no ROADMAP.md
