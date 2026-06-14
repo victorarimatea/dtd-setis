@@ -1,6 +1,6 @@
 # Diretoria de Transformação Digital — DTD/SETIS/SES-DF
 
-**Versão:** v2.0 — 2026-06-06
+**Versão:** v2.1 — 2026-06-13
 
 > **Tecnologia pública a serviço da saúde das pessoas.**
 
