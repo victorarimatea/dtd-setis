@@ -1,3 +1,41 @@
+## [Não versionado] — 2026-06-14 (correção pós-reauditoria W05)
+
+### Correção de 6 SEV2 + 2 SEV3 + 4 SEV4 detectados no fechamento
+
+A reauditoria W05 independente da sessão de propagação dos dois tokens detectou
+12 divergências (zero SEV1). Decisão do mantenedor: corrigir todas, sem agendar.
+
+#### SEV2 — READMEs fora do grafo de versões (sincronizados ao sumario.md)
+- `wkf-auditoria-consistencia/README.md` v1.2 -> v1.3
+- `wkf-sessao-agente/README.md` v1.2 -> v1.3 (estes dois introduzidos na própria
+  sessão — ver Erro #014 da S04)
+- `skl-github-orquestracao/README.md` v2.7 -> v2.9
+- `hub-fonte/README.md` v0.31 -> v0.36
+- `hub-entrada/README.md` v2.0 -> v2.1 (+ entrada de backlog v2.1 — fecha o SEV3)
+- `hub-memoria` reconciliado v0.3 -> v0.4 (sumario + README; v0.4 já no backlog)
+
+#### SEV3 — backlog e reconciliação
+- `hub-entrada/backlog` recebe a entrada v2.1 ausente
+- `mat-saude-digital-taxonomia` reconciliado para v1.1 (README + sumario);
+  backlog histórico preservado (v1.1 já declarada lá desde 2026-06-04)
+
+#### SEV4 — glossário (4 termos adicionados)
+- Convergência; Doutrina de dois tokens; Grafo de dependências de versão; Defense in Depth
+
+#### Prevenção da causa-raiz (S04 v2.8 -> v2.9)
+- Erro #014 registrado; checklist OP-W ganha item README; regra universal de
+  sincronização de README (nó do grafo de versões). CONTEXTO.md v3.10 -> v3.11;
+  sumario.md v3.7 -> v3.8 (M01 v0.36, M02 v1.1, P02 v0.4, S04 v2.9).
+
+#### Ideias mineradas (staging, com aval do mantenedor)
+- Seção E: "o auditor não escreve o próprio log" (corolário da separação executor/auditor)
+- Seção C: campo de token em blocos copiáveis deve declarar QUAL token
+
+Reforço da separação executor/auditor: a autoverificação da S04 declarou
+convergência, mas a auditoria independente expôs os READMEs defasados.
+
+---
+
 ## [Não versionado] — 2026-06-14 (sessão de operação — doutrina ao W05/W06)
 
 ### Doutrina de dois tokens propagada ao W05 e W06 — I1 concluído
