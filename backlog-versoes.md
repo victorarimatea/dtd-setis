@@ -1,3 +1,19 @@
+## v2.1 — 2026-06-13
+
+**Tipo de alteração:** Adição
+**Autorizado por:** Victor Leonardo Arimatea Queiroz
+**Exposição de motivos:** Criação do `PROTOCOLO-SESSAO.md` v1.0 — lar canônico
+dos ritos de sessão (abertura, fechamento, leitura) e adoção da doutrina de dois
+tokens. O sumario.md já registrava o hub-entrada em v2.1 desde 2026-06-13, mas a
+entrada de backlog correspondente e o README haviam ficado em v2.0 (SEV2/SEV3 da
+reauditoria W05 de 2026-06-14).
+
+### Alterações realizadas nesta versão
+- `PROTOCOLO-SESSAO.md` → criado (v1.0)
+- `README.md` → v2.1 (alinhado ao sumario.md)
+
+---
+
 ## 2026-06-11 — Ancoragem da pérola final (protocolo de sessão + acesso API/raw)
 
 **Tipo de alteração:** Captura de conhecimento (pós-encerramento)
