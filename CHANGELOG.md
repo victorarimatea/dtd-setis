@@ -1,3 +1,30 @@
+## [Não versionado] — 2026-06-14 (sessão de operação — doutrina ao W05/W06)
+
+### Doutrina de dois tokens propagada ao W05 e W06 — I1 concluído
+
+Concluído o item I1 do ROADMAP: a doutrina de dois tokens — antes consolidada
+no PROTOCOLO-SESSAO.md, no S04 (ETAPA 0) e no CONTEXTO.md — foi propagada aos
+workflows de sessão.
+
+- **W05 `wkf-auditoria-consistencia` v1.2 -> v1.3:** o auditor opera
+  exclusivamente sob o **token de leitura ampla** e **nunca recebe o token de
+  edição**. Etapa 0 reescrita do enquadramento "API/raw + cache" para a
+  doutrina. Etapa 8 redesenhada (decisão do mantenedor, Opção A): o log de
+  execução é depositado pela **sessão executora** (S04, token de edição), nunca
+  pelo auditor. Fecha o SEV3 de acesso herdado e a contradição interna
+  "sem acesso a token" x "log com token ativo".
+- **W06 `wkf-sessao-agente` v1.2 -> v1.3:** os Pacotes 1 (abertura) e 2
+  (auditoria) passam a pedir o **token de leitura**; o token de edição entra só
+  na conversão para escrita. Remove a ambiguidade que levava à colagem do token
+  de edição na abertura.
+
+#### Propagação
+- hub-fonte: sumario.md v3.6 -> v3.7 (W05/W06 -> v1.3; M01 -> v0.35),
+  CONTEXTO.md v3.9 -> v3.10, backlog v0.35
+- ROADMAP: I1 marcado como concluído; "Versão do ecossistema" atualizada
+
+---
+
 ## [Não versionado] — 2026-06-13 (correção pós-auditoria W05)
 
 ### Correção de 1 SEV2 + 2 SEV3 detectados no fechamento
