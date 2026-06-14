@@ -2,7 +2,7 @@
 
 **Tipo:** Portfólio público
 **Última atualização:** 2026-06-13
-**Total de arquivos:** 13 (raiz + docs/ + projetos/)
+**Total de arquivos:** 12 (raiz + docs/ + projetos/)
 
 > Porta de entrada pública do ecossistema DTD/SETIS/SES-DF.
 > Para iniciar uma sessão de trabalho, leia o CONTEXTO.md do
@@ -22,6 +22,7 @@
 | [`DECISOES.md`](./DECISOES.md) | Registro das grandes decisões estratégicas e seus motivos | Para entender por que o ecossistema é como é |
 | [`PROTOCOLO-SESSAO.md`](./PROTOCOLO-SESSAO.md) | Ritos canônicos de sessão (abertura, fechamento, leitura) e doutrina de acesso de dois tokens | Antes de abrir ou fechar qualquer sessão de trabalho |
 | [`backlog-versoes.md`](./backlog-versoes.md) | Histórico de decisões e motivações por alteração do portfólio | Para rastreabilidade das alterações |
+| [`staging.md`](./staging.md) | Sala de espera de ideias e conhecimentos minerados antes do ROADMAP/hub-aprendizagem | Para ver ideias em curadoria e candidatos a glossário |
 
 ## Subpasta — docs/
 
