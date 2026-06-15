@@ -1,6 +1,6 @@
 # Roadmap — DTD/SETIS/SES-DF
 
-**Última atualização:** 2026-06-14
+**Última atualização:** 2026-06-15
 **Versão do ecossistema:** sumario v3.9 | S04 v2.9 | W05 v1.3 | W06 v1.3
 
 ---
@@ -87,6 +87,24 @@
 - ✅ Doutrina de dois tokens adotada — token de leitura ampla na abertura (alcança privados; 5000 req/h; sem cache CDN) e token de edição só na conversão para escrita; raw aposentado como canal de sessão. Propagada ao S04 (ETAPA 0, v2.8) e ao CONTEXTO.md (v3.9) (2026-06-13)
 - ✅ Doutrina de dois tokens propagada ao W05 (`wkf-auditoria-consistencia` v1.3 — auditor opera só com token de leitura, nunca edição; Etapa 8 redesenhada: log depositado pela sessão executora) e ao W06 (`wkf-sessao-agente` v1.3 — Pacotes 1/2 pedem token de leitura). Conclui o I1 e fecha o SEV3 de acesso herdado (2026-06-14)
 
+
+### Fase 10 — W04 sessão 2: curadoria estratégica e fundação do ecossistema ATLAS
+
+- ✅ **Curadoria completa da staging** — 24 pendentes processados; Seção B zerada; zero pendentes em B e C ao final da sessão (2026-06-15) 📊
+- ✅ **Formalização do fluxo rascunhos-staging** — `hub-entrada/rascunhos-staging/` como espinha do processo de criação: rito de criação (critérios de elegibilidade), rito de atualização (seções datadas), ciclo de vida do rascunho (3 status: pendente/aprovado/rejeitado), transições rascunho→hub-memoria→hub-aprendizagem (2026-06-15) 🔒
+- ✅ **hub-client-side** — repositório agregador de pacotes instaláveis do ecossistema ATLAS; primeiro pacote S06-CS (registro de reunião) + meta-skill S-CSC (proto, ID S08 reservado); README com instrução de instalação e disclosure de compatibilidade; versão client-side não tem papel de escrita no ecossistema (2026-06-15) 📊
+- ✅ **Versionamento source-only** — decisão de design fechada: versão vive na ficha técnica do próprio arquivo; coluna Versão removida do sumario.md; CONTEXTO.md fora da cadeia de propagação. Execução dedicada pendente: M01 + W05 Camada 1 + S04 (2026-06-15) 🔒
+- ✅ **ATLAS nomeado** — nome fantasia do empreendimento; "ecossistema" permanece como termo operacional interno. Formulação canônica: "o ecossistema ATLAS, no qual a DTD é a primeira instância." Segunda instância iminente (2026-06-15) 📊
+- ✅ **Separação núcleo/instância ATLAS** — inventário do que é portável vs. específico-DTD; prazo curto justificado pela iminência da segunda instância (2026-06-15) 📊
+- ✅ **Modelo de priorização 🧪** — IS/RD/ES (eixos auto-computáveis) em teste; query calculada na leitura, nunca gravada; orienta, não determina. DOU e camada humana aguardam calibração (2026-06-15) 🧪
+- ✅ **Governança da inovação via estado `em teste` (🧪)** — categoria formal de experimentação reversível: não-vinculante, rastreável (token 🧪 greppável), critério de saída (validar/ajustar/descartar). Rito leve W06 + validação profunda W04 + registro W03 (2026-06-15) 🔒
+- ✅ **Bloco-para-agentes no README** — convenção de arquivo obrigatório com legenda das marcações do sistema; auditada pela W05; formalizada em M01/nomenclatura.md (2026-06-15) 🔒
+- ✅ **Consulta de previsão na abertura** — loop simétrico ao fechamento na S04 e W06: consulta ROADMAP antes de aceitar intervenção; urgência declarada sobrepõe; consome modelo 🧪 de priorização (2026-06-15) 🔒
+- ✅ **E1 redigido** — corolário "o auditor não escreve o próprio log" redigido como Seção 8 + Lição 6 do cap-02 hub-aprendizagem; depósito pendente na próxima sessão operacional (2026-06-15) 🔒
+- ✅ **Versionamento source-only — execução dedicada agendada** — migração M01 + W05 Camada 1 (reescrever auditoria de propagação para coerência interna) + S04 checklists (2026-06-15) 🔒
+- ✅ **Operacional maduro aprovado em bloco** — C3 (delay 3s S04), C5 (ergonomia fechamento W06), C6 (token nos blocos copiáveis), C8 (handoff com diagnóstico causal W03), C9 (princípio staging W04), C10 (critério curadoria W04) (2026-06-15) 🔒
+- ✅ **Glossário — 4 termos aprovados** — PTD/PTD-SES, SGTD, CIG/SES, Fórum de Subsecretários; redigir definições formais no GLOSSARIO.md do M01 (2026-06-15) 🔒
+
 ---
 
 ## 🔄 Em andamento
@@ -112,6 +130,18 @@
 ---
 
 ## 📅 Médio prazo
+
+- Executar migração versionamento source-only — M01 (remover coluna Versão sumario.md, CONTEXTO.md fora da cadeia) + W05 Camada 1 (reescrever auditoria) + S04 checklists
+- Criar `hub-client-side` — repositório agregador de pacotes instaláveis; depositar S06-CS e S-CSC (proto); escrever README com instrução de instalação
+- Executar loop de abertura na S04 e W06 (consulta de previsão — C15)
+- Formalizar bloco-para-agentes no README de todos os repositórios (convenção nova — W05 auditará)
+- Redigir 4 definições formais no GLOSSARIO.md: PTD/PTD-SES, SGTD, CIG/SES, Fórum de Subsecretários
+- Atualizar W03/WORKFLOW.md — etapa de handoff qualificado com diagnóstico causal (C8)
+- Atualizar W04/WORKFLOW.md — princípio staging (C9) e critério curadoria Etapa 5 (C10)
+- Atualizar W06/WORKFLOW.md — ergonomia de fechamento (C5) e declaração de token (C6)
+- Atualizar S04 — delay 3s pós-PUT formalizado na Etapa 5 (C3)
+- Depositar Seção 8 + Lição 6 no cap-02 do hub-aprendizagem (E1 redigido)
+- Inventário de separação núcleo/instância ATLAS — prazo curto
 
 ### Reclassificação W03 e fronteira skill↔workflow (meta autônoma)
 - **Sessão evolutiva dedicada — contém DECISÃO DE DESIGN, não só execução.**
@@ -147,6 +177,11 @@
 
 ## 🌱 Maturando
 
+- ATLAS-moldura — tese de generalização, visão núcleo/instância; registrar no DECISOES.md
+- Disciplina de Arquitetura do Conhecimento — ancorada sob ATLAS; sessão evolutiva própria; exercida via IS/RD 🧪
+- Memória de domínio do briefing de saúde digital — primeira categoria de conteúdo/domínio; lar a definir; conexão com wiki-ecossistema C3
+- Contribuição externa via issues — aguarda perfis de acesso formais
+- Processo de curadoria longitudinal para o hub-aprendizagem — sessão dedicada com varredura ampla; periodicidade trimestral/semestral
 - Campos autor/revisor nas entradas de backlog — aguarda primeiro colaborador externo
 - Perfis de acesso formais do ecossistema — aguarda colaborador externo
 - Família de workflows derivados do W04 por projeto (`wkf-roadmap-telessaude` etc.)
