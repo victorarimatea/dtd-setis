@@ -145,3 +145,38 @@ por agentes de IA. O `dtd-setis` é comunicação pública e portfólio.
 Misturar os dois comprometeria ambas as funções. A separação também
 permite que o repositório mãe seja transferido para uma organização
 GitHub da SES-DF no futuro sem afetar o funcionamento do ecossistema.
+
+---
+
+## D007 — Modelo APPEND para depósito W03
+
+**Data:** 2026-06-14
+**Status:** Vigente
+
+**Contexto:**
+A cada sessão de trabalho, o W03 deposita um relatório `SESSAO-*.md` no
+`hub-memoria`. A dúvida de design era: esse depósito deve incrementar a versão
+do P02 (`hub-memoria`) e disparar a cascata de propagação (P02 → sumario.md →
+CONTEXTO.md), como acontece com outras operações no ecossistema?
+
+**Alternativas consideradas:**
+- Opção A (cascade completa): tratar cada depósito como mudança estrutural do P02,
+  incrementar versão e propagar para sumario.md e CONTEXTO.md — rastreabilidade
+  máxima, mas 7 arquivos alterados por sessão, risco de drift induzido, e W05
+  invalidado imediatamente após cada depósito.
+- Opção B (modelo APPEND): depósito de relatório é adição ao acervo histórico,
+  não mudança estrutural do repositório — criar `SESSAO-*.md` + atualizar
+  `EXECUCOES.md`, sem incremento de versão do P02 e sem cascade.
+
+**Decisão:** Opção B — modelo APPEND.
+
+**Motivo:** Versionamento tem lastro lógico — bump de versão existe para
+rastrear mudança estruturante no repositório (nova seção, nova convenção,
+mudança de arquitetura). Depositar um relatório de sessão é append ao acervo
+histórico, análogo a adicionar uma linha num log: o repositório não mudou de
+natureza, apenas cresceu. A cascade de 7 arquivos por sessão, além de custosa,
+introduzia risco de drift entre sessões e invalidava o W05 logo após cada
+depósito — efeito colateral inaceitável para uma operação de registro rotineiro.
+O modelo APPEND preserva o W05 válido, elimina o drift induzido e é coerente
+com o princípio de que versionamento é sinal de mudança estrutural, não de
+atividade de registro.
