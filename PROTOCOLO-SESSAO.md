@@ -2,8 +2,8 @@
 tipo: protocolo
 id: PROTOCOLO-SESSAO
 titulo: Ritos de sessão do ecossistema DTD/SETIS
-versao: v1.0
-data: 2026-06-13
+versao: v1.1
+data: 2026-06-15
 mantenedor: victorarimatea
 repositorio: hub-entrada
 status: ativo
@@ -56,6 +56,14 @@ privado — por isso a abertura "sem token" falhava de forma recorrente. A
 leitura autenticada resolve isso de forma estrutural, eleva o teto de
 60 → 5000 req/h e elimina o risco de SHA obsoleto por cache CDN. A edição
 entra tarde, e sai cedo.
+
+
+> **Declaração de token nos blocos (C6):** todo bloco copiável de abertura
+> deve indicar explicitamente qual token inserir — token de **leitura** ou
+> token de **edição** — e quando cada um entra. O token de leitura entra
+> sempre na abertura (Modos 1, 2 e 3). O token de edição entra apenas no
+> Modo 1, após aprovação do plano, e é revogado ao encerrar. Nenhum bloco
+> copiável deve deixar o tipo de token ambíguo para o mantenedor.
 
 **Higiene.** O valor de qualquer token é carregado **pelo mantenedor**, na
 hora da sessão. Nunca aparece em arquivo versionado (repositórios públicos
@@ -142,4 +150,5 @@ privilégio nem expor segredo**.
 *Mantido por victorarimatea — DTD/SETIS/SES-DF. Consolidação das ideias de
 fluidez mineradas em 2026-06-11 e 2026-06-12 (staging Seção C). A doutrina de
 acesso evoluiu, na sessão de 2026-06-13, da regra "API/raw" para o modelo de
-dois tokens.*
+dois tokens. v1.1 (2026-06-15): declaração explícita de tipo de token nos blocos
+copiáveis (C6).*
