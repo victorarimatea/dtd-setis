@@ -1,3 +1,17 @@
+## [2026-06-15] — Frente 1 operacional: atualizações de workflow e consolidação de conhecimento
+
+### Adicionado
+- `hub-aprendizagem` v1.3: Seção 8 e Lição 6 adicionadas ao cap-02 — corolário E1 "O auditor não escreve o próprio log" (conhecimento consolidado depositado após aprovação W04)
+- `hub-fonte/GLOSSARIO.md` v2.3: 4 definições formais — PTD-SES, SGTD, CIG/SES, Fórum de Subsecretários (termos de governança normativa SES-DF aprovados B1–B4)
+
+### Atualizado
+- `wkf-sessao-agente` W06 v1.4: ergonomia de fechamento (C5) — entrega de Pacote 2 e Bloco 1 em code fence copiável; declaração de token (C6)
+- `wkf-registro-sessao` W03 v1.4: Handoff com diagnóstico causal (C8) — pendências declaram "por que" além de "o que"
+- `wkf-roadmap-geral` W04 v1.1: princípio da staging formalizado (C9); critério de maturação 3-sessões adicionado à Etapa 5 (C10)
+- `skl-github-orquestracao` S04 v2.10: delay obrigatório de 3s pós-PUT antes do GET de CONFIRMAR (C3 / Erro #015 SEV2)
+- `hub-entrada/PROTOCOLO-SESSAO.md` v1.1: declaração explícita de tipo de token nos blocos copiáveis (C6)
+
+
 ## [2026-06-16]
 
 ### Adicionado
