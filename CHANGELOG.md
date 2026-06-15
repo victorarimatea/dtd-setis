@@ -1,3 +1,18 @@
+## [2026-06-16]
+
+### Adicionado
+- `hub-aprendizagem` cap-04: API vs raw.githubusercontent.com — cache coherence,
+  read-after-write consistency e doutrina de dois tokens (item I5 da fila herdada) 🔒
+- `hub-aprendizagem` benchmarks.md: entrada Cache Coherence / Read-After-Write Consistency
+- `DECISOES.md` D007: Modelo APPEND para depósito W03 — formalização da decisão doutrinária
+
+### Corrigido / fechado
+- ROADMAP.md: I2 e I3 fechados como concluídos empiricamente
+- ROADMAP.md: I4 corrigido — `wkf-resumo-executivo` = W07; `wkf-iac-conformidade` = W08
+- ROADMAP.md: I5 fechado — cap-04 adicionado ao D03
+- staging.md Seção E: T1 (API vs raw) marcado como `registrado`
+
+---
 ## [Não versionado] — 2026-06-14 (correção pós-reauditoria W05)
 
 ### Correção de 6 SEV2 + 2 SEV3 + 4 SEV4 detectados no fechamento
