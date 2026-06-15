@@ -103,10 +103,10 @@
 **Missão definida na sessão W04 de 2026-06-08 — correções técnicas remanescentes:**
 
 - ✅ I1 — Concluído (2026-06-14): doutrina de dois tokens propagada ao W05/WORKFLOW.md (v1.3 — auditor só com token de leitura, nunca edição; Etapa 8 redesenhada: log depositado pela sessão executora) e aos Pacotes 1/2 do W06/WORKFLOW.md (v1.3). Leitura/escrita via API autenticada; raw aposentado como canal de sessão. CONTEXTO.md (v3.10), sumario.md (v3.7) e S04/ETAPA 0 (v2.8) alinhados. Fecha o SEV3 de acesso herdado no W05
-- I2 — Padronizar "perguntas orientadoras" (substituir "ordenadoras") na S04 e W06
-- I3 — Corrigir campo Versão da Seção 1 do W06/WORKFLOW.md (v1.0 → v1.1)
-- I4 — Corrigir ID W07 do `wkf-iac-conformidade` no ROADMAP.md
-- I5 — Adicionar entrada raw vs API ao hub-aprendizagem (aprendizado consolidado T1)
+- ✅ I2 — Padronizar "perguntas orientadoras" (concluído empiricamente 2026-06-16 — texto operacional da S04 e W06 já usa "orientadoras"; ocorrência de v1.0 na Seção 9 do W06 é texto histórico — preservada)
+- ✅ I3 — Corrigir campo Versão da Seção 1 do W06/WORKFLOW.md (concluído empiricamente 2026-06-16 — campo já registra v1.3, alinhado ao cabeçalho)
+- ✅ I4 — Corrigir IDs de workflows prospectivos (concluído 2026-06-16): `wkf-resumo-executivo` = W07; `wkf-iac-conformidade` = W08
+- ✅ I5 — Adicionar entrada raw vs API ao hub-aprendizagem (concluído 2026-06-16 — cap-04 adicionado ao D03)
 - I6 — Atualizar campo "Versão do ecossistema" no ROADMAP.md já refletido nesta versão
 
 ---
@@ -139,7 +139,7 @@
   com IACs gerados
 - Criar `governanca-ses-df-fase3` — transcrição dos documentos 10–17 pendentes
 - Evoluir S05 para fase sequencial autônoma (condição: PASSOU ≥ 95% em ≥ 10 docs)
-- Criar `wkf-iac-conformidade` (W07) — análise de conformidade documental
+- Criar `wkf-iac-conformidade` (W08) — análise de conformidade documental
   automatizada, consumindo D01 e S02 como subprocessos
 - Integração SEI via API quando disponível
 
