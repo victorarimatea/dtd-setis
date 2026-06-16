@@ -19,8 +19,7 @@
   read-after-write consistency e doutrina de dois tokens (item I5 da fila herdada) 🔒
 - `hub-aprendizagem` benchmarks.md: entrada Cache Coherence / Read-After-Write Consistency
 - `DECISOES.md` D007: Modelo APPEND para depósito W03 — formalização da decisão doutrinária
-
-- - `hub-client-side` (S08) v0.1: repositório criado — pacotes instaláveis do ecossistema ATLAS; S06-CS (registro de reunião client-side) + S-CSC 🧪 proto (meta-skill criador de client-sides, ID S08 reservado); README com bloco-para-agentes e disclosure de compatibilidade 📊
+- `hub-client-side` (S08) v0.1: repositório criado — pacotes instaláveis do ecossistema ATLAS; S06-CS (registro de reunião client-side) + S-CSC 🧪 proto (meta-skill criador de client-sides, ID S08 reservado); README com bloco-para-agentes e disclosure de compatibilidade 📊
 
 ### Corrigido / fechado
 - ROADMAP.md: I2 e I3 fechados como concluídos empiricamente
