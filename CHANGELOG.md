@@ -20,11 +20,14 @@
 - `hub-aprendizagem` benchmarks.md: entrada Cache Coherence / Read-After-Write Consistency
 - `DECISOES.md` D007: Modelo APPEND para depósito W03 — formalização da decisão doutrinária
 
+- - `hub-client-side` (S08) v0.1: repositório criado — pacotes instaláveis do ecossistema ATLAS; S06-CS (registro de reunião client-side) + S-CSC 🧪 proto (meta-skill criador de client-sides, ID S08 reservado); README com bloco-para-agentes e disclosure de compatibilidade 📊
+
 ### Corrigido / fechado
 - ROADMAP.md: I2 e I3 fechados como concluídos empiricamente
 - ROADMAP.md: I4 corrigido — `wkf-resumo-executivo` = W07; `wkf-iac-conformidade` = W08
 - ROADMAP.md: I5 fechado — cap-04 adicionado ao D03
 - staging.md Seção E: T1 (API vs raw) marcado como `registrado`
+- ROADMAP.md: hub-client-side marcado ✅ (Frente 2 concluída)
 
 ---
 ## [Não versionado] — 2026-06-14 (correção pós-reauditoria W05)
