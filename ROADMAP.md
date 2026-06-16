@@ -1,7 +1,7 @@
 # Roadmap — DTD/SETIS/SES-DF
 
 **Última atualização:** 2026-06-15
-**Versão do ecossistema:** sumario v3.11 | S04 v2.10 | W05 v1.3 | W06 v1.4
+**Versão do ecossistema:** sumario v3.14 | S04 v2.10 | W05 v1.3 | W06 v1.4
 
 ---
 
@@ -132,7 +132,7 @@
 ## 📅 Médio prazo
 
 - Executar migração versionamento source-only — M01 (remover coluna Versão sumario.md, CONTEXTO.md fora da cadeia) + W05 Camada 1 (reescrever auditoria) + S04 checklists
-- Criar `hub-client-side` — repositório agregador de pacotes instaláveis; depositar S06-CS e S-CSC (proto); escrever README com instrução de instalação
+- ✅ Criar `hub-client-side` — repositório agregador de pacotes instaláveis; depositar S06-CS e S-CSC (proto); escrever README com instrução de instalação (2026-06-16)
 - Executar loop de abertura na S04 e W06 (consulta de previsão — C15)
 - Formalizar bloco-para-agentes no README de todos os repositórios (convenção nova — W05 auditará)
 - Redigir 4 definições formais no GLOSSARIO.md: PTD/PTD-SES, SGTD, CIG/SES, Fórum de Subsecretários
