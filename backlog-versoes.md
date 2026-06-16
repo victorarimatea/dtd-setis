@@ -1,3 +1,16 @@
+
+## v2.2 — 2026-06-15
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Atualização do PROTOCOLO-SESSAO.md para v1.1 na sessão
+operacional de 2026-06-15 (C6). Declaração explícita do tipo de token (leitura vs
+edição) nos blocos copiáveis — elimina ambiguidade sobre qual token inserir em
+cada modo de sessão. Detectado como lacuna de registro pela auditoria W05 (SEV3-B4).
+
+### Alterações realizadas
+- `PROTOCOLO-SESSAO.md`: v1.0 → v1.1 — nota de declaração de token (C6) adicionada à seção de Doutrina de acesso
+
 ## v2.1 — 2026-06-13
 
 **Tipo de alteração:** Adição
