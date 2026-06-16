@@ -1,7 +1,7 @@
 # Roadmap — DTD/SETIS/SES-DF
 
 **Última atualização:** 2026-06-15
-**Versão do ecossistema:** sumario v3.9 | S04 v2.9 | W05 v1.3 | W06 v1.3
+**Versão do ecossistema:** sumario v3.11 | S04 v2.10 | W05 v1.3 | W06 v1.4
 
 ---
 
@@ -125,7 +125,7 @@
 - ✅ I3 — Corrigir campo Versão da Seção 1 do W06/WORKFLOW.md (concluído empiricamente 2026-06-16 — campo já registra v1.3, alinhado ao cabeçalho)
 - ✅ I4 — Corrigir IDs de workflows prospectivos (concluído 2026-06-16): `wkf-resumo-executivo` = W07; `wkf-iac-conformidade` = W08
 - ✅ I5 — Adicionar entrada raw vs API ao hub-aprendizagem (concluído 2026-06-16 — cap-04 adicionado ao D03)
-- I6 — Atualizar campo "Versão do ecossistema" no ROADMAP.md já refletido nesta versão
+- ✅ I6 — Atualizar campo "Versão do ecossistema" no ROADMAP.md já refletido nesta versão
 
 ---
 
