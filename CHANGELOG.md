@@ -28,6 +28,7 @@
 - ROADMAP.md: I5 fechado — cap-04 adicionado ao D03
 - staging.md Seção E: T1 (API vs raw) marcado como `registrado`
 - ROADMAP.md: hub-client-side marcado ✅ (Frente 2 concluída)
+- - Correções W05 (reauditoria 2026-06-16): sumario.md v3.13→v3.15 (M01 v0.38→v0.39, S08 Links rápidos, D03 v1.3→v1.4); ROADMAP Médio Prazo ✅; hub-aprendizagem backlog reordenado (v1.4 ao topo); backlog hub-fonte v0.41 consolidado (gap v3.13→v3.14 rastreado); ROADMAP cabeçalho e data atualizados
 
 ---
 ## [Não versionado] — 2026-06-14 (correção pós-reauditoria W05)
