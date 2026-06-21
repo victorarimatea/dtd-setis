@@ -1,11 +1,16 @@
 # Roadmap — DTD/SETIS/SES-DF
 
-**Última atualização:** 2026-06-16
-**Versão do ecossistema:** sumario v3.15 | S04 v2.10 | W05 v1.3 | W06 v1.4
+**Última atualização:** 2026-06-21
+**Versão do ecossistema:** sumario v3.16 | S04 v2.10 | W05 v1.3 | W06 v1.4
 
 ---
 
 ## ✅ Concluído
+
+### Sessão 2026-06-21 — amadurecimento da transcrição documental
+- ✅ `skl-transcricao-documental` (S05) v1.1 — §LOA, §DESIGN, ETAPA 7.5, ETAPA 8, §BACKLOG (concluído 2026-06-21)
+- ✅ `doc-governanca-ses-df` (D01) v1.1 — PAS SES-DF 2026 em nova categoria `07-instrumentos-planejamento` (concluído 2026-06-21)
+
 
 ### Fase 1 — Fundação do ecossistema
 - ✅ Repositório âncora `hub-fonte` (M01) com sumário, nomenclatura,
