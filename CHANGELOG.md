@@ -1,3 +1,18 @@
+## [2026-06-21] — S05 v1.1 (transcrição amadurecida) + nova categoria documental no D01
+
+### Atualizado
+- `skl-transcricao-documental` (S05) v1.0 → v1.1: consolidação de aprimoramentos a partir da transcrição da PAS SES-DF 2026 — §LOA (extração de tabelas orçamentárias multi-página), §DESIGN (cardápio de 8 estratégias de design D1–D8), ETAPA 7.5 (verificação de consistência estrutural por modelo externo), ETAPA 8 (mineração de aprimoramentos), §BACKLOG. Correções de nomenclatura (skl-, doc-governanca, hub-fonte) e remoção de histórico de versões embutido no SKILL.md (fonte de drift)
+- `hub-fonte/sumario.md` v3.15 → v3.16; `CONTEXTO.md` v3.12 → v3.13
+
+### Adicionado
+- `doc-governanca-ses-df` (D01) v1.0 → v1.1: Programação Anual de Saúde (PAS) SES-DF 2026 — primeiro documento da categoria de instrumentos de planejamento estratégico-orçamentário (`07-instrumentos-planejamento`). Documento revisado por dupla rodada de ETAPA 7.5. Total de documentos 28 → 29
+
+### Registrado (pendência)
+- D01: inconsistência histórica de numeração de pastas (duas pastas `03`) registrada como SEV4; nova categoria criada como `07` para reservar a posição correta da futura renumeração
+- hub-fonte: divergência de série CONTEXTO.md (v3.13) × sumario.md (v3.16) sinalizada para classificação em auditoria W05
+
+---
+
 ## [2026-06-15] — Frente 1 operacional: atualizações de workflow e consolidação de conhecimento
 
 ### Adicionado
