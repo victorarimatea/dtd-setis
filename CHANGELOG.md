@@ -13,6 +13,12 @@
 
 ---
 
+
+## [2026-06-23]
+
+### Atualizado
+- `GLOSSARIO.md` (M01/hub-fonte) v2.3 → v2.4 — 8 novos termos formalizados: ATLAS, base64, bloco-para-agentes, Estado em teste (🧪), hub-client-side (S08), kebab-case, SHA, Versionamento source-only. Zera o resíduo SEV4-B6 acumulado desde 2026-06-15.
+
 ## [2026-06-15] — Frente 1 operacional: atualizações de workflow e consolidação de conhecimento
 
 ### Adicionado
