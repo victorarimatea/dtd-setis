@@ -3,6 +3,9 @@
 ### Atualizado
 - `skl-briefing-saude-digital` (S07) README.md v1.0 → v1.1 (OP-E): README expandido de cartão de visita mínimo para documento de referência completo — adicionadas seções: "O que o briefing entrega" (tabela das 6 seções de output), "Diferencial de design: gestão de histórico" (detecção de recorrência, ajuste de janela, tabela de comandos avançados), "Dependências" (M02 + ferramenta de busca) e enriquecimento da seção "Como acionar" com variações de acionamento. Qualquer agente ou humano pode agora compreender o que a skill entrega sem precisar ler o SKILL.md completo.
 - `hub-aprendizagem` (D03) README.md v1.4 → v1.4.1 (OP-E): README reescrito — título alterado para `ATLAS — Aprendizagem`; descrição expandida com narrativa da dinâmica de sessões e amadurecimento da arquitetura; seção Estrutura e tabela de capítulos sincronizadas com os 4 capítulos reais (cap-03 e cap-04 estavam ausentes); seção Navegação adicionada; contexto D03/ATLAS declarado na ficha técnica e no rodapé.
+- `hub-entrada/ROADMAP.md` reformulado — documento fatiado em instrumento de navegação puro: seção ✅ Concluído migrada para `ROADMAP-HISTORICO.md`; painel de progresso ASCII com F1–F10 e métricas do ecossistema; seções Médio prazo, Maturando e Longo prazo convertidas em tabelas com colunas Área (tipos ATLAS + ALL), Registrado e Depende de; seção "Sobre este documento" adicionada com glossário de camadas
+- `hub-entrada/ROADMAP-HISTORICO.md` criado (OP-A) — arquivo histórico append-only com tabela de linha do tempo F1–F10 e detalhamento integral das fases preservado do ROADMAP original; origem e data de extração declaradas no cabeçalho
+- `hub-entrada/INDICE.md` atualizado — ROADMAP-HISTORICO.md adicionado; descrição do ROADMAP.md corrigida; total de arquivos 12 → 13
 
 ---
 
