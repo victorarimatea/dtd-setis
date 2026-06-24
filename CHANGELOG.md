@@ -1,3 +1,10 @@
+## [2026-06-24]
+
+### Atualizado
+- `skl-briefing-saude-digital` (S07) README.md v1.0 → v1.1 (OP-E): README expandido de cartão de visita mínimo para documento de referência completo — adicionadas seções: "O que o briefing entrega" (tabela das 6 seções de output), "Diferencial de design: gestão de histórico" (detecção de recorrência, ajuste de janela, tabela de comandos avançados), "Dependências" (M02 + ferramenta de busca) e enriquecimento da seção "Como acionar" com variações de acionamento. Qualquer agente ou humano pode agora compreender o que a skill entrega sem precisar ler o SKILL.md completo.
+
+---
+
 ## [2026-06-21] — S05 v1.1 (transcrição amadurecida) + nova categoria documental no D01
 
 ### Atualizado
