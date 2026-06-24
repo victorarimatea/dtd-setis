@@ -2,6 +2,7 @@
 
 ### Atualizado
 - `skl-briefing-saude-digital` (S07) README.md v1.0 → v1.1 (OP-E): README expandido de cartão de visita mínimo para documento de referência completo — adicionadas seções: "O que o briefing entrega" (tabela das 6 seções de output), "Diferencial de design: gestão de histórico" (detecção de recorrência, ajuste de janela, tabela de comandos avançados), "Dependências" (M02 + ferramenta de busca) e enriquecimento da seção "Como acionar" com variações de acionamento. Qualquer agente ou humano pode agora compreender o que a skill entrega sem precisar ler o SKILL.md completo.
+- - `hub-aprendizagem` (D03) README.md v1.4 → v1.4.1 (OP-E): README reescrito — título alterado para `ATLAS — Aprendizagem`; descrição expandida com narrativa da dinâmica de sessões e amadurecimento da arquitetura; seção Estrutura e tabela de capítulos sincronizadas com os 4 capítulos reais (cap-03 e cap-04 estavam ausentes); seção Navegação adicionada; contexto D03/ATLAS declarado na ficha técnica e no rodapé.
 
 ---
 
