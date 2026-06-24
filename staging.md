@@ -85,7 +85,7 @@ comportamento observado em sessões reais. Sem prazo fixo — a prática calibra
 
 | Data | Hora | Autor | Ideia | Contexto de origem | Status |
 |---|---|---|---|---|---|
-| — | — | — | — | — | — |
+| 2026-06-24 | — | Victor | **Renomear `backlog-versoes.md` → `historico-versoes.md`** em todos os repositórios do ecossistema (~20 repos) — o nome atual usa o termo "backlog" (fila de trabalho futuro) para um instrumento que é na prática um histórico de versões com exposição de motivos. A ambiguidade semântica é real: colaborador ou agente externo espera encontrar tarefas pendentes e encontra registro retrospectivo. Nome proposto: `historico-versoes.md`. Impacto: renomeação em todos os repositórios + atualização de referências cruzadas em README, INDICE e qualquer arquivo que mencione o nome atual. Requer sessão W04 dedicada com mapeamento completo antes de execução. | Reflexão durante revisão de README do hub-aprendizagem — sessão 2026-06-24 | `pendente` |
 
 ---
 
