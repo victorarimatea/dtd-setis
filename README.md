@@ -1,43 +1,39 @@
- █████╗ ███████╗██╗      █████╗ ███████╗
+# ATLAS
+
+```
+▄█████╗ ████████╗██╗      █████╗ ███████╗
 ██╔══██╗╚══██╔══╝██║     ██╔══██╗██╔════╝
 ███████║   ██║   ██║     ███████║███████╗
 ██╔══██║   ██║   ██║     ██╔══██║╚════██║
 ██║  ██║   ██║   ███████╗██║  ██║███████║
 ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚══════╝
+```
 
+**Automação e Governança do Conhecimento Institucional**
+DTD/SETIS/SES-DF
 
-## Diretoria de Transformação Digital — DTD/SETIS/SES-DF
-
-**Versão:** v2.1 — 2026-06-13
+**Versão:** v2.2 — 2026-06-23
 
 > **Tecnologia pública a serviço da saúde das pessoas.**
 
-Este repositório é a porta de entrada pública do ecossistema de automação
-e governança documental desenvolvido pela Diretoria de Transformação Digital
-da Secretaria Executiva de Tecnologia da Informação em Saúde (SETIS) da
-Secretaria de Estado de Saúde do Distrito Federal (SES-DF).
+Este repositório é a porta de entrada pública do ecossistema ATLAS —
+uma metodologia de gestão do conhecimento institucional desenvolvida pela
+Diretoria de Transformação Digital da Secretaria Executiva de Tecnologia
+da Informação em Saúde (SETIS) da Secretaria de Estado de Saúde do
+Distrito Federal (SES-DF).
 
 ---
 
-## O que é a DTD
+## O que é o ATLAS
 
-A Diretoria de Transformação Digital (DTD) é uma unidade da SETIS/SES-DF
-criada para liderar a agenda de inovação tecnológica em saúde no Distrito
-Federal, com foco em:
-
-- Governança documental de instrumentos de planejamento de TIC e transformação digital
-- Automação de processos institucionais com uso de inteligência artificial
-- Padronização de fluxos de análise e aprovação de documentos estratégicos
-- Construção de memória institucional auditável e consultável
+O ATLAS é uma metodologia de gestão do conhecimento estruturada em torno
+de uma arquitetura de repositórios, matrizes de conhecimento, skills de
+automação e workflows institucionais versionados e auditáveis.
+A DTD/SETIS/SES-DF é a primeira instância do ecossistema ATLAS.
 
 ---
 
-## O Ecossistema DTD/SETIS
-
-O ecossistema é um conjunto integrado de repositórios, skills de IA e
-instrumentos padronizados que trabalham juntos para automatizar a gestão
-de conhecimento e a produção de documentos institucionais.
-
+## O Ecossistema ATLAS
 ```
 Camada 4 — Portfólio Institucional e Infraestrutura de Conhecimento
     hub-entrada: porta de entrada, ROADMAP, CHANGELOG, vitrine
