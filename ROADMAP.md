@@ -34,25 +34,38 @@ Não é um diário de bordo (papel do CHANGELOG) nem um arquivo histórico
 ## 📊 Painel de Progresso
 
 ```
-ATLAS — DTD/SETIS/SES-DF · Jun/2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ATLAS — DTD/SETIS/SES-DF
+  Inauguração: 27/05/2026   ·   Atualizado em: 24/06/2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-FASES CONCLUÍDAS ──────────────────────────────────────────── ATIVO
+  FICHA TÉCNICA
+  ─────────────────────────────────────────────────────────────
+  Dias de evolução         28
+  Dias com atividade       20 de 28  (71%)
+  Sessões W04              2
+  Repositórios             23   M:2  S:8  D:3  W:6  A:1  P:2
+  Fases concluídas         10 de 10
+  ─────────────────────────────────────────────────────────────
 
-  F1          F2          F3          F4          F5
-FUNDAÇÃO  INSTRUMENTOS  DOCUMENTAL  PROCESSOS  GOVERNANÇA
-  ████        ████        ████        ████        ████
-
-  F6          F7          F8          F9         F10
-PROTOCOLO  ROADMAPPING   CICLO      DOUTRINA    ATLAS
- SESSÃO      W04        CANÔNICO    ACESSO     NOMEADO
-  ████        ████        ████        ████        ████
-
-────────────────────────────────────────────────────────────────
-  AGORA  →  Frente 3 (source-only) · Frente 4 (núcleo/instância)
-  HORIZONTE →  wiki-ecossistema · W07 · bloco-para-agentes
-────────────────────────────────────────────────────────────────
-  Repositórios: ~22     Tipos: S W D M A P
-  Docs D01: 29          Capítulos D03: 4     Skills: 7
+  LINHA DO TEMPO — FASES CONCLUÍDAS
+  ─────────────────────────────────────────────────────────────
+                           27   29   01   04   08   11   15
+                           mai  mai  jun  jun  jun  jun  jun
+                           |    |    |    |    |    |    |
+  F1  Fundação             ███··················  27/05–29/05
+  F2  Instrumentos         ··████···············  29/05–01/06
+  F3  Documental           ·····██··············  01/06–02/06
+  F4  Processos            ······███············  02/06–04/06
+  F5  Governança           ········██···········  04/06–05/06
+  F6  Protocolo Sessão     ·········███·········  05/06–07/06
+  F7  Roadmapping W04      ············█········  08/06–08/06
+  F8  Ciclo Canônico       ···············██····  11/06–12/06
+  F9  Doutrina Acesso      ·················██··  13/06–14/06
+  F10 ATLAS Nomeado        ···················██  15/06–16/06
+  ─────────────────────────────────────────────────────────────
+  Detalhamento completo → ROADMAP-HISTORICO.md
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ---
